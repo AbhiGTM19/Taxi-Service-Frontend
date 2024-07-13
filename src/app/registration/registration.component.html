@@ -2,13 +2,16 @@
 
 <mat-card>
 
+ 
   <div class="header">
     <img src="assets/logo_header.jpeg">
     <h1>
       Welcome to RV Taxi Services
     </h1>
   </div>
+
   
+<mat-card-content>
 
   <h2>
     Register Here
@@ -17,7 +20,7 @@
   <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
 
     <div class="formField">
-      <mat-form-field appearance="outline" class="custom-outline-color">
+      <mat-form-field appearance="outline" lass="custom-input-color">
         <mat-label>Full Name</mat-label>
         <input matInput id="name" formControlName="name">
       </mat-form-field>
@@ -79,11 +82,15 @@
       </mat-form-field>
     </div>
 
-
-    <button mat-raised-button color="primary" type="submit" style="margin-left: 44%;">
-      Register</button>
+    <mat-card-footer>
+      <button mat-raised-button color="primary" type="submit" style="margin-left: 41%;">
+        Register</button>
+    </mat-card-footer>
+    
 
   </form>
+
+</mat-card-content>
 
 </mat-card>
 
