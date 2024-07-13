@@ -1,0 +1,90 @@
+<html>
+
+<mat-card>
+
+  <div class="header">
+    <img src="assets/logo_header.jpeg">
+    <h1>
+      Welcome to RV Taxi Services
+    </h1>
+  </div>
+  
+
+  <h2>
+    Register Here
+  </h2>
+
+  <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+
+    <div class="formField">
+      <mat-form-field appearance="outline" class="custom-outline-color">
+        <mat-label>Full Name</mat-label>
+        <input matInput id="name" formControlName="name">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" style="margin-left: 5%;">
+        <mat-label>Email</mat-label>
+        <input matInput id="email" formControlName="email">
+      </mat-form-field>
+    </div>
+
+    <div class="formField">
+      <mat-form-field appearance="outline">
+        <mat-label>Whatsapp Number</mat-label>
+        <input matInput id="contactNumber" formControlName="contactNumber">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" style="margin-left: 5%;">
+        <mat-label>Date of Birth</mat-label>
+        <input matInput [matDatepicker]="picker" formControlName="dob">
+        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+
+    </div>
+
+    <div class="formField">
+      
+      <mat-form-field appearance="outline">
+        <mat-label>Gender</mat-label>
+        <mat-select formControlName="gender">
+          <mat-option [value]="'Male'">
+            Male
+          </mat-option>
+          <mat-option [value]="'Female'">
+            Female
+          </mat-option>
+          <mat-option [value]="'Transgender'">
+            Transgender
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" style="margin-left: 5%;">
+        <mat-label>Address</mat-label>
+        <input matInput id="address" formControlName="address">
+      </mat-form-field>
+
+    </div>
+
+    <div class="formField">
+      <mat-form-field appearance="outline">
+        <mat-label>Password</mat-label>
+        <input matInput type="password" id="password" formControlName="password">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" style="margin-left: 5%;">
+        <mat-label>Confirm Password</mat-label>
+        <input matInput type="password" id="confirmPassword" formControlName="confirmPassword">
+      </mat-form-field>
+    </div>
+
+
+    <button mat-raised-button color="primary" type="submit" style="margin-left: 44%;">
+      Register</button>
+
+  </form>
+
+</mat-card>
+
+</html>
