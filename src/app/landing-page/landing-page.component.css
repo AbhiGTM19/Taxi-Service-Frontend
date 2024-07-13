@@ -1,0 +1,133 @@
+body {
+    background-image: url('src/assets/registration_bkgrnd_image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: fit-content;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-items: flex-start;
+    align-items:center;
+    background-color: rgb(5, 27, 5);
+    gap: 33%;
+}
+
+.company-name {
+    font-size: medium;
+    text-decoration: none;
+    color: rgba(236, 214, 18);
+    text-align: start;
+}
+
+.header .logo {
+    transform: scale(0.4);
+    border-radius: 50%;
+}
+
+.header nav a,
+.header nav select {   
+    text-align: end;
+    margin: 0 1em;
+    color: rgba(236, 214, 18);
+    text-decoration: none;
+}
+
+.header nav a:hover,
+.header nav select:hover {
+    text-decoration: underline;
+}
+
+.landing-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1%;
+    background-color: black;
+    opacity: 0.7;
+}
+
+
+.landing-card {
+    width: 100%;
+    margin: 1em;
+    padding: 1em;
+    background-color: rgb(10, 36, 10);
+}
+
+.landing-card3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 1em;
+    padding: 1em;
+    background-color: rgb(10, 36, 10);
+}
+
+.landing-card h2 {
+    color: white;
+    margin-bottom: 0.5em;
+}
+
+.landing-card3 h2 {
+    color: white;
+    margin-bottom: 0.5em;
+}
+
+.landing-card p {
+    color: white;
+    margin-bottom: 1em;
+}
+
+.landing-card3 p {
+    color: white;
+    margin-bottom: 1em;
+}
+
+.landing-card ul {
+    color: white;
+    list-style: none;
+    padding: 0;
+}
+
+.landing-card3 ul {
+    color: white;
+    list-style: none;
+    padding: 0;
+}
+
+.landing-card ul li {
+    color: white;
+    margin: 0.5em 0;
+}
+
+.landing-card3 ul li {
+    color: white;
+    margin: 0.5em 0;
+}
+
+.footer {
+    padding: 1em;
+    text-align: right;
+    background-color: rgb(5, 27, 5);
+    color: #fff;
+}
+
+.footer a {
+    margin-top: 10%;
+    align-items: left;
+    margin: 0 1em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer p {
+    margin: 0 2em;
+    text-align: left;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

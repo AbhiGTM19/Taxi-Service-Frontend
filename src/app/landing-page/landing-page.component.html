@@ -1,0 +1,99 @@
+<body>
+
+    <!-- landing.component.html -->
+    <header>
+        <div class="header">
+            <img src="assets/logo_header.jpeg" alt="Logo" class="logo">
+            <a routerLink="/rvtaxiservices" class="company-name">
+                RV Taxi Services
+            </a>
+            <nav>
+                <a routerLink="/register">Sign Up</a>
+                <!--  <select>
+                <option value="en">English</option>
+                <option value="es">Español</option>
+            </select> -->
+                <a href="#about">About Us</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <div class="landing-container">
+        <mat-card class="landing-card">
+
+            <div style="display: flex; flex-direction: row;; padding: 3%; gap: 40%;">
+                <img src="assets/tab_icon.png" style="transform: scale3d();">
+                <div style="display: flex; flex-direction: column; 
+                     align-items: left; padding: 2%;">
+                    <h2>Ride Smart, Ride Safe</h2>
+                    <p>test content goes here</p>
+                    <button mat-raised-button color="primary">Book a Ride</button>
+                </div>
+
+            </div>
+
+
+        </mat-card>
+    </div>
+
+    <div class="landing-container">
+        <mat-card class="landing-card" id="about">
+            <div style="display: flex; flex-direction: row-reverse;; padding: 3%; gap:40%;">
+                <img src="assets/tab_icon.png" style="transform: scale3d(0.5);">
+                <div style="display: flex; flex-direction: column;; padding: 3%;">
+                    <h2>Overview</h2>
+                    <p>Overview of our services.</p>
+                </div>
+            </div>
+        </mat-card>
+    </div>
+
+    <div class="landing-container">
+        <mat-card class="landing-card3">
+            <!-- <div style="display: flex; flex-direction: row;; padding: 3%; gap:40%;"> -->
+                <img src="assets/tab_icon.png" style="transform: scale3d(0.5);">
+            <!-- </div> -->
+            <div style="display: flex; flex-direction: row; padding: 3%;">
+                <h2>Services</h2>
+                <ul>
+                    <li>Touring Packages</li>
+                    <li>Local</li>
+                    <li>Marriage</li>
+                    <li>Intercity</li>
+                    <li>Tourist</li>
+                </ul>
+                <h2>Amenities</h2>
+                <ul>
+                    <li>Wifi</li>
+                    <li>Beverage</li>
+                    <li>Banarasi Paan</li>
+                </ul>
+            </div>
+        </mat-card>
+    </div>
+
+
+    <div class="landing-container">
+        <mat-card class="landing-card">
+            <div style="display: flex; flex-direction: row-reverse;; padding: 3%; gap: 40%;">
+                <img src="assets/tab_icon.png" style="transform: scale3d(0.5);">
+                <div style="display: flex; flex-direction: column;; padding: 3%;">
+                    <h2>Safety and Cleanliness</h2>
+                    <p>We prioritize the safety and cleanliness of our vehicles to ensure your comfort and security.</p>
+                </div>
+            </div>
+        </mat-card>
+    </div>
+
+    <footer class="footer">
+        <div>
+            <p>All Rights Reserved ©RV Taxi Services </p>
+        </div>
+
+        <a href="#about">About Us</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact Us</a>
+    </footer>
+
+</body>
