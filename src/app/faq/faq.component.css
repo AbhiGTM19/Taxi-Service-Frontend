@@ -1,0 +1,142 @@
+/* CSS for body */
+
+.main {
+    background-image: url('src/assets/test2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: max-content;
+    margin: 0;
+}
+
+/* CSS for header */
+
+header {
+    display: flex;
+    justify-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+    height: max-content;
+    align-items:center;
+    padding: -10%;
+    background-color: rgb(5, 27, 5, 0.5);
+    gap: 0%;
+}
+
+header a img {
+    min-width:fit-content ;
+    min-height: fit-content;
+    transform: scale(0.4);
+    border-radius: 50%;
+}
+
+.header1{
+    display: flex;
+    justify-items: flex-start;
+    margin-left: 46%;
+    color: rgba(236, 214, 18);
+    text-decoration: none;
+}
+
+.company_name {
+    font-size: xx-large;
+    width: max-content;
+    text-decoration: none;
+    color: white;
+    margin: 0px 0px 0px
+}
+
+.header1 nav a,
+.header1 nav select {   
+    justify-content:start;
+    font-size: large;
+    text-align: center;
+    margin: 0 1em;
+    color: rgba(236, 214, 18);
+    text-decoration: none;
+}
+
+.header1 nav a:hover,
+.header1 nav select:hover {
+    text-decoration: underline;
+}
+
+
+/* CSS for page body */
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    max-height: max-content;
+    background-color: rgb(5, 27, 5, 0.5);
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    color : wheat;
+}
+
+.desc{
+    text-align: left;
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+.faq-container {
+    max-width: 100%;
+    max-width: 100%;
+    padding: 2%;
+    background-color: rgba(5, 27, 19, 0.5);
+  
+  }
+   
+  .panel{
+    margin-bottom: 5px;
+    background-color: rgb(5, 70, 90, 0.7);
+  }
+
+  .panel_title{
+    font-size: medium;
+  }
+  
+
+/* CSS for footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: rgb(10, 36, 10, 0.4);
+    color: #fff;
+  }
+  
+  .footer p {
+    margin: 1%;
+  }
+  
+  .footer_links {
+    display: flex;
+    gap: 3em; /* Adjust the gap value as needed */
+  }
+  
+  .footer_links a {
+    margin-right: -3%;
+    gap: 2%;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer_links a:hover {
+    text-decoration: underline;
+  }

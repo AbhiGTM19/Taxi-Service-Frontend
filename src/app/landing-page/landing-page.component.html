@@ -1,27 +1,27 @@
 <body>
 
-    <!-- landing.component.html -->
-    <header class="master">
+    <!-- Header -->
+    <header>
         <a routerLink="/rvtaxiservices">
             <img src="assets/logo_160px X 160px.png">
         </a>
         <div class="header">
-            <h1>
+            <h1 class="company_name">
                 RV Taxi Services
             </h1>
         </div>
         <div class="header1">
-            <nav>
+            <nav >
                 <a routerLink="/login">Login</a>
                 <a routerLink="/register">Sign Up</a>
-                <a href="#about">About Us</a>
+                <a routerLink="/about-us">About Us</a>
             </nav>
         </div>
     </header>
 
+    <!-- Slogan and book ride button Card -->
     <div class="landing-container">
         <mat-card class="landing-card">
-
             <div style="display: flex; flex-direction: row;; padding: 3%; gap: 40%;">
                 <img src="assets/tab_icon.png" style="transform: scale3d();">
                 <div style="display: flex; flex-direction: column; 
@@ -32,19 +32,19 @@
                         Book a Ride
                     </button>
                 </div>
-
             </div>
-
         </mat-card>
     </div>
 
+    <!-- Overview Card -->
     <div class="landing-container">
         <mat-card class="landing-card" id="about">
             <div style="display: flex; flex-direction: row-reverse;; padding: 3%; gap:40%;">
                 <img src="assets/tab_icon.png" style="transform: scale3d(0.5);">
                 <div style="display: flex; flex-direction: column;; padding: 3%;">
                     <h2>Overview</h2>
-                    <p style="font-size: medium;"> Whether you're looking for dependable and pleasant transportation in Varanasi or elsewhere, go
+                    <p style="font-size: medium;"> Whether you're looking for dependable and pleasant transportation in
+                        Varanasi or elsewhere, go
                         no farther than RV Taxi Services. Whether you are a local, a long-distance traveller, or an
                         international guest, we are dedicated to offering first-rate taxi services that are suited to
                         fulfil the various demands of our clients.</p>
@@ -53,52 +53,78 @@
         </mat-card>
     </div>
 
+    <!-- Services Card -->
     <div class="landing-container">
         <mat-card class="landing-card3">
-            <!-- <div style="display: flex; flex-direction: row;; padding: 3%; gap:40%;"> -->
             <img src="assets/tab_icon.png" style="transform: scale3d(0.5);">
-            <!-- </div> -->
-            <div style="display: flex; flex-direction: row; padding: 3%;">
+            <div style="display: flex; flex-direction: column; padding: 3%;">
                 <h2>Services</h2>
-                <ul>
-                    <li>Touring Packages</li>
-                    <li>Local</li>
-                    <li>Marriage</li>
-                    <li>Intercity</li>
-                    <li>Tourist</li>
-                </ul>
+                    <p>
+                        We at RV Taxi Services take great satisfaction in providing dependable and cosy transportation
+                        options throughout Varanasi and beyond. Whether you require airport transfers, are travelling a
+                        long distance, or are just commuting locally, our fleet of well-maintained cars guarantees a
+                        hassle-free trip. Our drivers are courteous, experienced professionals who are dedicated to
+                        maintaining a high standard of safety and timeliness on every journey.
+                    </p>
                 <h2>Amenities</h2>
-                <ul>
-                    <li>Wifi</li>
-                    <li>Beverage</li>
-                    <li>Banarasi Paan</li>
-                </ul>
+                    <p>RV Taxi Services provides a variety of facilities in our cars to improve your comfort while
+                        travelling. Experience continuous connectivity and catch up on work while on the go with free
+                        Wi-Fi throughout your travels. We give free bottled water and other refreshments so you can keep
+                        comfortable and hydrated on your journey. Modern comforts like in-car cameras and GPS monitoring
+                        are installed in our cars to provide extra protection and peace of mind.
+                    </p>
             </div>
         </mat-card>
     </div>
 
-
+    <!-- Safety and Cleanliness Card -->
     <div class="landing-container">
         <mat-card class="landing-card">
             <div style="display: flex; flex-direction: row-reverse;; padding: 3%; gap: 40%;">
                 <img src="assets/tab_icon.png" style="transform: scale3d(0.5);">
                 <div style="display: flex; flex-direction: column;; padding: 3%;">
                     <h2>Safety and Cleanliness</h2>
-                    <p>We prioritize the safety and cleanliness of our vehicles to ensure your comfort and security.</p>
+                    <p>
+                        Your comfort and safety are our first objectives at RV Taxi Services. We keep all of our cars up
+                        to strict cleaning standards, so every trip is in a spotless atmosphere. To provide our
+                        passengers peace of mind, our fleet is outfitted with cutting-edge safety technologies including
+                        GPS tracking and in-car cameras. You can be confident that we follow stringent sanitary
+                        procedures and put your wellbeing first at every stop along the way, whether you're travelling
+                        nearby or across the country.
+                    </p>
                 </div>
             </div>
         </mat-card>
     </div>
 
+    <!-- Testimonial Card -->
+    <div class="landing-container">
+        <mat-card class="landing-card">
+            <div style="display: flex; flex-direction: row;; padding: 3%; gap: 40%;">
+                <img src="assets/tab_icon.png" style="transform: scale3d(0.5);">
+                <div style="display: flex; flex-direction: column;; padding: 3%;">
+                    <h2>Testimonial</h2>
+                    <p>
+                        Customer satisfaction is the main focus of all we do at RV Taxi Services. We take great
+                        satisfaction in providing outstanding service that goes above and beyond. Take our word for it,
+                        but also read the great things our clients have to say about their interactions with us. We are
+                        proud to have gained their confidence and loyalty thanks to our courteous and skilled drivers as
+                        well as our cosy and well-kept cars. Their endorsements motivate us to keep raising the bar and
+                        making sure every trip with RV Taxi Services is entertaining and unforgettable.
+                    </p>
+                </div>
+            </div>
+        </mat-card>
+    </div>
 
+    <!-- Footer -->
     <footer class="footer">
         <p>© 2024 RV Taxi Services</p>
         <div class="footer_links">
             <a href="#about">About Us</a>
-            <a href="#faq">FAQ</a>
+            <a routerLink="/faq">FAQ</a>
             <a href="#contact">Contact Us</a>
         </div>
     </footer>
-
 
 </body>

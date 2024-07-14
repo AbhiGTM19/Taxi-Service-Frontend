@@ -4,7 +4,8 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: fit-content;
+    width: 100%;
+    height: max-content;
     margin: 0;
 }
 
@@ -12,12 +13,15 @@ body {
 header {
     display: flex;
     justify-items: flex-start;
-    justify-content: stretch;
+    flex-direction: row;
+    width: 100%;
+    height: max-content;
     align-items:center;
     padding: -10%;
     background-color: rgb(5, 27, 5, 0.5);
     gap: 0%;
 }
+
 header a img {
     min-width:fit-content ;
     min-height: fit-content;
@@ -28,19 +32,14 @@ header a img {
 .header1{
     display: flex;
     justify-items: flex-start;
-    justify-content: stretch;
-    align-items:center;
-    margin-left: 60%;
-    text-align: end;
-    margin: 0 1em;
+    margin-left: 46%;
     color: rgba(236, 214, 18);
     text-decoration: none;
 }
 
-h1 {
-    justify-content:left;
+.company_name {
     font-size: xx-large;
-    max-width: max-content;
+    width: max-content;
     text-decoration: none;
     color: white;
     margin: 0px 0px 0px
@@ -48,9 +47,9 @@ h1 {
 
 .header1 nav a,
 .header1 nav select {   
-    justify-content:end;
+    justify-content:start;
     font-size: large;
-    text-align: end;
+    text-align: center;
     margin: 0 1em;
     color: rgba(236, 214, 18);
     text-decoration: none;
@@ -60,6 +59,7 @@ h1 {
 .header1 nav select:hover {
     text-decoration: underline;
 }
+
 
 /* CSS for body */
 .landing-container {
@@ -136,7 +136,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     padding: 1em;
-    background-color: rgb(10, 36, 10, 0.4);
+    background-color: rgb(10, 36, 10, 0.5);
     color: #fff;
   }
   

@@ -24,7 +24,7 @@ import { LoginComponent } from './login/login.component'
     AppComponent,
     RegistrationComponent,
     LandingPageComponent,
-    FaqComponent,
+    // FaqComponent,
     LoginComponent
   ],
   imports: [
