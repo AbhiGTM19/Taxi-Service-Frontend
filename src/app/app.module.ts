@@ -15,13 +15,17 @@ import { MatIconModule, MatIconRegistry } from '@angular/material/icon';
 import {MatDatepickerModule} from '@angular/material/datepicker'
 import {MatSelectModule} from '@angular/material/select';
 import {MatNativeDateModule} from '@angular/material/core';
-import { LandingPageComponent } from './landing-page/landing-page.component'
+import { LandingPageComponent } from './landing-page/landing-page.component';
+import { FaqComponent } from './faq/faq.component';
+import { LoginComponent } from './login/login.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     RegistrationComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    FaqComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

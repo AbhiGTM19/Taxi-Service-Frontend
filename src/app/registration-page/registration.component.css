@@ -1,5 +1,5 @@
 html {
-    background-image: url('src/assets/registration_bkgrnd_image.jpg');
+    background-image: url('src/assets/hola.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@ mat-card {
     max-height: 100%;
     width: 45%; 
     padding: 2em;
-    background: rgba(7, 28, 6, 0.9); 
+    background: rgba(25, 27, 5, 0.5); 
     border-radius: 10px;
     box-shadow: 0px 0px 40px rgba(236, 214, 18, 0.6);
 }
@@ -37,7 +37,7 @@ h1 {
   
   .header img {
     margin-left: 1%;
-    transform: scale(0.65); 
+    transform: scale(0.5); 
     border-radius: 50%;
   }
   
@@ -66,9 +66,4 @@ mat-label {
     color: white;
 }
 
-
-::ng-deep .custom-input-color .mat-input-element {
-    color: black; /* Change this to your desired color */
-  }
-  
   

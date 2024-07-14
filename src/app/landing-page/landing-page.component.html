@@ -1,22 +1,22 @@
 <body>
 
     <!-- landing.component.html -->
-    <header>
+    <header class="master">
+        <a routerLink="/rvtaxiservices">
+            <img src="assets/logo_160px X 160px.png">
+        </a>
         <div class="header">
-            <img src="assets/logo_header.jpeg" alt="Logo" class="logo">
-            <a routerLink="/rvtaxiservices" class="company-name">
+            <h1>
                 RV Taxi Services
-            </a>
+            </h1>
+        </div>
+        <div class="header1">
             <nav>
+                <a routerLink="/login">Login</a>
                 <a routerLink="/register">Sign Up</a>
-                <!--  <select>
-                <option value="en">English</option>
-                <option value="es">Español</option>
-            </select> -->
                 <a href="#about">About Us</a>
             </nav>
         </div>
-
     </header>
 
     <div class="landing-container">
@@ -28,11 +28,12 @@
                      align-items: left; padding: 2%;">
                     <h2>Ride Smart, Ride Safe</h2>
                     <p>test content goes here</p>
-                    <button mat-raised-button color="primary">Book a Ride</button>
+                    <button mat-raised-button color="primary" (click)="register()">
+                        Book a Ride
+                    </button>
                 </div>
 
             </div>
-
 
         </mat-card>
     </div>
@@ -43,7 +44,10 @@
                 <img src="assets/tab_icon.png" style="transform: scale3d(0.5);">
                 <div style="display: flex; flex-direction: column;; padding: 3%;">
                     <h2>Overview</h2>
-                    <p>Overview of our services.</p>
+                    <p style="font-size: medium;"> Whether you're looking for dependable and pleasant transportation in Varanasi or elsewhere, go
+                        no farther than RV Taxi Services. Whether you are a local, a long-distance traveller, or an
+                        international guest, we are dedicated to offering first-rate taxi services that are suited to
+                        fulfil the various demands of our clients.</p>
                 </div>
             </div>
         </mat-card>
@@ -52,7 +56,7 @@
     <div class="landing-container">
         <mat-card class="landing-card3">
             <!-- <div style="display: flex; flex-direction: row;; padding: 3%; gap:40%;"> -->
-                <img src="assets/tab_icon.png" style="transform: scale3d(0.5);">
+            <img src="assets/tab_icon.png" style="transform: scale3d(0.5);">
             <!-- </div> -->
             <div style="display: flex; flex-direction: row; padding: 3%;">
                 <h2>Services</h2>
@@ -86,14 +90,15 @@
         </mat-card>
     </div>
 
-    <footer class="footer">
-        <div>
-            <p>All Rights Reserved ©RV Taxi Services </p>
-        </div>
 
-        <a href="#about">About Us</a>
-        <a href="#faq">FAQ</a>
-        <a href="#contact">Contact Us</a>
+    <footer class="footer">
+        <p>© 2024 RV Taxi Services</p>
+        <div class="footer_links">
+            <a href="#about">About Us</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact">Contact Us</a>
+        </div>
     </footer>
+
 
 </body>
