@@ -1,23 +1,21 @@
-html {
+body {
     background-image: url('src/assets/hola.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    width: 100%;
+    height: max-content;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 mat-card {
-    max-width: 80%;
-    max-height: 100%;
-    width: 45%; 
-    padding: 2em;
+    /* justify-content: center; */
+    max-width: 50%;
+    max-height: 20%; 
+    padding: 2%;
     background: rgba(25, 27, 5, 0.5); 
     border-radius: 10px;
-    box-shadow: 0px 0px 40px rgba(236, 214, 18, 0.6);
+    /* box-shadow: 0px 0px 40px rgba(236, 214, 18, 0.6); */
 }
 
 h1 {
@@ -28,10 +26,10 @@ h1 {
    
 }
 
-.header {
+.image {
     display: flex;
     align-items: center;
-    justify-content: left; 
+    justify-content: space-between; 
     
   }
   
@@ -53,12 +51,12 @@ h2 {
 .formField{
     display: flex;
     justify-content: flex-start;
-    padding: 2%;
+    /* padding: 2%; */
 }
 
 mat-form-field {
     color: black;
-    width: 100%;
+    width: 70%;
 }
 
 mat-label {
@@ -66,4 +64,84 @@ mat-label {
     color: white;
 }
 
+ /* CSS for header */
+
+header {
+    display: flex;
+    justify-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+    height: max-content;
+    align-items:center;
+    padding: -10%;
+    background-color: rgb(5, 27, 5, 0.5);
+    gap: 0%;
+}
+
+header a img {
+    min-width:fit-content ;
+    min-height: fit-content;
+    transform: scale(0.4);
+    border-radius: 50%;
+}
+
+.header1{
+    display: flex;
+    justify-items: flex-start;
+    margin-left: 46%;
+    color: rgba(236, 214, 18);
+    text-decoration: none;
+}
+
+.company_name {
+    font-size: xx-large;
+    width: max-content;
+    text-decoration: none;
+    color: white;
+    margin: 0px 0px 0px
+}
+
+.header1 nav a,
+.header1 nav select {   
+    justify-content:start;
+    font-size: large;
+    text-align: center;
+    margin: 0 1em;
+    color: rgba(236, 214, 18);
+    text-decoration: none;
+}
+
+.header1 nav a:hover,
+.header1 nav select:hover {
+    text-decoration: underline;
+} 
+
+/* CSS for footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: rgb(10, 36, 10, 0.4);
+    color: #fff;
+  }
   
+  .footer p {
+    margin: 1%;
+  }
+  
+  .footer_links {
+    display: flex;
+    gap: 3em;
+  }
+  
+  .footer_links a {
+    margin-right: -3%;
+    gap: 2%;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer_links a:hover {
+    text-decoration: underline;
+  }
