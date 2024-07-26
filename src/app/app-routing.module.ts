@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { RegistrationComponent } from './registration-page/registration.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { FaqComponent } from './faq/faq.component';
+import { FigmaTestComponent } from './figma-test/figma-test.component';
 
 const routes: Routes = [
 
@@ -15,7 +16,9 @@ const routes: Routes = [
   { path: 'register', component: RegistrationComponent },
 
   // FAQ Page route
-  { path: 'faq', component: FaqComponent}
+  { path: 'faq', component: FaqComponent},
+
+  { path: 'test', component: FigmaTestComponent}
 
 ];
 

@@ -1,0 +1,537 @@
+.desktop-1 {
+  background: linear-gradient(180deg, #FFFFFF, #3EBE9F);
+  display: flex;
+  flex-direction: column;
+  /* padding: 1.3rem 3.1rem 1.6rem 3.1rem; */
+  width: fit-content;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+
+.desktop-1 .mask-group {
+  border-radius: 5.4rem;
+  background: url('src/assets/mask_group.jpeg') 50% / cover no-repeat;
+  width: 4.7rem;
+  height: 3rem;
+}
+.desktop-1 .frame-55 {
+  margin-right: 1.3rem;
+  display: flex;
+  width: 4.7rem;
+  height: 3rem;
+  box-sizing: border-box;
+}
+.desktop-1 .rv-taxi-services {
+  margin: 0.9rem 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 800;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  color: #1A1B11;
+}
+.desktop-1 .frame-56 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.desktop-1 .login {
+  margin-right: 0.6rem;
+  width: 2.4rem;
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 800;
+  font-size: 0.9rem;
+  color: #018464;
+}
+.desktop-1 .about-us {
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 800;
+  font-size: 0.9rem;
+  color: #018464;
+}
+.desktop-1 .language {
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 800;
+  font-size: 0.9rem;
+  color: #018464;
+}
+.desktop-1 .frame-50 {
+  margin: 0.9rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 20.7rem;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.desktop-1 .frame-57 {
+  margin: 0 0.2rem 4.6rem 0.2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 73.5rem;
+  box-sizing: border-box;
+}
+.desktop-1 .man-1 {
+  border-radius: 7.4rem;
+  background: url('src/assets/man_1.png');
+  margin: 0.2rem 5.8rem 0.2rem 0;
+  width: 7.4rem;
+  height: 14rem;
+}
+.desktop-1 .ride-smart-ride-safe {
+  margin-bottom: 0.6rem;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Orelega One';
+  font-weight: 400;
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+  color: #1A1B11;
+}
+.desktop-1 .be-apart-of-next-big-thing {
+  margin-bottom: 0.6rem;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Otomanopee One';
+  font-weight: 400;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  color: #1A1B11;
+}
+.desktop-1 .label-text {
+  overflow-wrap: break-word;
+  font-family: var(--m-3-labellarge-font-family, 'Roboto');
+  font-weight: var(--m-3-labellarge-font-weight, 500);
+  font-size: var(--m-3-labellarge-font-size, 0.9rem);
+  letter-spacing: var(--m-3-labellarge-letter-spacing, 0rem);
+  line-height: var(--m-3-labellarge-line-height, 1.429);
+  color: #FFFFFF;
+}
+.desktop-1 .state-layer {
+  box-shadow: 0rem 0.3rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
+  background: #1A1B11;
+  display: flex;
+  padding: 0.8rem 0;
+  width: 7.9rem;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.desktop-1 .button {
+  box-shadow: 0rem 0.4rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
+  border-radius: 25rem;
+  background: #3EBE9F;
+  display: flex;
+  width: 7.9rem;
+  box-sizing: border-box;
+}
+.desktop-1 .frame-12 {
+  margin: 3.7rem 5.8rem 3.7rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.desktop-1 .white-car-front-view {
+  filter: blur(0.1rem);
+  background: url('src/assets/white_car_front_view.png') 50% / contain no-repeat;
+  margin-right: 5.8rem;
+  width: 21.1rem;
+  height: 14.4rem;
+}
+.desktop-1 .woman-1 {
+  background: url('src/assets/woman_1.png');
+  margin: 0.2rem 0;
+  width: 6.9rem;
+  height: 14rem;
+}
+.desktop-1 .frame-5 {
+  background: rgba(1, 132, 100, 0.2);
+  margin-bottom: 4.8rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0rem 0;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.desktop-1 .young-man-holding-coffee-and-laptop {
+  border-radius: 6.3rem;
+  background: url('src/assets/young_man_holding_coffee_and_laptop.png') 50% / contain no-repeat;
+  width: 12.8rem;
+  height: 11.8rem;
+}
+.desktop-1 .overview {
+  margin: 4.1rem 4.5rem 4.3rem 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Orelega One';
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0.5rem;
+  color: #1A1B11;
+}
+.desktop-1 .whether-youre-looking-for-dependable-and-pleasant-transportation-in-varanasi-or-elsewhere-go-no-farther-than-rv-taxi-services-whether-you-are-alocal-along-distance-traveler-or-an-international-guest-we-are-dedicated-to-offering-first-rate-taxi-services-that-are-suited-to-fulfil-the-various-demands-of-our-clients {
+  overflow-wrap: break-word;
+  font-family: 'Ramaraja';
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #1A1B11;
+}
+.desktop-1 .frame-44 {
+  display: flex;
+  box-sizing: border-box;
+}
+.desktop-1 .frame-43 {
+  margin: 1.2rem 0 0.9rem 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.desktop-1 .frame-47 {
+  margin-bottom: 4.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 73.9rem;
+  box-sizing: border-box;
+}
+.desktop-1 .white-car-side-view {
+  border-radius: 11.5rem;
+  background: url('src/assets/white_car_side_view.png') 50% / contain no-repeat;
+  width: 73.9rem;
+  height: 15.3rem;
+}
+.desktop-1 .frame-51 {
+  margin-bottom: 3.3rem;
+  display: flex;
+  width: 73.9rem;
+  height: 15.3rem;
+  box-sizing: border-box;
+}
+.desktop-1 .services {
+  margin-bottom: 0.8rem;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Orelega One';
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #1A1B11;
+}
+.desktop-1 .we-at-rv-taxi-services-take-great-satisfaction-in-providing-dependable-and-cosy-transportation-options-throughout-varanasi-and-beyond-whether-you-require-airport-transfers-are-travelling-along-distance-or-are-just-commuting-locally-our-fleet-of-well-maintained-cars-guarantees-ahassle-free-trip-our-drivers-are-courteous-experienced-professionals-who-are-dedicated-to-maintaining-ahigh-standard-of-safety-and-timeliness-on-every-journey {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Ramaraja';
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #1A1B11;
+}
+.desktop-1 .frame-42 {
+  margin-bottom: 0.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.desktop-1 .amenity {
+  margin-bottom: 0.7rem;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Orelega One';
+  font-weight: 400;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: #1A1B11;
+}
+.desktop-1 .rv-taxi-services-provides-avariety-of-facilities-in-our-cars-to-improve-your-comfort-while-travelling-experience-continuous-connectivity-and-catch-up-on-work-while-on-the-go-with-free-wi-fi-throughout-your-travels-we-give-free-bottled-water-and-other-refreshments-so-you-can-keep-comfortable-and-hydrated-on-your-journey-modern-comforts-like-in-car-cameras-and-gps-monitoring-are-installed-in-our-cars-to-provide-extra-protection-and-peace-of-mind {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Ramaraja';
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #1A1B11;
+}
+.desktop-1 .frame-48 {
+  margin-top: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.desktop-1 .frame-49 {
+  margin: 0 0.3rem 6.2rem 0.4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 73.9rem;
+  box-sizing: border-box;
+}
+.desktop-1 .man-with-phone-showing-thumbs-up {
+  background: url('src/assets/man_with_phone_showing_thumbs_up.png') 50% / contain no-repeat;
+  width: 12.8rem;
+  height: 11.8rem;
+}
+.desktop-1 .frame-22 {
+  margin-bottom: 0.4rem;
+  display: flex;
+  width: 17.9rem;
+  height: 12.7rem;
+  box-sizing: border-box;
+}
+.desktop-1 .customer-feedback {
+  margin-bottom: 1.3rem;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Orelega One';
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #1A1B11;
+}
+.desktop-1 .customer-satisfaction-is-the-main-focus-of-all-we-do-at-rv-taxi-services-we-take-great-satisfaction-in-providing-outstanding-service-that-goes-above-and-beyond-take-our-word-for-it-but-also-read-the-great-things-our-clients-have-to-say-about-their-interactions-with-us-we-are-proud-to-have-gained-their-confidence-and-loyalty-thanks-to-our-courteous-and-skilled-drivers-as-well-as-our-cosy-and-well-kept-cars-their-endorsements-motivate-us-to-keep-raising-the-bar-and-making-sure-every-trip-with-rv-taxi-services-is-entertaining-and-unforgettable {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Ramaraja';
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #1A1B11;
+}
+.desktop-1 .frame-20 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.desktop-1 .frame-15 {
+  margin-right: 18.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.desktop-1 .smiling-man-and-woman-with-phones {
+  border-radius: 14.3rem;
+  background: url('src/assets/smiling_man_and_woman_with_phones.png') 50% / contain no-repeat;
+  width: 12.8rem;
+  height: 11.8rem;
+}
+.desktop-1 .frame-24 {
+  margin-bottom: 0.6rem;
+  display: flex;
+  width: 17.9rem;
+  height: 13.1rem;
+  box-sizing: border-box;
+}
+.desktop-1 .safety-and-cleanliness {
+  margin-bottom: 1.3rem;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Orelega One';
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #1A1B11;
+}
+.desktop-1 .your-comfort-and-safety-are-our-first-objectives-at-rv-taxi-services-we-keep-all-of-our-cars-up-to-strict-cleaning-standards-so-every-trip-is-in-aspotless-atmosphere-to-provide-our-passengers-peace-of-mind-our-fleet-is-outfitted-with-cutting-edge-safety-technologies-including-gps-tracking-and-in-car-cameras-you-can-be-confident-that-we-follow-stringent-sanitary-procedures-and-put-your-wellbeing-first-at-every-stop-along-the-way-whether-youre-travelling-nearby-or-across-the-country {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Ramaraja';
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #1A1B11;
+}
+.desktop-1 .frame-23 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.desktop-1 .frame-14 {
+  margin: 0.7rem 0rem 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.desktop-1 .frame-40 {
+  margin: 0 0.1rem 3.2rem 0.4rem;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.desktop-1 .label-text-1 {
+  overflow-wrap: break-word;
+  font-family: var(--m-3-labellarge-font-family, 'Roboto');
+  font-weight: var(--m-3-labellarge-font-weight, 500);
+  font-size: var(--m-3-labellarge-font-size, 0.9rem);
+  letter-spacing: var(--m-3-labellarge-letter-spacing, 0rem);
+  line-height: var(--m-3-labellarge-line-height, 1.429);
+  color: #FFFFFF;
+}
+.desktop-1 .state-layer-1 {
+  background: #018464;
+  display: flex;
+  padding: 1.2rem 0;
+  width: 16rem;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.desktop-1 .button-1 {
+  box-shadow: 0rem 0.4rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
+  border-radius: 25rem;
+  background: #29B593;
+  margin-bottom: 3.3rem;
+  display: flex;
+  align-self: center;
+  width: 16rem;
+  box-sizing: border-box;
+}
+.desktop-1 .why-choose-us-comfortable-and-safe-rides-wi-fi-and-refreshments-punctual-and-reliable-service-247-customer-support {
+  margin-right: 3.6rem;
+  width: 14rem;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Ramaraja';
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #1A1B11;
+}
+.why-choose-us-comfortable-and-safe-rides-wi-fi-and-refreshments-punctual-and-reliable-service-247-customer-support-sub136 {
+  font-family: 'Ramaraja';
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.333;
+  color: #1A1B11;
+}
+.why-choose-us-comfortable-and-safe-rides-wi-fi-and-refreshments-punctual-and-reliable-service-247-customer-support {
+  font-family: 'Ramaraja';
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1.333;
+  color: #1A1B11;
+}
+.desktop-1 .our-services-local-rides-long-distance-travel-airport-transfers-tourist-transportation {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Ramaraja';
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #1A1B11;
+}
+.our-services-local-rides-long-distance-travel-airport-transfers-tourist-transportation-sub136 {
+  font-family: 'Ramaraja';
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.333;
+  color: #1A1B11;
+}
+.our-services-local-rides-long-distance-travel-airport-transfers-tourist-transportation {
+  font-family: 'Ramaraja';
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1.333;
+  color: #1A1B11;
+}
+.follow-us-facebook-instagram-sub274 {
+  font-family: 'Ramaraja';
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.333;
+  color: #1A1B11;
+}
+.follow-us-facebook-instagram-sub273 {
+  font-family: 'Ramaraja';
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1.333;
+  color: #1A1B11;
+}
+.follow-us-facebook-instagram-sub272 {
+  font-family: 'Ramaraja';
+  font-weight: 400;
+  font-size: 0.8rem;
+  text-decoration-line: underline;
+  line-height: 1.333;
+  color: #1A1B11;
+}
+.follow-us-facebook-instagram {
+  font-family: 'Ramaraja';
+  font-weight: 400;
+  font-size: 0.8rem;
+  text-decoration-line: underline;
+  line-height: 1.333;
+  color: #1A1B11;
+}
+.desktop-1 .follow-us-facebook-instagram {
+  margin-bottom: 2.6rem;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Ramaraja';
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #1A1B11;
+}
+.desktop-1 .contact-us-address-varanasi-uttar-pradesh-india-phone-9201709650-email-rvtaxiservices-620-gmail-com {
+  margin-bottom: 1.3rem;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Ramaraja';
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #1A1B11;
+}
+.contact-us-address-varanasi-uttar-pradesh-india-phone-9201709650-email-rvtaxiservices-620-gmail-com-sub136 {
+  font-family: 'Ramaraja';
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.333;
+  color: #1A1B11;
+}
+.contact-us-address-varanasi-uttar-pradesh-india-phone-9201709650-email-rvtaxiservices-620-gmail-com {
+  font-family: 'Ramaraja';
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1.333;
+  color: #1A1B11;
+}
+.desktop-1 .container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70.4rem;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.desktop-1 .rv-taxi-services-all-rights-reserved {
+  position: absolute;
+  left: 24.8rem;
+  bottom: 0rem;
+  overflow-wrap: break-word;
+  font-family: 'Ramaraja';
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #1A1B11;
+}
+.desktop-1 .group-9 {
+  position: relative;
+  margin: 0 0.8rem 0 2.7rem;
+  display: flex;
+  padding-bottom: 7.1rem;
+  width: 73.9rem;
+  box-sizing: border-box;
+}
+.desktop-1 {
+  background: linear-gradient(180deg, #FFFFFF, #3EBE9F);
+  display: flex;
+  flex-direction: column;
+  padding: 1.3rem 3.1rem 1.6rem 3.1rem;
+  width: 80rem;
+  box-sizing: border-box;
+}

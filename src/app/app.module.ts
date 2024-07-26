@@ -17,7 +17,8 @@ import {MatSelectModule} from '@angular/material/select';
 import {MatNativeDateModule} from '@angular/material/core';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { FaqComponent } from './faq/faq.component';
-import { LoginComponent } from './login/login.component'
+import { LoginComponent } from './login/login.component';
+import { FigmaTestComponent } from './figma-test/figma-test.component'
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { LoginComponent } from './login/login.component'
     RegistrationComponent,
     LandingPageComponent,
     // FaqComponent,
-    LoginComponent
+    LoginComponent,
+    FigmaTestComponent
   ],
   imports: [
     BrowserModule,
