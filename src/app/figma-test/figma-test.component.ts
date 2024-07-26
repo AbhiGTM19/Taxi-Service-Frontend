@@ -1,10 +1,20 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-figma-test',
   templateUrl: './figma-test.component.html',
   styleUrls: ['./figma-test.component.css']
 })
-export class FigmaTestComponent {
+export class FigmaTestComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit(): void {
+
+  }
+
+  bookARide() {
+    window.location.href = 'https://forms.gle/wagu22L1PyL1NySP6';
+  }
 
 }
