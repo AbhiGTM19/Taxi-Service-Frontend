@@ -3,14 +3,16 @@ import { RouterModule, Routes } from '@angular/router';
 import { RegistrationComponent } from './registration-page/registration.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { FaqComponent } from './faq/faq.component';
-import { FigmaTestComponent } from './figma-test/figma-test.component';
+import { FigmaDesignPageComponent } from './figma-test/figma-test.component';
 
 const routes: Routes = [
 
   { path: '', redirectTo: '/rvtaxiservices', pathMatch: 'full' } ,
 
   // Landing Page route
-  { path: 'rvtaxiservices', component: LandingPageComponent },
+  { path: 'rvtaxiservices', component: FigmaDesignPageComponent},
+
+  // { path: 'test', component: LandingPageComponent },
 
   // Registration Page route
   { path: 'register', component: RegistrationComponent },
@@ -18,7 +20,7 @@ const routes: Routes = [
   // FAQ Page route
   { path: 'faq', component: FaqComponent},
 
-  { path: 'test', component: FigmaTestComponent}
+
 
 ];
 

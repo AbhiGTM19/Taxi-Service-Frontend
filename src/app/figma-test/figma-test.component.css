@@ -1,38 +1,20 @@
-body {
-  display: flex;
-  justify-content: center;
-  background: linear-gradient(180deg, #FFFFFF, #3EBE9F);
-  padding: 1.3rem 3.1rem 1.6rem 3.1rem;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 1440px;
-  height: max-content;
-  /* margin: 0; */
-}
-
 .desktop-1 .mask-group {
   border-radius: 5.4rem;
-  background: url('src/assets/mask_group.jpeg') 50% / cover no-repeat;
-  width: 4.7rem;
+  background: url('src/assets/mask_group.jpeg') 50% / contain no-repeat;
+  margin: 0.2rem;
+  width: 4rem;
   height: 3rem;
-}
-
-.desktop-1 .frame-55 {
-  margin-right: 1.3rem;
-  display: flex;
-  width: 10%;
-  height: 3rem;
-  box-sizing: border-box;
 }
 
 .desktop-1 .rv-taxi-services {
-  margin: 0.9rem 0;
-  display: inline-block;
-  overflow-wrap: break-word;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  margin-left: 10px;
   font-family: 'Outfit';
   font-weight: 800;
-  font-size: 0.9rem;
+  font-size: 1rem;
   text-transform: capitalize;
   color: #1A1B11;
 }
@@ -40,11 +22,10 @@ body {
 .desktop-1 .frame-56 {
   display: flex;
   flex-direction: row;
-  box-sizing: border-box;
+  justify-content: flex-start;
 }
 
 .desktop-1 .login {
-  margin-right: 0.6rem;
   width: 2.4rem;
   overflow-wrap: break-word;
   font-family: 'Outfit';
@@ -61,7 +42,7 @@ body {
   color: #018464;
 }
 
-.desktop-1 .language {
+.desktop-1 .faq {
   overflow-wrap: break-word;
   font-family: 'Outfit';
   font-weight: 800;
@@ -70,7 +51,6 @@ body {
 }
 
 .desktop-1 .frame-50 {
-  margin: 0.9rem 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -80,17 +60,18 @@ body {
 }
 
 .desktop-1 .frame-57 {
-  margin: 0 0.2rem 4.6rem 0.2rem;
+  margin-bottom: 2.5rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 73.5rem;
-  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-evenly;
+  height: max-content;
+  gap: 60rem;
 }
 
 .desktop-1 .man-1 {
   border-radius: 7.4rem;
-  background: url('src/assets/man_1.png') no-repeat center/cover;
+  background: url('src/assets/man_1.png') 50% / contain no-repeat;
   margin: 0.2rem;
   width: 7rem;
   height: 15rem;
@@ -141,31 +122,33 @@ body {
 }
 
 .desktop-1 .frame-12 {
-  margin: 3.7rem;
+  margin: 2.8rem;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
   box-sizing: border-box;
   width: max-content;
 }
 
 .desktop-1 .white-car-front-view {
-  filter: blur(0.1rem);
   background: url('src/assets/white_car_front_view.png') 50% / contain no-repeat;
-  margin-right: 5rem;
+  margin-right: 1.5rem;
+  margin-top: 0.7rem;
   width: 21.1rem;
   height: 14.4rem;
 }
 
 .desktop-1 .woman-1 {
-  background: url('src/assets/woman_1.png') no-repeat center/cover;
+  background: url('src/assets/woman_1.png') 50% / contain no-repeat;
   margin: 0.2rem;
   width: 7rem;
   height: 15rem;
 }
 
 .desktop-1 .frame-5 {
-  margin-bottom: 4.8rem;
+  background: rgba(1, 132, 100, 0.2);
+  margin-bottom: 2.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -173,7 +156,7 @@ body {
 }
 
 .desktop-1 .young-man-holding-coffee-and-laptop {
-  background: url('src/assets/young_man_holding_coffee_and_laptop.png') no-repeat center/cover;
+  background: url('src/assets/young_man_holding_coffee_and_laptop.png') 50% / contain no-repeat;
   margin: 0.2rem;
   width: 50rem;
   height: 11.8rem;
@@ -183,10 +166,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 30px;
+  margin-left: 10rem;
   margin-right: 30px;
   font-family: 'Orelega One';
-  font-weight: 400;
+  font-weight: bolder;
   font-size: 1.1rem;
   letter-spacing: 0.2rem;
   color: #1A1B11;
@@ -201,6 +184,7 @@ body {
   font-size: 1.1rem;
   color: #1A1B11;
   line-height: 2;
+  letter-spacing: 0.05rem;
 }
 
 .desktop-1 .frame-47 {
@@ -219,21 +203,25 @@ body {
 }
 
 .desktop-1 .frame-51 {
-  margin-bottom: 3.3rem;
+  margin-bottom: 2.5rem;
   display: flex;
-  width: 73.9rem;
-  height: 15.3rem;
-  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: max-content;
 }
 
 .desktop-1 .services {
-  margin-bottom: 0.8rem;
-  display: inline-block;
-  overflow-wrap: break-word;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'Orelega One';
-  font-weight: 400;
+  font-weight: bolder;
   font-size: 1.1rem;
+  letter-spacing: 0.1rem;
   color: #1A1B11;
+  margin-bottom: 15px;
 }
 
 .desktop-1 .we-at-rv-taxi-services-take-great-satisfaction-in-providing-dependable-and-cosy-transportation-options-throughout-varanasi-and-beyond-whether-you-require-airport-transfers-are-travelling-along-distance-or-are-just-commuting-locally-our-fleet-of-well-maintained-cars-guarantees-ahassle-free-trip-our-drivers-are-courteous-experienced-professionals-who-are-dedicated-to-maintaining-ahigh-standard-of-safety-and-timeliness-on-every-journey {
@@ -243,25 +231,29 @@ body {
   font-weight: 400;
   font-size: 1.1rem;
   color: #1A1B11;
+  line-height: 1.8;
+  letter-spacing: 0.05rem;
 }
 
 .desktop-1 .frame-42 {
   margin-bottom: 0.1rem;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
   box-sizing: border-box;
 }
 
 .desktop-1 .amenity {
-  margin-bottom: 0.7rem;
-  display: inline-block;
-  overflow-wrap: break-word;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'Orelega One';
-  font-weight: 400;
+  font-weight: bolder;
   font-size: 1.1rem;
-  text-transform: uppercase;
+  letter-spacing: 0.1rem;
   color: #1A1B11;
+  margin-bottom: 15px;
 }
 
 .desktop-1 .rv-taxi-services-provides-avariety-of-facilities-in-our-cars-to-improve-your-comfort-while-travelling-experience-continuous-connectivity-and-catch-up-on-work-while-on-the-go-with-free-wi-fi-throughout-your-travels-we-give-free-bottled-water-and-other-refreshments-so-you-can-keep-comfortable-and-hydrated-on-your-journey-modern-comforts-like-in-car-cameras-and-gps-monitoring-are-installed-in-our-cars-to-provide-extra-protection-and-peace-of-mind {
@@ -271,10 +263,11 @@ body {
   font-weight: 400;
   font-size: 1.1rem;
   color: #1A1B11;
+  line-height: 1.8;
+  letter-spacing: 0.04rem;
 }
 
 .desktop-1 .frame-48 {
-  margin-top: 0.2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -282,36 +275,32 @@ body {
 }
 
 .desktop-1 .frame-49 {
-  margin: 0 0.3rem 6.2rem 0.4rem;
+  margin-bottom: 2.5rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 73.9rem;
-  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-evenly;
+  height: max-content;
+  gap: 15%;
 }
 
 .desktop-1 .man-with-phone-showing-thumbs-up {
   background: url('src/assets/man_with_phone_showing_thumbs_up.png') 50% / contain no-repeat;
   width: 12.8rem;
   height: 11.8rem;
-}
-
-.desktop-1 .frame-22 {
-  margin-bottom: 0.4rem;
-  display: flex;
-  width: 17.9rem;
-  height: 12.7rem;
-  box-sizing: border-box;
+  margin-bottom: 1.5rem;
 }
 
 .desktop-1 .customer-feedback {
-  margin-bottom: 1.3rem;
-  display: inline-block;
-  overflow-wrap: break-word;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'Orelega One';
-  font-weight: 400;
+  font-weight: bolder;
   font-size: 1.1rem;
+  letter-spacing: 0.1rem;
   color: #1A1B11;
+  margin-bottom: 15px;
 }
 
 .desktop-1 .customer-satisfaction-is-the-main-focus-of-all-we-do-at-rv-taxi-services-we-take-great-satisfaction-in-providing-outstanding-service-that-goes-above-and-beyond-take-our-word-for-it-but-also-read-the-great-things-our-clients-have-to-say-about-their-interactions-with-us-we-are-proud-to-have-gained-their-confidence-and-loyalty-thanks-to-our-courteous-and-skilled-drivers-as-well-as-our-cosy-and-well-kept-cars-their-endorsements-motivate-us-to-keep-raising-the-bar-and-making-sure-every-trip-with-rv-taxi-services-is-entertaining-and-unforgettable {
@@ -321,6 +310,8 @@ body {
   font-weight: 400;
   font-size: 1.1rem;
   color: #1A1B11;
+  line-height: 1.8;
+  letter-spacing: 0.05rem;
 }
 
 .desktop-1 .frame-20 {
@@ -332,9 +323,9 @@ body {
 }
 
 .desktop-1 .frame-15 {
-  margin-right: 18.1rem;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
   box-sizing: border-box;
 }
@@ -344,33 +335,30 @@ body {
   background: url('src/assets/smiling_man_and_woman_with_phones.png') 50% / contain no-repeat;
   width: 12.8rem;
   height: 11.8rem;
-}
-
-.desktop-1 .frame-24 {
-  margin-bottom: 0.6rem;
-  display: flex;
-  width: 17.9rem;
-  height: 13.1rem;
-  box-sizing: border-box;
+  margin-bottom: 1.5rem;
 }
 
 .desktop-1 .safety-and-cleanliness {
-  margin-bottom: 1.3rem;
-  display: inline-block;
-  overflow-wrap: break-word;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'Orelega One';
-  font-weight: 400;
+  font-weight: bolder;
   font-size: 1.1rem;
+  letter-spacing: 0.1rem;
   color: #1A1B11;
+  margin-bottom: 15px;
 }
 
 .desktop-1 .your-comfort-and-safety-are-our-first-objectives-at-rv-taxi-services-we-keep-all-of-our-cars-up-to-strict-cleaning-standards-so-every-trip-is-in-aspotless-atmosphere-to-provide-our-passengers-peace-of-mind-our-fleet-is-outfitted-with-cutting-edge-safety-technologies-including-gps-tracking-and-in-car-cameras-you-can-be-confident-that-we-follow-stringent-sanitary-procedures-and-put-your-wellbeing-first-at-every-stop-along-the-way-whether-youre-travelling-nearby-or-across-the-country {
   text-align: center;
   overflow-wrap: break-word;
   font-family: 'Ramaraja';
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.1rem;
   color: #1A1B11;
+  line-height: 1.8;
+  letter-spacing: 0.05rem;
 }
 
 .desktop-1 .frame-23 {
@@ -382,20 +370,20 @@ body {
 }
 
 .desktop-1 .frame-14 {
-  margin: 0.7rem 0rem 1rem 0;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
   box-sizing: border-box;
 }
 
 .desktop-1 .frame-40 {
-  margin: 0 0.1rem 3.2rem 0.4rem;
+  margin-bottom: 4.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: fit-content;
-  box-sizing: border-box;
+  height: max-content;
+  gap: 15%;
 }
 
 .desktop-1 .label-text-1 {
@@ -409,25 +397,14 @@ body {
   color: #FFFFFF;
 }
 
-/* .desktop-1 .state-layer-1 {
-  background: #018464;
-  display: flex;
-  width: 16rem;
-  padding: 1.2rem 0;
-  height: fit-content;
-  box-sizing: border-box;
-} */
-
 .desktop-1 .feedback {
   display: flex;
   justify-content: center;
 }
 
 .desktop-1 .button-1 {
-  box-shadow: 0rem 0.4rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
   border-radius: 25rem;
-  /* background: #29B593; */
-  background: #018464;
+  background: #1A1B11;
   margin-bottom: 3.3rem;
   display: flex;
   align-self: center;
@@ -571,7 +548,8 @@ body {
 
 .desktop-1 .rv-taxi-services-all-rights-reserved {
   position: absolute;
-  left: 24.8rem;
+  text-align: center;
+  /* left: 24.8rem; */
   bottom: 0rem;
   overflow-wrap: break-word;
   font-family: 'Ramaraja';
@@ -590,10 +568,13 @@ body {
 }
 
 .desktop-1 {
-  background: linear-gradient(180deg, #FFFFFF, #3EBE9F);
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(180deg, #FFFFFF, #3EBE9F);
   padding: 1.3rem 3.1rem 1.6rem 3.1rem;
-  width: 80rem;
-  box-sizing: border-box;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: max-content;
 }

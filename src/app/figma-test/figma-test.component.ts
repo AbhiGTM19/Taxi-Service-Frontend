@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './figma-test.component.html',
   styleUrls: ['./figma-test.component.css']
 })
-export class FigmaTestComponent implements OnInit {
+export class FigmaDesignPageComponent implements OnInit {
 
   constructor() { }
 

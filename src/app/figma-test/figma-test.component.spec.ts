@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FigmaTestComponent } from './figma-test.component';
+import { FigmaDesignPageComponent } from './figma-test.component';
 
-describe('FigmaTestComponent', () => {
-  let component: FigmaTestComponent;
-  let fixture: ComponentFixture<FigmaTestComponent>;
+describe('FigmaDesignPageComponent', () => {
+  let component: FigmaDesignPageComponent;
+  let fixture: ComponentFixture<FigmaDesignPageComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [FigmaTestComponent]
+      declarations: [FigmaDesignPageComponent]
     });
-    fixture = TestBed.createComponent(FigmaTestComponent);
+    fixture = TestBed.createComponent(FigmaDesignPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

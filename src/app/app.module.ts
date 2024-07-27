@@ -18,16 +18,17 @@ import {MatNativeDateModule} from '@angular/material/core';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { FaqComponent } from './faq/faq.component';
 import { LoginComponent } from './login/login.component';
-import { FigmaTestComponent } from './figma-test/figma-test.component'
+import { FigmaDesignPageComponent } from './figma-test/figma-test.component'
+import { MatExpansionModule } from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegistrationComponent,
     LandingPageComponent,
-    // FaqComponent,
+    FaqComponent,
     LoginComponent,
-    FigmaTestComponent
+    FigmaDesignPageComponent
   ],
   imports: [
     BrowserModule,
@@ -43,6 +44,7 @@ import { FigmaTestComponent } from './figma-test/figma-test.component'
     MatDatepickerModule,
     MatSelectModule,
     MatNativeDateModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
