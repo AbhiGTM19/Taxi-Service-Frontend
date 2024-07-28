@@ -48,6 +48,12 @@
   font-weight: 800;
   font-size: 0.9rem;
   color: #018464;
+  text-decoration: none;
+}
+
+.desktop-1 .faq a:hover {
+
+  text-decoration: underline;
 }
 
 .desktop-1 .frame-50 {
@@ -68,6 +74,8 @@
   height: max-content;
   gap: 60rem;
 }
+
+/* ############################# */
 
 .desktop-1 .man-1 {
   border-radius: 7.4rem;
@@ -113,12 +121,11 @@
 .desktop-1 .button {
   box-shadow: 0rem 0.4rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
   border-radius: 25rem;
-  background: #1A1B11;
+  background: #018464;
   display: flex;
   width: 7.9rem;
   height: fit-content;
   padding: 0.8rem 0;
-  box-sizing: border-box;
 }
 
 .desktop-1 .frame-12 {
@@ -154,6 +161,8 @@
   justify-content: space-evenly;
   height: max-content;
 }
+
+/* ############################# */
 
 .desktop-1 .young-man-holding-coffee-and-laptop {
   background: url('src/assets/young_man_holding_coffee_and_laptop.png') 50% / contain no-repeat;
@@ -196,6 +205,8 @@
   height: max-content;
 }
 
+/* ############################# */
+
 .desktop-1 .white-car-side-view {
   border-radius: 11.5rem;
   background: url('src/assets/white_car_side_view.png') 50% / contain no-repeat;
@@ -212,6 +223,8 @@
   width: 100%;
   height: max-content;
 }
+
+/* ############################# */
 
 .desktop-1 .services {
   display: flex;
@@ -284,6 +297,8 @@
   height: max-content;
   gap: 15%;
 }
+
+/* ############################# */
 
 .desktop-1 .man-with-phone-showing-thumbs-up {
   background: url('src/assets/man_with_phone_showing_thumbs_up.png') 50% / contain no-repeat;
@@ -387,6 +402,8 @@
   gap: 15%;
 }
 
+/* ############################# */
+
 .desktop-1 .label-text-1 {
   overflow-wrap: break-word;
   margin-left: calc(37%);
@@ -405,14 +422,15 @@
 
 .desktop-1 .button-1 {
   border-radius: 25rem;
-  background: #1A1B11;
   margin-bottom: 3.3rem;
-  display: flex;
   align-self: center;
   width: 16rem;
   padding: 1.2rem 0;
   height: fit-content;
-  box-sizing: border-box;
+  box-shadow: 0rem 0.4rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
+  border-radius: 25rem;
+  background: black;
+  display: flex;
 }
 
 /* ############################# */
@@ -596,6 +614,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width:auto;
   height: max-content;
 }
 
