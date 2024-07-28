@@ -19,15 +19,19 @@ import { FigmaDesignPageComponent } from './figma-test/figma-test.component'
 import { MatExpansionModule } from '@angular/material/expansion';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatToolbarModule} from '@angular/material/toolbar';
-
+import { FooterComponent } from './layout/footer/footer.component';
+import { HeaderComponent } from './layout/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegistrationComponent,
     FaqComponent,
-    FigmaDesignPageComponent
+    FigmaDesignPageComponent,
+    HeaderComponent,
+    FooterComponent,
   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule,
