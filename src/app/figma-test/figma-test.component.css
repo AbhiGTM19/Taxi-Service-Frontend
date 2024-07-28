@@ -203,7 +203,6 @@
   flex-direction: row;
   justify-content: space-evenly;
   height: max-content;
-  background: none;
 }
 
 /* ############################# */
@@ -223,7 +222,6 @@
   justify-content: space-evenly;
   width: 100%;
   height: max-content;
-  background: none;
 }
 
 /* ############################# */
@@ -298,7 +296,6 @@
   justify-content: space-evenly;
   height: max-content;
   gap: 15%;
-  background: none;
 }
 
 /* ############################# */
@@ -403,7 +400,6 @@
   justify-content: space-evenly;
   height: max-content;
   gap: 15%;
-  background: none;
 }
 
 /* ############################# */
@@ -421,9 +417,7 @@
 
 .desktop-1 .feedback {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background: none;
+  justify-content: center;
 }
 
 .desktop-1 .button-1 {
@@ -517,7 +511,6 @@
   height: 1.8rem;
   margin-bottom: 0.7rem;
 }
-
 .desktop-1 .instagram-icon {
   border-radius: 14.3rem;
   background: url('src/assets/icons8-instagram-48.png') 50% / contain no-repeat;
@@ -608,7 +601,6 @@
   justify-content: space-evenly;
   height: max-content;
   gap: 18%;
-  background: none;
 }
 
 /* ############################# */
@@ -617,7 +609,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: linear-gradient(180deg, #FFFFFF, #3EBE9F);
+  background: linear-gradient(180deg, #FFFFFF, #14362e70);
   padding: 1.3rem 3.1rem 1.6rem 3.1rem;
   background-size: cover;
   background-position: center;
