@@ -17,4 +17,12 @@ export class FigmaDesignPageComponent implements OnInit {
     window.location.href = 'https://forms.gle/wagu22L1PyL1NySP6';
   }
 
+  redirectToFacebook() {
+    window.location.href = "https://www.facebook.com/profile.php?id=61562391380565"
+  }
+
+  redirectToInstagram() {
+    window.location.href = "https://www.instagram.com/rvta.xi/"
+  }
+
 }
