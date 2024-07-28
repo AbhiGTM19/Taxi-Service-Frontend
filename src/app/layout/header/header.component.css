@@ -4,6 +4,7 @@
     margin: 0.2rem;
     width: 4rem;
     height: 3rem;
+    cursor: pointer;
   }
   
   .desktop-1 .rv-taxi-services {
