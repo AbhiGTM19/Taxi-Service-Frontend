@@ -51,9 +51,9 @@
   text-decoration: none;
 }
 
-.desktop-1 .faq a:hover {
-
-  text-decoration: underline;
+.desktop-1 a:hover {
+  border-radius: 0.7rem;
+  background-color: #01846322;
 }
 
 .desktop-1 .frame-50 {
@@ -73,6 +73,7 @@
   justify-content: space-evenly;
   height: max-content;
   gap: 60rem;
+  background: white;
 }
 
 /* ############################# */
@@ -504,18 +505,18 @@
   font-family: 'Ramaraja';
   font-size: medium;
 }
+
 .desktop-1 .facebook-icon {
-  border-radius: 14.3rem;
   background: url('src/assets/icons8-facebook-48.png') 50% / contain no-repeat;
-  width: 2.8rem;
-  height: 1.8rem;
+  width: min-content;
+  height: min-content;
   margin-bottom: 0.7rem;
 }
 .desktop-1 .instagram-icon {
-  border-radius: 14.3rem;
   background: url('src/assets/icons8-instagram-48.png') 50% / contain no-repeat;
-  width: 2.8rem;
-  height: 1.8rem;
+  width: min-content;
+  height: min-content;
+  background-color: #01846322;
 }
 
 .desktop-1 .frame-58 {

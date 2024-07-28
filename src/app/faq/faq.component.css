@@ -64,12 +64,13 @@
   color: #018464;
 }
 
-.desktop-1 .language {
+.desktop-1 .faq {
   overflow-wrap: break-word;
   font-family: 'Outfit';
   font-weight: 800;
   font-size: 0.9rem;
   color: #018464;
+  text-decoration: none;
 }
 
 .desktop-1 .frame-50 {

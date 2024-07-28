@@ -17,6 +17,9 @@ import {MatNativeDateModule} from '@angular/material/core';
 import { FaqComponent } from './faq/faq.component';
 import { FigmaDesignPageComponent } from './figma-test/figma-test.component'
 import { MatExpansionModule } from '@angular/material/expansion';
+import {MatDividerModule} from '@angular/material/divider';
+import {MatToolbarModule} from '@angular/material/toolbar';
+
 
 @NgModule({
   declarations: [
@@ -39,7 +42,9 @@ import { MatExpansionModule } from '@angular/material/expansion';
     MatDatepickerModule,
     MatSelectModule,
     MatNativeDateModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatDividerModule,
+    MatToolbarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
