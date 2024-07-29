@@ -11,7 +11,7 @@
 }
 
 mat-card-title {
-    margin-top: -1.2vw;
+    /* margin-top: 25%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,6 +21,7 @@ mat-card-title {
 
 mat-card-content {
     margin-top: 1.5vw;
+    /* margin-bottom: 25%; */
     padding: 0px 0px 0px 0px;
     text-align: left;
     overflow-wrap: break-word;
@@ -44,8 +45,8 @@ mat-card-content {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: auto;
-    height: max-content;
+    /* width: auto; */
+    height:100vh;
 }
 
 /* ############################# */

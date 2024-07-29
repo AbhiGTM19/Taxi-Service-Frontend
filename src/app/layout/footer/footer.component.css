@@ -76,13 +76,13 @@
   }
   
   .desktop-1 .facebook-icon {
-    background: url('src/assets/icons8-facebook-48.png') 50% / contain no-repeat;
+    background: url('src/assets/images/icons8-facebook-48.png') 50% / contain no-repeat;
     width: 1.5vw;
     height: 1.5vw;
     margin-bottom: 0.7vw;
   }
   .desktop-1 .instagram-icon {
-    background: url('src/assets/icons8-instagram-48.png') 50% / contain no-repeat;
+    background: url('src/assets/images/icons8-instagram-48.png') 50% / contain no-repeat;
     width: 1.5vw;
     height: 1.5vw;
     background-color: #01846322;
@@ -118,7 +118,7 @@
   
   .desktop-1 .whatsapp-icon {
     border-radius: 14.3vw;
-    background: url('src/assets/icons8-whatsapp-48.png') 50% / contain no-repeat;
+    background: url('src/assets/images/icons8-whatsapp-48.png') 50% / contain no-repeat;
     width: 1vw;
     height: 1vw;
   }
@@ -174,3 +174,11 @@
   }
   
   /* ############################# */
+
+  .desktop-1{
+    position: relative;
+    padding: 1.3vw 3.1vw 1.6vw 3.1vw;
+    background: none;
+    transition: none !important;
+  box-shadow: none !important;
+  }

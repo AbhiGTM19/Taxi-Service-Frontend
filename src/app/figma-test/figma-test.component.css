@@ -1,6 +1,6 @@
 .desktop-1 .man-1 {
   border-radius: 7.4vw;
-  background: url('src/assets/man_1.png') 50% / contain no-repeat;
+  background: url('src/assets/images/man_1.png') 50% / contain no-repeat;
   margin: 0.2vw;
   width: 7vw;
   height: 15vw;
@@ -63,7 +63,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('src/assets/white_car_front_view.png') 50% / contain no-repeat;
+  background: url('src/assets/images/white_car_front_view.png') 50% / contain no-repeat;
   margin-right: 1.5vw;
   margin-top: 0.7vw;
   width: 21.1vw;
@@ -74,7 +74,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('src/assets/woman_1.png') 50% / contain no-repeat;
+  background: url('src/assets/images/woman_1.png') 50% / contain no-repeat;
   margin: 0.2vw;
   width: 7vw;
   height: 15vw;
@@ -95,7 +95,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('src/assets/young_man_holding_coffee_and_laptop.png') 50% / contain no-repeat;
+  background: url('src/assets/images/young_man_holding_coffee_and_laptop.png') 50% / contain no-repeat;
   margin: 0.2vw;
   width: 50vw;
   height: 11.8vw;
@@ -142,7 +142,7 @@
 
 .desktop-1 .white-car-side-view {
   border-radius: 11.5vw;
-  background: url('src/assets/white_car_side_view.png') 50% / contain no-repeat;
+  background: url('src/assets/images/white_car_side_view.png') 50% / contain no-repeat;
   width: 73.9vw;
   height: 15.3vw;
 }
@@ -241,7 +241,7 @@
 /* ############################# */
 
 .desktop-1 .man-with-phone-showing-thumbs-up {
-  background: url('src/assets/man_with_phone_showing_thumbs_up.png') 50% / contain no-repeat;
+  background: url('src/assets/images/man_with_phone_showing_thumbs_up.png') 50% / contain no-repeat;
   width: 12.8vw;
   height: 11.8vw;
   margin-bottom: 1.5vw;
@@ -288,7 +288,7 @@
 
 .desktop-1 .smiling-man-and-woman-with-phones {
   border-radius: 14.3vw;
-  background: url('src/assets/smiling_man_and_woman_with_phones.png') 50% / contain no-repeat;
+  background: url('src/assets/images/smiling_man_and_woman_with_phones.png') 50% / contain no-repeat;
   width: 12.8vw;
   /* min-width: min-content; */
   height: 11.8vw;

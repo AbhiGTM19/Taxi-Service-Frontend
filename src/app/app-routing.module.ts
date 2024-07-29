@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { RegistrationComponent } from './registration-page/registration.component';
 import { FaqComponent } from './faq/faq.component';
 import { FigmaDesignPageComponent } from './figma-test/figma-test.component';
 import { AboutUsComponent } from './about-us/about-us.component';
@@ -16,11 +15,6 @@ const routes: Routes = [
   // Landing Page route
   { path: 'rvtaxiservices', 
     component: FigmaDesignPageComponent
-   },
-
-  // Registration Page route
-  { path: 'register', 
-    component: RegistrationComponent
    },
 
   // FAQ Page route

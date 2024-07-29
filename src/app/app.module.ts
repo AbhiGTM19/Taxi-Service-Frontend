@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { RegistrationComponent } from './registration-page/registration.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatInputModule } from '@angular/material/input';
@@ -29,7 +28,6 @@ import { RefundPolicyComponent } from './refund-policy/refund-policy.component';
 @NgModule({
   declarations: [
     AppComponent,
-    RegistrationComponent,
     FaqComponent,
     FigmaDesignPageComponent,
     HeaderComponent,
