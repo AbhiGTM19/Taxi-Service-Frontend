@@ -39,7 +39,7 @@ mat-card-content {
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     background: linear-gradient(180deg, #FFFFFF, #14362e70);
     padding: 1.3vw 3.1vw 1.6vw 3.1vw;
     background-size: cover;
