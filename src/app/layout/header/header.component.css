@@ -1,3 +1,7 @@
+.desktop-1{
+  position: relative;
+}
+
 .desktop-1 .mask-group {
     border-radius: 5.4rem;
     background: url('src/assets/mask_group.jpeg') 50% / contain no-repeat;
@@ -41,6 +45,7 @@
     font-weight: 800;
     font-size: 0.9rem;
     color: #018464;
+    text-decoration: none;
   }
   
   .desktop-1 .faq {
@@ -73,6 +78,6 @@
     align-items: center;
     justify-content: space-evenly;
     height: max-content;
-    gap: 60rem;
+    gap: calc(72%);
     background: none
   }

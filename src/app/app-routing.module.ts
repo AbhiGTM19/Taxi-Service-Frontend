@@ -3,6 +3,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { RegistrationComponent } from './registration-page/registration.component';
 import { FaqComponent } from './faq/faq.component';
 import { FigmaDesignPageComponent } from './figma-test/figma-test.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { TermsOfServiceComponent } from './terms-of-service/terms-of-service.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
+import { RefundPolicyComponent } from './refund-policy/refund-policy.component';
 
 const routes: Routes = [
 
@@ -22,6 +26,30 @@ const routes: Routes = [
   // FAQ Page route
   { path: 'faq', 
     component: FaqComponent
+   },
+
+   // About Us Page route
+   {
+    path : 'about-us',
+    component : AboutUsComponent
+   },
+
+   // Terms Of Service Page route
+   {
+    path : 'terms-of-service',
+    component : TermsOfServiceComponent
+   },
+
+   // Privacy Policy Page route
+   {
+    path : 'privacy-policy',
+    component : PrivacyPolicyComponent
+   },
+
+   // Refund Policy Page route
+   {
+    path : 'refund-policy',
+    component : RefundPolicyComponent
    },
 
 

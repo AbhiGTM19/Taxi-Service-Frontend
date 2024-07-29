@@ -21,6 +21,10 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { FooterComponent } from './layout/footer/footer.component';
 import { HeaderComponent } from './layout/header/header.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { TermsOfServiceComponent } from './terms-of-service/terms-of-service.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
+import { RefundPolicyComponent } from './refund-policy/refund-policy.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +34,10 @@ import { HeaderComponent } from './layout/header/header.component';
     FigmaDesignPageComponent,
     HeaderComponent,
     FooterComponent,
+    AboutUsComponent,
+    TermsOfServiceComponent,
+    PrivacyPolicyComponent,
+    RefundPolicyComponent,
   ],
 
   imports: [

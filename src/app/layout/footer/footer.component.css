@@ -2,6 +2,16 @@
     font-family: 'Ramaraja';
     width: max-content;
     font-size:small;
+    text-decoration: none;
+    /* cursor: pointer; */
+  }
+
+  .desktop-1 .link{
+    font-family: 'Ramaraja';
+    width: max-content;
+    font-size:small;
+    text-decoration: none;
+    cursor: pointer;
   }
   
   .desktop-1 .useful-links {
@@ -163,22 +173,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     height: max-content;
-    gap: 18%;
+    gap: calc(18%);
   }
-  
-  /* ############################# */
-  
-  /* .desktop-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: linear-gradient(180deg, #FFFFFF, #14362e70);
-    padding: 1.3rem 3.1rem 1.6rem 3.1rem;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width:auto;
-    height: max-content;
-  } */
   
   /* ############################# */

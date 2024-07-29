@@ -1,0 +1,17 @@
+/* ############################# */
+
+.desktop-1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(180deg, #FFFFFF, #14362e70);
+    padding: 1.3rem 3.1rem 1.6rem 3.1rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:auto;
+    height: 100%;
+  }
+  
+  /* ############################# */
