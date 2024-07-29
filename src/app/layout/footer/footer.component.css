@@ -1,14 +1,14 @@
 .desktop-1 .text{
     font-family: 'Ramaraja';
     width: auto;
-    font-size:small;
+    font-size: 0.9vw;
     text-decoration: none;
   }
 
   .desktop-1 .link{
     font-family: 'Ramaraja';
     width: max-content;
-    font-size:small;
+    font-size: 0.9vw;
     text-decoration: none;
     cursor: pointer;
   }
@@ -18,7 +18,7 @@
     margin-bottom: 0.7vw;
     font-weight: bold;
     font-family: 'Ramaraja';
-    font-size: medium;
+    font-size: 1.1vw;
   }
   
   .desktop-1 .usefull-link-privacy-policy-refund-policy-terms-of-service {
@@ -45,7 +45,7 @@
     margin-bottom: 0.7vw;
     font-weight: bold;
     font-family: 'Ramaraja';
-    font-size: medium;
+    font-size: 1.1vw;
   }
   
   .desktop-1 .our-services-local-rides-long-distance-travel-airport-transfers-tourist-transportation {
@@ -72,19 +72,19 @@
     margin-bottom: 0.7vw;
     font-weight: bold;
     font-family: 'Ramaraja';
-    font-size: medium;
+    font-size: 1.1vw;
   }
   
   .desktop-1 .facebook-icon {
     background: url('src/assets/icons8-facebook-48.png') 50% / contain no-repeat;
-    width: auto;
-    height: auto;
+    width: 1.5vw;
+    height: 1.5vw;
     margin-bottom: 0.7vw;
   }
   .desktop-1 .instagram-icon {
     background: url('src/assets/icons8-instagram-48.png') 50% / contain no-repeat;
-    width: auto;
-    height: auto;
+    width: 1.5vw;
+    height: 1.5vw;
     background-color: #01846322;
   }
   
@@ -103,7 +103,7 @@
     margin-bottom: 0.7vw;
     font-weight: bold;
     font-family: 'Ramaraja';
-    font-size: medium;
+    font-size: 1.1vw;
   }
 
   .desktop-1 .address-varanasi-uttar-pradesh-india {
