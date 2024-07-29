@@ -35,9 +35,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    width: max-content;
-    height: max-content;
+    justify-content: space-between;
+    /* width: max-content; */
+    /* height: max-content; */
   }
   
   .desktop-1 .our-services{
@@ -45,7 +45,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 0.5rem;
+    /* margin-left: 0.5rem; */
     margin-bottom: 0.7rem;
     font-weight: bold;
     font-family: 'Ramaraja';
@@ -67,6 +67,7 @@
     justify-content: space-evenly;
     height: max-content;
   }
+
   .desktop-1 .follow-us {
     width: max-content;
     display: flex;
@@ -95,8 +96,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    height: max-content;
+    justify-content: space-between;
+    /* height: max-content; */
     
   }
   .desktop-1 .contact-us {
@@ -146,8 +147,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    height: max-content;
+    justify-content: space-between;
+    /* height: max-content; */
   }
   
   .desktop-1 .rv-taxi-services-all-rights-reserved {
@@ -171,9 +172,10 @@
     margin-top: 1rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
     height: max-content;
-    gap: calc(18%);
+    /* gap: calc(18%); */
   }
   
   /* ############################# */

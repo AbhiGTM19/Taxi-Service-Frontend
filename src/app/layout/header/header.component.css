@@ -1,3 +1,27 @@
+/* body {
+  font-family: Arial, sans-serif;
+}
+
+.parent-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.left-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-child {
+  margin-left: auto;
+} */
+
+
+/* ######################################### */
+
 .desktop-1{
   position: relative;
 }
@@ -43,16 +67,17 @@
     overflow-wrap: break-word;
     font-family: 'Outfit';
     font-weight: 800;
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: #018464;
     text-decoration: none;
+    margin-right: 1rem;
   }
   
   .desktop-1 .faq {
     overflow-wrap: break-word;
     font-family: 'Outfit';
     font-weight: 800;
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: #018464;
     text-decoration: none;
   }
@@ -65,19 +90,16 @@
   .desktop-1 .frame-50 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 20.7rem;
-    height: fit-content;
-    box-sizing: border-box;
+    justify-content: space-evenly;
   }
   
   .desktop-1 .frame-57 {
+    padding: 0px 0px 0px 0px;
     margin-bottom: 2.5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: max-content;
-    gap: calc(72%);
-    background: none
+    background: none;
   }
