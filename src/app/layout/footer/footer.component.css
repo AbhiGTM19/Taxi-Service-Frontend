@@ -82,14 +82,14 @@
   
   .desktop-1 .facebook-icon {
     background: url('src/assets/icons8-facebook-48.png') 50% / contain no-repeat;
-    width: min-content;
-    height: min-content;
+    width: auto;
+    height: auto;
     margin-bottom: 0.7rem;
   }
   .desktop-1 .instagram-icon {
     background: url('src/assets/icons8-instagram-48.png') 50% / contain no-repeat;
-    width: min-content;
-    height: min-content;
+    width: auto;
+    height: auto;
     background-color: #01846322;
   }
   
