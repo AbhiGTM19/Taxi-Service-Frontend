@@ -1,6 +1,7 @@
 .desktop-1 .text{
     font-family: 'Ramaraja';
-    width: max-content;
+    width: auto;
+    /* height: auto; */
     font-size:small;
     text-decoration: none;
     /* cursor: pointer; */

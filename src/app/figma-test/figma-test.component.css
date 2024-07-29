@@ -361,6 +361,7 @@
 .desktop-1 .feedback {
   display: flex;
   justify-content: center;
+  margin-bottom: 3rem;
   background: none;
   transition: none !important;
   box-shadow: none !important;
@@ -368,7 +369,6 @@
 
 .desktop-1 .button-1 {
   border-radius: 25rem;
-  margin-bottom: 3.3rem;
   align-self: center;
   width: 16rem;
   padding: 1.2rem 0;
