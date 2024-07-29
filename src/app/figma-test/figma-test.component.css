@@ -1,29 +1,29 @@
 .desktop-1 .man-1 {
-  border-radius: 7.4rem;
+  border-radius: 7.4vw;
   background: url('src/assets/man_1.png') 50% / contain no-repeat;
-  margin: 0.2rem;
-  width: 7rem;
-  height: 15rem;
+  margin: 0.2vw;
+  width: 7vw;
+  height: 15vw;
 }
 
 .desktop-1 .ride-smart-ride-safe {
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.6vw;
   display: inline-block;
   overflow-wrap: break-word;
   font-family: 'Orelega One';
   font-weight: 400;
-  font-size: 1.5rem;
-  letter-spacing: 0.3rem;
+  font-size: 1.5vw;
+  letter-spacing: 0.3vw;
   color: #1A1B11;
 }
 
 .desktop-1 .be-apart-of-next-big-thing {
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.6vw;
   display: inline-block;
   overflow-wrap: break-word;
   font-family: 'Otomanopee One';
   font-weight: 400;
-  font-size: 0.9rem;
+  font-size: 0.9vw;
   text-transform: capitalize;
   color: #1A1B11;
 }
@@ -33,24 +33,24 @@
   margin-left: calc(18%);
   font-family: var(--m-3-labellarge-font-family, 'Outfit');
   font-weight: var(--m-3-labellarge-font-weight, 500);
-  font-size: var(--m-3-labellarge-font-size, 0.9rem);
-  letter-spacing: var(--m-3-labellarge-letter-spacing, 0rem);
+  font-size: var(--m-3-labellarge-font-size, 0.9vw);
+  letter-spacing: var(--m-3-labellarge-letter-spacing, 0vw);
   line-height: var(--m-3-labellarge-line-height, 1.429);
   color: #FFFFFF;
 }
 
 .desktop-1 .button {
-  box-shadow: 0rem 0.4rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
-  border-radius: 25rem;
+  box-shadow: 0vw 0.4vw 0.3vw 0vw rgba(0, 0, 0, 0.25);
+  border-radius: 25vw;
   background: #018464;
   display: flex;
-  width: 7.9rem;
+  width: 7.9vw;
   height: fit-content;
-  padding: 0.8rem 0;
+  padding: 0.8vw 0;
 }
 
 .desktop-1 .frame-12 {
-  margin: 2.8rem;
+  margin: 2.8vw;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -64,10 +64,10 @@
   justify-content: center;
   align-items: center;
   background: url('src/assets/white_car_front_view.png') 50% / contain no-repeat;
-  margin-right: 1.5rem;
-  margin-top: 0.7rem;
-  width: 21.1rem;
-  height: 14.4rem;
+  margin-right: 1.5vw;
+  margin-top: 0.7vw;
+  width: 21.1vw;
+  height: 14.4vw;
 }
 
 .desktop-1 .woman-1 {
@@ -75,14 +75,14 @@
   justify-content: center;
   align-items: center;
   background: url('src/assets/woman_1.png') 50% / contain no-repeat;
-  margin: 0.2rem;
-  width: 7rem;
-  height: 15rem;
+  margin: 0.2vw;
+  width: 7vw;
+  height: 15vw;
 }
 
 .desktop-1 .frame-5 {
   background: rgba(1, 132, 100, 0.2);
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.5vw;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -96,21 +96,21 @@
   justify-content: center;
   align-items: center;
   background: url('src/assets/young_man_holding_coffee_and_laptop.png') 50% / contain no-repeat;
-  margin: 0.2rem;
-  width: 50rem;
-  height: 11.8rem;
+  margin: 0.2vw;
+  width: 50vw;
+  height: 11.8vw;
 }
 
 .desktop-1 .overview {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin-left: 5vw;
+  margin-right: 5vw;
   font-family: 'Orelega One';
   font-weight: bolder;
-  font-size: 1.1rem;
-  letter-spacing: 0.2rem;
+  font-size: 1.1vw;
+  letter-spacing: 0.2vw;
   color: #1A1B11;
 }
 
@@ -120,15 +120,15 @@
   align-items: center;
   font-family: 'Ramaraja';
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1.1vw;
   color: #1A1B11;
   line-height: 2;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.05vw;
 }
 
 .desktop-1 .frame-47 {
-  margin-top: 1rem;
-  margin-bottom: 2.8rem;
+  margin-top: 1vw;
+  margin-bottom: 2.8vw;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -141,14 +141,14 @@
 /* ############################# */
 
 .desktop-1 .white-car-side-view {
-  border-radius: 11.5rem;
+  border-radius: 11.5vw;
   background: url('src/assets/white_car_side_view.png') 50% / contain no-repeat;
-  width: 73.9rem;
-  height: 15.3rem;
+  width: 73.9vw;
+  height: 15.3vw;
 }
 
 .desktop-1 .frame-51 {
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.5vw;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -169,8 +169,8 @@
   align-items: center;
   font-family: 'Orelega One';
   font-weight: bolder;
-  font-size: 1.1rem;
-  letter-spacing: 0.1rem;
+  font-size: 1.1vw;
+  letter-spacing: 0.1vw;
   color: #1A1B11;
   margin-bottom: 15px;
 }
@@ -180,14 +180,14 @@
   overflow-wrap: break-word;
   font-family: 'Ramaraja';
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1.1vw;
   color: #1A1B11;
   line-height: 1.8;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.05vw;
 }
 
 .desktop-1 .frame-42 {
-  margin-bottom: 0.1rem;
+  margin-bottom: 0.1vw;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -201,8 +201,8 @@
   align-items: center;
   font-family: 'Orelega One';
   font-weight: bolder;
-  font-size: 1.1rem;
-  letter-spacing: 0.1rem;
+  font-size: 1.1vw;
+  letter-spacing: 0.1vw;
   color: #1A1B11;
   margin-bottom: 15px;
 }
@@ -212,10 +212,10 @@
   overflow-wrap: break-word;
   font-family: 'Ramaraja';
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1.1vw;
   color: #1A1B11;
   line-height: 1.8;
-  letter-spacing: 0.04rem;
+  letter-spacing: 0.04vw;
 }
 
 .desktop-1 .frame-48 {
@@ -226,7 +226,7 @@
 }
 
 .desktop-1 .frame-49 {
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.5vw;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -242,9 +242,9 @@
 
 .desktop-1 .man-with-phone-showing-thumbs-up {
   background: url('src/assets/man_with_phone_showing_thumbs_up.png') 50% / contain no-repeat;
-  width: 12.8rem;
-  height: 11.8rem;
-  margin-bottom: 1.5rem;
+  width: 12.8vw;
+  height: 11.8vw;
+  margin-bottom: 1.5vw;
 }
 
 .desktop-1 .customer-feedback {
@@ -253,8 +253,8 @@
   align-items: center;
   font-family: 'Orelega One';
   font-weight: bolder;
-  font-size: 1.1rem;
-  letter-spacing: 0.1rem;
+  font-size: 1.1vw;
+  letter-spacing: 0.1vw;
   color: #1A1B11;
   margin-bottom: 15px;
 }
@@ -264,10 +264,10 @@
   overflow-wrap: break-word;
   font-family: 'Ramaraja';
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1.1vw;
   color: #1A1B11;
   line-height: 1.8;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.05vw;
 }
 
 .desktop-1 .frame-20 {
@@ -287,11 +287,13 @@
 }
 
 .desktop-1 .smiling-man-and-woman-with-phones {
-  border-radius: 14.3rem;
+  border-radius: 14.3vw;
   background: url('src/assets/smiling_man_and_woman_with_phones.png') 50% / contain no-repeat;
-  width: 12.8rem;
-  height: 11.8rem;
-  margin-bottom: 1.5rem;
+  width: 12.8vw;
+  /* min-width: min-content; */
+  height: 11.8vw;
+  /* min-height: min-content; */
+  margin-bottom: 1.5vw;
 }
 
 .desktop-1 .safety-and-cleanliness {
@@ -300,8 +302,8 @@
   align-items: center;
   font-family: 'Orelega One';
   font-weight: bolder;
-  font-size: 1.1rem;
-  letter-spacing: 0.1rem;
+  font-size: 1.1vw;
+  letter-spacing: 0.1vw;
   color: #1A1B11;
   margin-bottom: 15px;
 }
@@ -311,10 +313,10 @@
   overflow-wrap: break-word;
   font-family: 'Ramaraja';
   font-weight: 500;
-  font-size: 1.1rem;
+  font-size: 1.1vw;
   color: #1A1B11;
   line-height: 1.8;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.05vw;
 }
 
 .desktop-1 .frame-23 {
@@ -334,7 +336,7 @@
 }
 
 .desktop-1 .frame-40 {
-  margin-bottom: 4.5rem;
+  margin-bottom: 4.5vw;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -352,8 +354,8 @@
   margin-left: calc(37%);
   font-family: var(--m-3-labellarge-font-family, 'Roboto');
   font-weight: var(--m-3-labellarge-font-weight, 500);
-  font-size: var(--m-3-labellarge-font-size, 0.9rem);
-  letter-spacing: var(--m-3-labellarge-letter-spacing, 0rem);
+  font-size: var(--m-3-labellarge-font-size, 0.9vw);
+  letter-spacing: var(--m-3-labellarge-letter-spacing, 0vw);
   line-height: var(--m-3-labellarge-line-height, 1.429);
   color: #FFFFFF;
 }
@@ -361,20 +363,20 @@
 .desktop-1 .feedback {
   display: flex;
   justify-content: center;
-  margin-bottom: 3rem;
+  margin-bottom: 3vw;
   background: none;
   transition: none !important;
   box-shadow: none !important;
 }
 
 .desktop-1 .button-1 {
-  border-radius: 25rem;
+  border-radius: 25vw;
   align-self: center;
-  width: 16rem;
-  padding: 1.2rem 0;
+  width: 16vw;
+  padding: 1.2vw 0;
   height: fit-content;
-  box-shadow: 0rem 0.4rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
-  border-radius: 25rem;
+  box-shadow: 0vw 0.4vw 0.3vw 0vw rgba(0, 0, 0, 0.25);
+  border-radius: 25vw;
   background: black;
   display: flex;
 }
@@ -387,7 +389,7 @@
   flex-direction: column;
   justify-content: center;
   background: linear-gradient(180deg, #FFFFFF, #14362e70);
-  padding: 1.3rem 3.1rem 1.6rem 3.1rem;
+  padding: 1.3vw 3.1vw 1.6vw 3.1vw;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

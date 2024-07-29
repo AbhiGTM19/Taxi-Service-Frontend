@@ -27,11 +27,11 @@
 }
 
 .desktop-1 .mask-group {
-    border-radius: 5.4rem;
+    border-radius: 5.4vw;
     background: url('src/assets/mask_group.jpeg') 50% / contain no-repeat;
-    margin: 0.2rem;
-    width: 4rem;
-    height: 3rem;
+    margin: 0.2vw;
+    width: 4vw;
+    height: 3vw;
     cursor: pointer;
   }
   
@@ -43,7 +43,7 @@
     margin-left: 10px;
     font-family: 'Outfit';
     font-weight: 800;
-    font-size: 1rem;
+    font-size: 1vw;
     text-transform: capitalize;
     color: #1A1B11;
   }
@@ -55,11 +55,11 @@
   }
   
   .desktop-1 .login {
-    width: 2.4rem;
+    width: 2.4vw;
     overflow-wrap: break-word;
     font-family: 'Outfit';
     font-weight: 800;
-    font-size: 0.9rem;
+    font-size: 0.9vw;
     color: #018464;
   }
   
@@ -67,23 +67,23 @@
     overflow-wrap: break-word;
     font-family: 'Outfit';
     font-weight: 800;
-    font-size: 1rem;
+    font-size: 1vw;
     color: #018464;
     text-decoration: none;
-    margin-right: 1rem;
+    margin-right: 1vw;
   }
   
   .desktop-1 .faq {
     overflow-wrap: break-word;
     font-family: 'Outfit';
     font-weight: 800;
-    font-size: 1rem;
+    font-size: 1vw;
     color: #018464;
     text-decoration: none;
   }
   
   .desktop-1 a:hover {
-    border-radius: 0.7rem;
+    border-radius: 0.7vw;
     background-color: #01846322;
   }
   
@@ -95,7 +95,7 @@
   
   .desktop-1 .frame-57 {
     padding: 0px 0px 0px 0px;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2.5vw;
     display: flex;
     flex-direction: row;
     align-items: center;
