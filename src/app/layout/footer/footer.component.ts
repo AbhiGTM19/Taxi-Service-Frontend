@@ -5,15 +5,17 @@ import { Component } from '@angular/core';
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.css']
 })
+
 export class FooterComponent {
 
   redirectToFacebook() {
-    window.location.href = "https://www.facebook.com/profile.php?id=61562391380565"
+    const fbURL = "https://www.facebook.com/profile.php?id=61562391380565"
+    window.open(fbURL, "_blank")
   }
 
   redirectToInstagram() {
-    window.location.href = "https://www.instagram.com/rvta.xi/"
+    const instaURL = "https://www.instagram.com/rvta.xi/"
+    window.open(instaURL, "_blank")
   }
-
 
 }

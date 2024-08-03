@@ -41,7 +41,7 @@
 
 .desktop-1 .button {
   box-shadow: 0vw 0.4vw 0.3vw 0vw rgba(0, 0, 0, 0.25);
-  border-radius: 25vw;
+  border-radius: 25px;
   background: #018464;
   display: flex;
   width: 7.9vw;
@@ -51,7 +51,7 @@
 }
 
 .desktop-1 .frame-12 {
-  margin: 2vw;
+  margin: 2.8vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -291,9 +291,7 @@
   border-radius: 14.3vw;
   background: url('src/assets/images/smiling_man_and_woman_with_phones.png') 50% / contain no-repeat;
   width: 12.8vw;
-  /* min-width: min-content; */
   height: 11.8vw;
-  /* min-height: min-content; */
   margin-bottom: 1.5vw;
 }
 
@@ -377,7 +375,7 @@
   padding: 1.2vw 0;
   height: fit-content;
   box-shadow: 0vw 0.4vw 0.3vw 0vw rgba(0, 0, 0, 0.25);
-  border-radius: 25vw;
+  border-radius: 25px;
   background: black;
   display: flex;
   font-size: 1vw;
@@ -385,18 +383,3 @@
 
 /* ############################# */
 
-.desktop-1 {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: linear-gradient(180deg, #FFFFFF, #14362e70);
-  padding: 1.3vw 3.1vw 1.6vw 3.1vw;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width:auto;
-  height: max-content;
-}
-
-/* ############################# */
