@@ -18,4 +18,9 @@ export class FooterComponent {
     window.open(instaURL, "_blank")
   }
 
+  redirectToWhatsapp() {
+    const whatsappURL = "https://wa.me/919201709650"
+    window.open(whatsappURL, "_blank")
+  }
+
 }
