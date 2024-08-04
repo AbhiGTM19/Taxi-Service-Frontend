@@ -1,24 +1,18 @@
 .desktop-1 .man-1 {
   border-radius: 7.4vw;
   background: url('src/assets/images/man_1.png') 50% / contain no-repeat;
-  margin: 0.2vw;
-  width: 7vw;
-  height: 15vw;
-}
-
-@media screen and (max-width: 650px) {
-  .desktop-1 .man-1 {
-    display: none;
-  }
+  margin: 0.2rem;
+  width: 2rem;
+  height: 5rem;
 }
 
 .desktop-1 .ride-smart-ride-safe {
   margin-bottom: 0.6vw;
   display: inline-block;
   overflow-wrap: break-word;
-  font-family: 'Orelega One';
+  font-family: 'Outfit';
   font-weight: 400;
-  font-size: 2vh;
+  font-size: 1.8vh;
   letter-spacing: 0.3vw;
   color: #1A1B11;
 }
@@ -27,22 +21,11 @@
   margin-bottom: 0.6vw;
   display: inline-block;
   overflow-wrap: break-word;
-  font-family: 'Otomanopee One';
+  font-family: 'Outfit';
   font-weight: 400;
   font-size: 0.9vh;
   text-transform: capitalize;
   color: #1A1B11;
-}
-
-.desktop-1 .label-text {
-  overflow-wrap: break-word;
-  margin-left: calc(18%);
-  font-family: var(--m-3-labellarge-font-family, 'Outfit');
-  font-weight: var(--m-3-labellarge-font-weight, 500);
-  font-size: var(--m-3-labellarge-font-size, 0.9vh);
-  letter-spacing: var(--m-3-labellarge-letter-spacing, 0vw);
-  line-height: var(--m-3-labellarge-line-height, 1.429);
-  color: #FFFFFF;
 }
 
 .desktop-1 .button {
@@ -50,7 +33,7 @@
   border-radius: 25px;
   background: #018464;
   display: flex;
-  width: 7.9vw;
+  /* width: max-content; */
   height: fit-content;
   padding: 0.8vw 0;
   font-size: 1vh;
@@ -62,7 +45,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
   width: max-content;
 }
 
@@ -71,8 +53,8 @@
   justify-content: center;
   align-items: center;
   background: url('src/assets/images/white_car_front_view.png') 50% / contain no-repeat;
-  margin-right: 1.5vw;
-  margin-top: 0.7vw;
+  margin-right: 1.5rem;
+  margin-top: 0.7rem;
   width: 21.1vw;
   height: 14.4vw;
 }
@@ -82,16 +64,9 @@
   justify-content: center;
   align-items: center;
   background: url('src/assets/images/woman_1.png') 50% / contain no-repeat;
-  margin: 0.2vw;
-  width: 7vw;
-  height: 15vw;
-}
-
-@media screen and (max-width: 650px) {
-  .desktop-1 .woman-1 {
-    display: none;
-  }
-  
+  margin: 0.2rem;
+  width: 2rem;
+  height: 5rem;
 }
 
 .desktop-1 .frame-5 {
@@ -110,15 +85,9 @@
   justify-content: center;
   align-items: center;
   background: url('src/assets/images/young_man_holding_coffee_and_laptop.png') 50% / contain no-repeat;
-  margin: 0.2vw;
+  margin: 0.2rem;
   width: 50vw;
   height: 11.8vw;
-}
-
-@media screen and (max-width: 650px) {
-  .desktop-1 .young-man-holding-coffee-and-laptop {
-    display: none;
-  }
 }
 
 .desktop-1 .overview {
@@ -127,7 +96,7 @@
   align-items: center;
   margin-left: 5vw;
   margin-right: 5vw;
-  font-family: 'Orelega One';
+  font-family: 'Outfit';
   font-weight: bolder;
   font-size: 1.5vh;
   letter-spacing: 0.2vw;
@@ -138,9 +107,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Ramaraja';
+  font-family: 'Outfit';
   font-weight: 400;
-  font-size: 2vh;
+  font-size: 10vh;
   color: #1A1B11;
   line-height: 2;
   letter-spacing: 0.05vw;
@@ -180,14 +149,13 @@
   box-shadow: none !important;
 }
 
-
 /* ############################# */
 
 .desktop-1 .heading {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Orelega One';
+  font-family: 'Outfit';
   font-weight: bolder;
   font-size: 1.5vh;
   letter-spacing: 0.1vw;
@@ -195,9 +163,9 @@
   margin-bottom: 15px;
 }
 
-.desktop-1 .text{
+.desktop-1 .text {
   overflow-wrap: break-word;
-  font-family: 'Ramaraja';
+  font-family: 'Outfit';
   font-weight: 400;
   font-size: 1.3vh;
   color: #1A1B11;
@@ -297,17 +265,6 @@
 
 /* ############################# */
 
-.desktop-1 .label-text-1 {
-  overflow-wrap: break-word;
-  margin-left: calc(37%);
-  font-family: var(--m-3-labellarge-font-family, 'Roboto');
-  font-weight: var(--m-3-labellarge-font-weight, 500);
-  font-size: var(--m-3-labellarge-font-size, 0.9vh);
-  letter-spacing: var(--m-3-labellarge-letter-spacing, 0vw);
-  line-height: var(--m-3-labellarge-line-height, 1.429);
-  color: #FFFFFF;
-}
-
 .desktop-1 .feedback {
   display: flex;
   justify-content: center;
@@ -332,3 +289,125 @@
 
 /* ############################# */
 
+/* for Mobiles */
+@media screen and (max-width: 650px) {
+  .desktop-1 .overview-text {
+    margin-top: 1rem;
+    overflow-wrap: break-word;
+    font-family: 'Outfit';
+    font-weight: 400;
+    color: #1A1B11;
+    line-height: 1.8;
+    letter-spacing: 0.05vw;
+    font-size: 1.3vh;
+  }
+
+  .desktop-1 .young-man-holding-coffee-and-laptop {
+    display: none;
+  }
+
+}
+
+/* fot Tablets */
+@media screen and (min-width : 650px) and (max-width : 1024px) {
+  .desktop-1 .label-text {
+    font-size: 1vh;
+  }
+
+  .desktop-1 .man-1 {
+    margin: 0.2rem;
+    width: 5rem;
+    height: 7rem;
+  }
+
+  .desktop-1 .woman-1 {
+    margin: 0.2rem;
+    width: 5rem;
+    height: 7rem;
+  }
+
+  .desktop-1 .young-man-holding-coffee-and-laptop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('src/assets/images/young_man_holding_coffee_and_laptop.png') 50% / contain no-repeat;
+    margin: 0.2vw;
+    width: 25rem;
+    height: 15rem;
+  }
+
+  .desktop-1 .overview-text {
+    margin-top: 2.5rem;
+    overflow-wrap: break-word;
+    font-family: 'Outfit';
+    font-weight: 400;
+    color: #1A1B11;
+    line-height: 1.8;
+    letter-spacing: 0.05vw;
+    font-size: 1.3vh;
+  }
+
+  .desktop-1 .button {
+    padding: 0.8rem 0.3rem;
+    font-size: 1vh;
+  }
+}
+
+/* for Monitor */
+@media screen and (min-width: 1025px) and (max-width: 1920px) {
+  .desktop-1 .man-1 {
+    margin: 0.2rem;
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .desktop-1 .woman-1 {
+    margin: 0.2rem;
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .desktop-1 .ride-smart-ride-safe {
+    font-size: 4vh;
+  }
+
+  .desktop-1 .be-apart-of-next-big-thing {
+    font-size: 1.8vh;
+  }
+
+  .desktop-1 .button {
+    padding: 20px;
+    font-size: 2.5vh;
+  }
+
+  .desktop-1 .overview {
+    font-size: 2.3vh;
+  }
+
+  .desktop-1 .frame-44 {
+    font-size: 1.8vh;
+  }
+
+  .desktop-1 .heading {
+    font-size: 2.3vh
+  }
+
+  .desktop-1 .text {
+    font-size: 2vh;
+  }
+
+  .desktop-1 .button-1 {
+    font-size: 2vh;
+  }
+
+  .desktop-1 .overview-text {
+    margin-top: 2.5rem;
+    overflow-wrap: break-word;
+    font-family: 'Outfit';
+    font-weight: 400;
+    color: #1A1B11;
+    line-height: 1.8;
+    letter-spacing: 0.05vw;
+    font-size: 2vh;
+  }
+}

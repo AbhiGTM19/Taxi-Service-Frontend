@@ -22,15 +22,6 @@
     font-size: 1.2vh;
   }
   
- /*  .desktop-1 .usefull-link-privacy-policy-refund-policy-terms-of-service {
-    margin: 0 0.4vw;
-    overflow-wrap: break-word;
-    font-family: 'Ramaraja';
-    font-weight: 400;
-    font-size: 1.5vh;
-    color: #1A1B11;
-  } */
-  
   .desktop-1 .frame-65 {
     display: flex;
     flex-direction: column;
@@ -46,7 +37,7 @@
     margin-bottom: 0.7vw;
     font-weight: bold;
     font-family: 'Ramaraja';
-    font-size: 1.1vw;
+    font-size: 1.1vh;
   }
   
   .desktop-1 .our-services-local-rides-long-distance-travel-airport-transfers-tourist-transportation {
@@ -63,12 +54,6 @@
     flex-direction: column;
     justify-content: space-evenly;
     height: max-content;
-  }
-
-  @media screen and (max-width:650px) {
-    .desktop-1 .frame-64{
-      display: none;
-    }
   }
 
   .desktop-1 .follow-us {
@@ -94,7 +79,6 @@
     background: url('src/assets/images/icons8-facebook-48.png') 50% / contain no-repeat;
     width: 1.5vw;
     height: 1.5vh;
-    /* margin-bottom: 0.7vh; */
   }
   .desktop-1 .instagram-icon {
     background: url('src/assets/images/icons8-instagram-48.png') 50% / contain no-repeat;
@@ -169,7 +153,7 @@
     overflow-wrap: break-word;
     font-family: 'Ramaraja';
     font-weight: 400;
-    font-size: 3vw;
+    font-size: 2vh;
     color: #1A1B11;
   }
   .desktop-1 .frame-67 {
@@ -188,3 +172,44 @@
   }
   
   /* ############################# */
+
+  /* for Mobiles */
+  @media screen and (max-width:650px) {
+    .desktop-1 .frame-64{
+      display: none;
+    }
+
+    .desktop-1 .rv-taxi-services-all-rights-reserved{
+      font-size: 1.3vh;
+    }
+  }
+
+  /* for Tablets */
+  @media screen and (min-width:650px) and (max-width:1024px) {
+    .desktop-1 .text {
+      font-size: 1vh;
+    }
+
+    .desktop-1 .link {
+      font-size: 1vh;
+    }
+
+    .desktop-1 .frame-64{
+      display: none;
+    }
+
+    .desktop-1 .rv-taxi-services-all-rights-reserved{
+      font-size: 1.6vh;
+    }
+  }
+
+  /* for Desktops and Laptops */
+  @media screen and (min-width:1024px) and (max-width:1920px){
+    .desktop-1 .text {
+      font-size: 1.5vh;
+    }
+
+    .desktop-1 .link{
+      font-size: 1.5vh;
+    }
+  }

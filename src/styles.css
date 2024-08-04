@@ -1,5 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import 'src/assets/common/_landing-page.css';
+/* @import 'src/assets/common/_media.css'; */
+
 html { 
 
     position: relative;
@@ -15,7 +18,3 @@ html {
     height: max-content;
 
 }
-
-
-@import 'src/assets/common/_media.scss'
-
