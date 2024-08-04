@@ -70,17 +70,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 0.7vw;
+    margin-bottom: 0.7rem;
     font-weight: bold;
     font-family: 'Ramaraja';
     font-size: 1.1vw;
+  }
+
+  .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5%;
   }
   
   .desktop-1 .facebook-icon {
     background: url('src/assets/images/icons8-facebook-48.png') 50% / contain no-repeat;
     width: 1.5vw;
     height: 1.5vh;
-    margin-bottom: 0.7vh;
+    /* margin-bottom: 0.7vh; */
   }
   .desktop-1 .instagram-icon {
     background: url('src/assets/images/icons8-instagram-48.png') 50% / contain no-repeat;
@@ -174,12 +182,3 @@
   }
   
   /* ############################# */
-
-  .desktop-1{
-    position: relative;
-    padding: 1.3vw 3.1vw 1.6vw 3.1vw;
-    background: none;
-    transition: none !important;
-  box-shadow: none !important;
-
-  }

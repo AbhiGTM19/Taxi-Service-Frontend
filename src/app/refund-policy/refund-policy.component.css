@@ -1,0 +1,32 @@
+mat-card {
+    margin-bottom: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: max-content;
+    background: none;
+    transition: none !important;
+    box-shadow: none !important;
+}
+
+mat-card-title {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5vh;
+    font-family: 'Outfit';
+}
+
+mat-card-content {
+    margin-top: 1.5vw;
+    padding: 0px 0px 0px 0px;
+    text-align: left;
+    overflow-wrap: break-word;
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 2vh;
+    color: #1A1B11;
+    line-height: 1.8;
+    letter-spacing: 0.05vw;
+}
