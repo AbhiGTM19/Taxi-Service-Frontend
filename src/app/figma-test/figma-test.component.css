@@ -12,7 +12,7 @@
   overflow-wrap: break-word;
   font-family: 'Orelega One';
   font-weight: 400;
-  font-size: 1.5vw;
+  font-size: 1.5vh;
   letter-spacing: 0.3vw;
   color: #1A1B11;
 }
@@ -23,7 +23,7 @@
   overflow-wrap: break-word;
   font-family: 'Otomanopee One';
   font-weight: 400;
-  font-size: 0.9vw;
+  font-size: 0.9vh;
   text-transform: capitalize;
   color: #1A1B11;
 }
@@ -33,7 +33,7 @@
   margin-left: calc(18%);
   font-family: var(--m-3-labellarge-font-family, 'Outfit');
   font-weight: var(--m-3-labellarge-font-weight, 500);
-  font-size: var(--m-3-labellarge-font-size, 0.9vw);
+  font-size: var(--m-3-labellarge-font-size, 0.9vh);
   letter-spacing: var(--m-3-labellarge-letter-spacing, 0vw);
   line-height: var(--m-3-labellarge-line-height, 1.429);
   color: #FFFFFF;
@@ -47,7 +47,7 @@
   width: 7.9vw;
   height: fit-content;
   padding: 0.8vw 0;
-  font-size: 1vw;
+  font-size: 1vh;
 }
 
 .desktop-1 .frame-12 {
@@ -110,7 +110,7 @@
   margin-right: 5vw;
   font-family: 'Orelega One';
   font-weight: bolder;
-  font-size: 1.1vw;
+  font-size: 1.1vh;
   letter-spacing: 0.2vw;
   color: #1A1B11;
 }
@@ -121,7 +121,7 @@
   align-items: center;
   font-family: 'Ramaraja';
   font-weight: 400;
-  font-size: 1.1vw;
+  font-size: 1.1vh;
   color: #1A1B11;
   line-height: 2;
   letter-spacing: 0.05vw;
@@ -170,7 +170,7 @@
   align-items: center;
   font-family: 'Orelega One';
   font-weight: bolder;
-  font-size: 1.1vw;
+  font-size: 1.1vh;
   letter-spacing: 0.1vw;
   color: #1A1B11;
   margin-bottom: 15px;
@@ -181,7 +181,7 @@
   overflow-wrap: break-word;
   font-family: 'Ramaraja';
   font-weight: 400;
-  font-size: 1.1vw;
+  font-size: 1.1vh;
   color: #1A1B11;
   line-height: 1.8;
   letter-spacing: 0.05vw;
@@ -202,7 +202,7 @@
   align-items: center;
   font-family: 'Orelega One';
   font-weight: bolder;
-  font-size: 1.1vw;
+  font-size: 1.1vh;
   letter-spacing: 0.1vw;
   color: #1A1B11;
   margin-bottom: 15px;
@@ -213,7 +213,7 @@
   overflow-wrap: break-word;
   font-family: 'Ramaraja';
   font-weight: 400;
-  font-size: 1.1vw;
+  font-size: 1.1vh;
   color: #1A1B11;
   line-height: 1.8;
   letter-spacing: 0.04vw;
@@ -254,7 +254,7 @@
   align-items: center;
   font-family: 'Orelega One';
   font-weight: bolder;
-  font-size: 1.1vw;
+  font-size: 1.1vh;
   letter-spacing: 0.1vw;
   color: #1A1B11;
   margin-bottom: 15px;
@@ -265,7 +265,7 @@
   overflow-wrap: break-word;
   font-family: 'Ramaraja';
   font-weight: 400;
-  font-size: 1.1vw;
+  font-size: 1.1vh;
   color: #1A1B11;
   line-height: 1.8;
   letter-spacing: 0.05vw;
@@ -301,7 +301,7 @@
   align-items: center;
   font-family: 'Orelega One';
   font-weight: bolder;
-  font-size: 1.1vw;
+  font-size: 1.1vh;
   letter-spacing: 0.1vw;
   color: #1A1B11;
   margin-bottom: 15px;
@@ -312,7 +312,7 @@
   overflow-wrap: break-word;
   font-family: 'Ramaraja';
   font-weight: 500;
-  font-size: 1.1vw;
+  font-size: 1.1vh;
   color: #1A1B11;
   line-height: 1.8;
   letter-spacing: 0.05vw;
@@ -353,7 +353,7 @@
   margin-left: calc(37%);
   font-family: var(--m-3-labellarge-font-family, 'Roboto');
   font-weight: var(--m-3-labellarge-font-weight, 500);
-  font-size: var(--m-3-labellarge-font-size, 0.9vw);
+  font-size: var(--m-3-labellarge-font-size, 0.9vh);
   letter-spacing: var(--m-3-labellarge-letter-spacing, 0vw);
   line-height: var(--m-3-labellarge-line-height, 1.429);
   color: #FFFFFF;
@@ -378,7 +378,7 @@
   border-radius: 25px;
   background: black;
   display: flex;
-  font-size: 1vw;
+  font-size: 1vh;
 }
 
 /* ############################# */
