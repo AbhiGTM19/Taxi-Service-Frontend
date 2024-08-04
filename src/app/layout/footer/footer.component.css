@@ -1,7 +1,7 @@
 .desktop-1 .text{
     font-family: 'Ramaraja';
     width: auto;
-    font-size: 0.9vw;
+    font-size: 0.8vh;
     text-decoration: none;
   }
 
@@ -9,7 +9,7 @@
     font-family: 'Ramaraja';
     color: black;
     width: max-content;
-    font-size: 0.9vw;
+    font-size: 1vh;
     text-decoration: none;
     cursor: pointer;
   }
@@ -19,17 +19,17 @@
     margin-bottom: 0.7vw;
     font-weight: bold;
     font-family: 'Ramaraja';
-    font-size: 1.1vw;
+    font-size: 1.2vh;
   }
   
-  .desktop-1 .usefull-link-privacy-policy-refund-policy-terms-of-service {
+ /*  .desktop-1 .usefull-link-privacy-policy-refund-policy-terms-of-service {
     margin: 0 0.4vw;
     overflow-wrap: break-word;
     font-family: 'Ramaraja';
     font-weight: 400;
-    font-size: 0.8vw;
+    font-size: 1.5vh;
     color: #1A1B11;
-  }
+  } */
   
   .desktop-1 .frame-65 {
     display: flex;
@@ -65,6 +65,12 @@
     height: max-content;
   }
 
+  @media screen and (max-width:650px) {
+    .desktop-1 .frame-64{
+      display: none;
+    }
+  }
+
   .desktop-1 .follow-us {
     width: max-content;
     display: flex;
@@ -73,7 +79,7 @@
     margin-bottom: 0.7rem;
     font-weight: bold;
     font-family: 'Ramaraja';
-    font-size: 1.1vw;
+    font-size: 1.2vh;
   }
 
   .icons{
@@ -111,7 +117,7 @@
     margin-bottom: 0.7vw;
     font-weight: bold;
     font-family: 'Ramaraja';
-    font-size: 1.1vw;
+    font-size: 1.2vh;
   }
 
   .desktop-1 .address-varanasi-uttar-pradesh-india {
@@ -163,7 +169,7 @@
     overflow-wrap: break-word;
     font-family: 'Ramaraja';
     font-weight: 400;
-    font-size: 1.1vw;
+    font-size: 3vw;
     color: #1A1B11;
   }
   .desktop-1 .frame-67 {
