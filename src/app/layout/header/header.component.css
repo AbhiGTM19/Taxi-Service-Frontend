@@ -8,8 +8,8 @@
     border-radius: 5.4vw;
     background: url('src/assets/images/mask_group.jpeg') 50% / contain no-repeat;
     margin: 0.2vw;
-    width: 4vw;
-    height: 3vh;
+    width: 4rem;
+    height: 3rem;
     cursor: pointer;
   }
   
@@ -21,7 +21,7 @@
     margin-left: 10px;
     font-family: 'Outfit';
     font-weight: 800;
-    font-size: 1vw;
+    font-size: 1.7vh;
     text-transform: capitalize;
     color: #1A1B11;
   }
@@ -32,20 +32,11 @@
     justify-content: flex-start;
   }
   
-  .desktop-1 .login {
-    width: 2.4vw;
-    overflow-wrap: break-word;
-    font-family: 'Outfit';
-    font-weight: 800;
-    font-size: 0.9vw;
-    color: #018464;
-  }
-  
   .desktop-1 .about-us {
     overflow-wrap: break-word;
     font-family: 'Outfit';
     font-weight: 800;
-    font-size: 1vw;
+    font-size: 1.7vh;
     color: #018464;
     text-decoration: none;
     margin-right: 1vw;
@@ -55,7 +46,7 @@
     overflow-wrap: break-word;
     font-family: 'Outfit';
     font-weight: 800;
-    font-size: 1vw;
+    font-size: 1.7vh;
     color: #018464;
     text-decoration: none;
   }
@@ -73,7 +64,7 @@
   
   .desktop-1 .frame-57 {
     padding: 0px 0px 0px 0px;
-    margin-bottom: 2.5vw;
+    margin-bottom: 2.5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
