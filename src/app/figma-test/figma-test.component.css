@@ -1,9 +1,11 @@
 .desktop-1 .man-1 {
-  border-radius: 7.4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: url('src/assets/images/man_1.png') 50% / contain no-repeat;
   margin: 0.2rem;
   width: 2rem;
-  height: 5rem;
+  height: 6rem;
 }
 
 .desktop-1 .ride-smart-ride-safe {
@@ -13,7 +15,7 @@
   font-family: 'Outfit';
   font-weight: 400;
   font-size: 1.8vh;
-  letter-spacing: 0.3vw;
+  letter-spacing: 0.1rem;
   color: #1A1B11;
 }
 
@@ -33,9 +35,8 @@
   border-radius: 25px;
   background: #018464;
   display: flex;
-  /* width: max-content; */
   height: fit-content;
-  padding: 0.8vw 0;
+  padding: 0.5rem 0.5rem;
   font-size: 1vh;
 }
 
@@ -53,10 +54,10 @@
   justify-content: center;
   align-items: center;
   background: url('src/assets/images/white_car_front_view.png') 50% / contain no-repeat;
-  margin-right: 1.5rem;
+  margin-right: 0.5rem;
   margin-top: 0.7rem;
-  width: 21.1vw;
-  height: 14.4vw;
+  width: 5rem;
+  height: 5rem;
 }
 
 .desktop-1 .woman-1 {
@@ -66,7 +67,7 @@
   background: url('src/assets/images/woman_1.png') 50% / contain no-repeat;
   margin: 0.2rem;
   width: 2rem;
-  height: 5rem;
+  height: 6rem;
 }
 
 .desktop-1 .frame-5 {
@@ -317,13 +318,18 @@
   .desktop-1 .man-1 {
     margin: 0.2rem;
     width: 5rem;
-    height: 7rem;
+    height: 8rem;
   }
 
   .desktop-1 .woman-1 {
     margin: 0.2rem;
     width: 5rem;
-    height: 7rem;
+    height: 8rem;
+  }
+
+  .desktop-1 .white-car-front-view{
+    width: 8rem;
+    height: 8rem;
   }
 
   .desktop-1 .young-man-holding-coffee-and-laptop {
@@ -348,7 +354,7 @@
   }
 
   .desktop-1 .button {
-    padding: 0.8rem 0.3rem;
+    padding: 0.8rem 0.8rem;
     font-size: 1vh;
   }
 }
@@ -363,6 +369,11 @@
 
   .desktop-1 .woman-1 {
     margin: 0.2rem;
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .desktop-1 .white-car-front-view{
     width: 15rem;
     height: 15rem;
   }

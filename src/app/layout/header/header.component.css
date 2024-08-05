@@ -39,7 +39,7 @@
     font-size: 1.7vh;
     color: #018464;
     text-decoration: none;
-    margin-right: 1vw;
+    margin-right: 1rem;
   }
   
   .desktop-1 .faq {
@@ -72,3 +72,34 @@
     height: max-content;
     background: none;
   }
+
+/* ######################################### */
+
+/* for Tablets */
+@media screen and (min-width:650px) and (max-width:1024px){
+  .desktop-1 .faq {
+    font-size: 1.3vh
+  }
+
+  .desktop-1 .about-us{
+    font-size: 1.3vh;
+  }
+
+  .desktop-1 .rv-taxi-services{
+    font-size: 1.3vh;
+  }
+}
+
+/* for Desktop and Laptops */
+@media screen and (min-width:1024px) and (max-width:1920px) {
+  .desktop-1 .about-us{
+    font-size: 2vh;
+  }
+  .desktop-1 .faq{
+    font-size: 2vh;
+  }
+
+  .desktop-1 .rv-taxi-services{
+    font-size: 2vh;
+  }
+}
