@@ -4,17 +4,15 @@
 /* @import 'src/assets/common/_media.css'; */
 
 html { 
-
     position: relative;
     display: grid;
     flex-direction: column;
     justify-content: center;
-    background: linear-gradient(180deg, #FFFFFF, #3EBE9F);
+    /* background: linear-gradient(180deg, #FFFFFF, #3ebe9e7f); */
     padding: 1.3vw 3.1vw 1.6vw 3.1vw;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width:auto;
     height: max-content;
-
 }

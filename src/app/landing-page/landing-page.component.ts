@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-figma-test',
-  templateUrl: './figma-test.component.html',
-  styleUrls: ['./figma-test.component.css']
+  templateUrl: './landing-page.component.html',
+  styleUrls: ['./landing-page.component.css']
 })
-export class FigmaDesignPageComponent {
+export class LandingPageComponent {
 
   bookARide() {
     const formURL = "https://forms.gle/wagu22L1PyL1NySP6"

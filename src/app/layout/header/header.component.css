@@ -1,105 +1,111 @@
 /* ######################################### */
 
-.desktop-1{
+.frame-56 .mask-group {
+  border-radius: 5.4vw;
+  background: url('src/assets/images/mask_group.jpeg') 50% / contain no-repeat;
+  margin: 0.2vw;
+  width: 4rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.frame-56 .mask-group:hover{
+  transition: 0.5s ease-in;
+  transform: scale(1.15);
+}
+
+.frame-56 .rv-taxi-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  margin-left: 10px;
+  font-family: 'Outfit';
+  font-weight: 800;
+  font-size: 1.7vh;
+  text-transform: capitalize;
+  color: #1A1B11;
+}
+
+.frame-56 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.frame-50 .about-us {
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 800;
+  font-size: 1.7vh;
+  color: #018464;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+ .frame-50 .faq {
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 800;
+  font-size: 1.7vh;
+  color: #018464;
+  text-decoration: none;
+}
+
+a:hover {
+  width: max-content;
+  border-radius: 10px;
+  background-color: #0184633c;
+  transition: 1s ease-out;
+}
+
+.frame-50 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   position: relative;
 }
 
-.desktop-1 .mask-group {
-    border-radius: 5.4vw;
-    background: url('src/assets/images/mask_group.jpeg') 50% / contain no-repeat;
-    margin: 0.2vw;
-    width: 4rem;
-    height: 3rem;
-    cursor: pointer;
-  }
-  
-  .desktop-1 .rv-taxi-services {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: max-content;
-    margin-left: 10px;
-    font-family: 'Outfit';
-    font-weight: 800;
-    font-size: 1.7vh;
-    text-transform: capitalize;
-    color: #1A1B11;
-  }
-  
-  .desktop-1 .frame-56 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-  }
-  
-  .desktop-1 .about-us {
-    overflow-wrap: break-word;
-    font-family: 'Outfit';
-    font-weight: 800;
-    font-size: 1.7vh;
-    color: #018464;
-    text-decoration: none;
-    margin-right: 1rem;
-  }
-  
-  .desktop-1 .faq {
-    overflow-wrap: break-word;
-    font-family: 'Outfit';
-    font-weight: 800;
-    font-size: 1.7vh;
-    color: #018464;
-    text-decoration: none;
-  }
-  
-  .desktop-1 a:hover {
-    border-radius: 0.7vw;
-    background-color: #01846322;
-  }
-  
-  .desktop-1 .frame-50 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-  
-  .desktop-1 .frame-57 {
-    padding: 0px 0px 0px 0px;
-    margin-bottom: 2.5rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    height: max-content;
-    background: none;
-  }
+.frame-57 {
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: max-content;
+  background: none;
+  /* filter: blur(1px); */
+}
 
 /* ######################################### */
 
 /* for Tablets */
-@media screen and (min-width:650px) and (max-width:1024px){
-  .desktop-1 .faq {
+@media screen and (min-width:650px) and (max-width:1024px) {
+  .faq {
     font-size: 1.3vh
   }
 
-  .desktop-1 .about-us{
+  .about-us {
     font-size: 1.3vh;
   }
 
-  .desktop-1 .rv-taxi-services{
+  .rv-taxi-services {
     font-size: 1.3vh;
   }
 }
 
 /* for Desktop and Laptops */
 @media screen and (min-width:1024px) and (max-width:1920px) {
-  .desktop-1 .about-us{
-    font-size: 2vh;
-  }
-  .desktop-1 .faq{
-    font-size: 2vh;
+  .frame-50 .about-us {
+    font-size: 2.2vh;
   }
 
-  .desktop-1 .rv-taxi-services{
-    font-size: 2vh;
+  .frame-50 .faq {
+    font-size: 2.2vh;
+  }
+
+  .frame-56 .rv-taxi-services {
+    font-size: 2.6vh;
   }
 }

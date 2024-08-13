@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { FaqComponent } from './faq/faq.component';
-import { FigmaDesignPageComponent } from './figma-test/figma-test.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { TermsOfServiceComponent } from './terms-of-service/terms-of-service.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
@@ -14,7 +14,7 @@ const routes: Routes = [
 
   // Landing Page route
   { path: 'rvtaxiservices', 
-    component: FigmaDesignPageComponent
+    component: LandingPageComponent
    },
 
   // FAQ Page route

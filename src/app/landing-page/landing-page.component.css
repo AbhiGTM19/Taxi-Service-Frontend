@@ -1,4 +1,4 @@
-.desktop-1 .man-1 {
+ .man-1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,9 +6,10 @@
   margin: 0.2rem;
   width: 2rem;
   height: 6rem;
+  filter: drop-shadow(2px 2px 3px #000000);
 }
 
-.desktop-1 .ride-smart-ride-safe {
+ .ride-smart-ride-safe {
   margin-bottom: 0.6vw;
   display: inline-block;
   overflow-wrap: break-word;
@@ -17,9 +18,20 @@
   font-size: 1.8vh;
   letter-spacing: 0.1rem;
   color: #1A1B11;
+  /* transform: scale(0.7); */
+  animation: bounce 0.5s forwards cubic-bezier(0.5, 1, 0.89, 1);
+  filter: blur(1px);
+  animation-delay: 1s;
 }
 
-.desktop-1 .be-apart-of-next-big-thing {
+@keyframes bounce {
+  100% {
+    /* transform: scale(1); */
+    filter: blur(0px);
+  }
+}
+
+ .be-apart-of-next-big-thing {
   margin-bottom: 0.6vw;
   display: inline-block;
   overflow-wrap: break-word;
@@ -30,7 +42,7 @@
   color: #1A1B11;
 }
 
-.desktop-1 .button {
+ .frame-12 .button {
   box-shadow: 0vw 0.4vw 0.3vw 0vw rgba(0, 0, 0, 0.25);
   border-radius: 25px;
   background: #018464;
@@ -40,7 +52,7 @@
   font-size: 1vh;
 }
 
-.desktop-1 .frame-12 {
+ .frame-12 {
   margin: 2.8vw;
   display: flex;
   flex-direction: column;
@@ -49,7 +61,7 @@
   width: max-content;
 }
 
-.desktop-1 .white-car-front-view {
+ .white-car-front-view {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,9 +70,10 @@
   margin-top: 0.7rem;
   width: 5rem;
   height: 5rem;
+  filter: drop-shadow(2px 2px 3px #000000);
 }
 
-.desktop-1 .woman-1 {
+ .woman-1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,20 +81,22 @@
   margin: 0.2rem;
   width: 2rem;
   height: 6rem;
+  filter: drop-shadow(2px 2px 3px #000000);
 }
 
-.desktop-1 .frame-5 {
-  background: rgba(1, 132, 100, 0.2);
+ .frame-5 {
+  background: rgba(1, 132, 99, 0.2);
   margin-bottom: 2.5vw;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   height: max-content;
+  /* filter: drop-shadow(1px 1px 1px rgba(255, 255, 0, 0.499)); */
 }
 
 /* ############################# */
 
-.desktop-1 .young-man-holding-coffee-and-laptop {
+ .young-man-holding-coffee-and-laptop {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,9 +104,10 @@
   margin: 0.2rem;
   width: 50vw;
   height: 11.8vw;
+  filter: drop-shadow(2px 2px 5px #000000);
 }
 
-.desktop-1 .overview {
+ .overview {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,9 +118,20 @@
   font-size: 1.5vh;
   letter-spacing: 0.2vw;
   color: #1A1B11;
+ /*  transform: scale(0.7);
+  animation: scale 0.5s forwards cubic-bezier(0.5, 1, 0.89, 1);
+  filter: blur(1px);
+  animation-delay: 1s; */
 }
 
-.desktop-1 .frame-44 {
+/* @keyframes scale {
+  100% {
+    transform : scale(1);
+    filter: blur(0px);
+  }
+} */
+
+ .frame-44 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -116,7 +143,7 @@
   letter-spacing: 0.05vw;
 }
 
-.desktop-1 .frame-47 {
+ .frame-47 {
   margin-top: 1vw;
   margin-bottom: 2.8vw;
   display: flex;
@@ -130,14 +157,21 @@
 
 /* ############################# */
 
-.desktop-1 .white-car-side-view {
+ .white-car-side-view {
   border-radius: 11.5vw;
   background: url('src/assets/images/white_car_side_view.png') 50% / contain no-repeat;
   width: 73.9vw;
   height: 15.3vw;
+  transition: transform 0.8s ease, filter 1.2s ease;
 }
 
-.desktop-1 .frame-51 {
+/* deep-orange hex code: #DC4D01 */
+ .white-car-side-view:hover {
+  transform: scale(1.05) translateY(-2%);
+  filter: drop-shadow(0px 10px 20px black);
+}
+
+ .frame-51 {
   margin-bottom: 2.5vw;
   display: flex;
   flex-direction: row;
@@ -150,9 +184,11 @@
   box-shadow: none !important;
 }
 
+
+
 /* ############################# */
 
-.desktop-1 .heading {
+ .heading {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -164,7 +200,7 @@
   margin-bottom: 15px;
 }
 
-.desktop-1 .text {
+ .text {
   overflow-wrap: break-word;
   font-family: 'Outfit';
   font-weight: 400;
@@ -174,7 +210,7 @@
   letter-spacing: 0.05vw;
 }
 
-.desktop-1 .frame-42 {
+ .frame-42 {
   margin-bottom: 0.1vw;
   display: flex;
   flex-direction: column;
@@ -183,14 +219,14 @@
   box-sizing: border-box;
 }
 
-.desktop-1 .frame-48 {
+ .frame-48 {
   display: flex;
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
 }
 
-.desktop-1 .frame-49 {
+ .frame-49 {
   margin-bottom: 2.5vw;
   display: flex;
   flex-direction: row;
@@ -205,14 +241,15 @@
 
 /* ############################# */
 
-.desktop-1 .man-with-phone-showing-thumbs-up {
+ .man-with-phone-showing-thumbs-up {
   background: url('src/assets/images/man_with_phone_showing_thumbs_up.png') 50% / contain no-repeat;
   width: 12.8vw;
   height: 11.8vw;
   margin-bottom: 1.5vw;
+  filter: drop-shadow(2px 2px 5px #000000);
 }
 
-.desktop-1 .frame-20 {
+ .frame-20 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -220,7 +257,7 @@
   box-sizing: border-box;
 }
 
-.desktop-1 .frame-15 {
+ .frame-15 {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -228,15 +265,16 @@
   box-sizing: border-box;
 }
 
-.desktop-1 .smiling-man-and-woman-with-phones {
+ .smiling-man-and-woman-with-phones {
   border-radius: 14.3vw;
   background: url('src/assets/images/smiling_man_and_woman_with_phones.png') 50% / contain no-repeat;
   width: 12.8vw;
   height: 11.8vw;
   margin-bottom: 1.5vw;
+  filter: drop-shadow(2px 2px 5px #000000);
 }
 
-.desktop-1 .frame-23 {
+ .frame-23 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -244,7 +282,7 @@
   box-sizing: border-box;
 }
 
-.desktop-1 .frame-14 {
+ .frame-14 {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -252,7 +290,7 @@
   box-sizing: border-box;
 }
 
-.desktop-1 .frame-40 {
+ .frame-40 {
   margin-bottom: 4.5vw;
   display: flex;
   flex-direction: row;
@@ -266,33 +304,40 @@
 
 /* ############################# */
 
-.desktop-1 .feedback {
+ .feedback {
   display: flex;
   justify-content: center;
   margin-bottom: 3vw;
   background: none;
   transition: none !important;
   box-shadow: none !important;
+  /* transition: transform 5s ease-in; */
 }
 
-.desktop-1 .button-1 {
+ .feedback .button-1 {
   border-radius: 25vw;
   align-self: center;
-  width: 16vw;
-  padding: 1.2vw 0;
+  width: 20vw;
+  padding: 1.2vh 0;
   height: fit-content;
   box-shadow: 0vw 0.4vw 0.3vw 0vw rgba(0, 0, 0, 0.25);
   border-radius: 25px;
   background: black;
   display: flex;
   font-size: 1vh;
+  transition: transform 5s ease-in;
+}
+
+ .feedback .button-1:hover {
+  transform: scale(1.05) ;
+  filter: drop-shadow(1px 1px yellow);
 }
 
 /* ############################# */
 
 /* for Mobiles */
 @media screen and (max-width: 650px) {
-  .desktop-1 .overview-text {
+   .overview-text {
     margin-top: 1rem;
     overflow-wrap: break-word;
     font-family: 'Outfit';
@@ -303,7 +348,7 @@
     font-size: 1.3vh;
   }
 
-  .desktop-1 .young-man-holding-coffee-and-laptop {
+   .young-man-holding-coffee-and-laptop {
     display: none;
   }
 
@@ -311,28 +356,28 @@
 
 /* fot Tablets */
 @media screen and (min-width : 650px) and (max-width : 1024px) {
-  .desktop-1 .label-text {
+   .label-text {
     font-size: 1vh;
   }
 
-  .desktop-1 .man-1 {
+   .man-1 {
     margin: 0.2rem;
     width: 5rem;
     height: 8rem;
   }
 
-  .desktop-1 .woman-1 {
+   .woman-1 {
     margin: 0.2rem;
     width: 5rem;
     height: 8rem;
   }
 
-  .desktop-1 .white-car-front-view{
+   .white-car-front-view{
     width: 8rem;
     height: 8rem;
   }
 
-  .desktop-1 .young-man-holding-coffee-and-laptop {
+   .young-man-holding-coffee-and-laptop {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -342,7 +387,7 @@
     height: 15rem;
   }
 
-  .desktop-1 .overview-text {
+   .overview-text {
     margin-top: 2.5rem;
     overflow-wrap: break-word;
     font-family: 'Outfit';
@@ -353,65 +398,71 @@
     font-size: 1.3vh;
   }
 
-  .desktop-1 .button {
-    padding: 0.8rem 0.8rem;
+   .button {
+    width: 8rem;
     font-size: 1vh;
   }
 }
 
 /* for Monitor */
 @media screen and (min-width: 1025px) and (max-width: 1920px) {
-  .desktop-1 .man-1 {
+   .man-1 {
     margin: 0.2rem;
     width: 15rem;
     height: 15rem;
+    filter: drop-shadow(2px 2px 10px #000000);
   }
 
-  .desktop-1 .woman-1 {
+   .woman-1 {
     margin: 0.2rem;
     width: 15rem;
     height: 15rem;
+    filter: drop-shadow(2px 2px 10px #000000);
   }
 
-  .desktop-1 .white-car-front-view{
+   .white-car-front-view{
     width: 15rem;
     height: 15rem;
+    filter: drop-shadow(2px 2px 5px #000000);
   }
 
-  .desktop-1 .ride-smart-ride-safe {
+   .ride-smart-ride-safe {
     font-size: 4vh;
   }
 
-  .desktop-1 .be-apart-of-next-big-thing {
+   .be-apart-of-next-big-thing {
     font-size: 1.8vh;
   }
 
-  .desktop-1 .button {
-    padding: 20px;
+   .frame-12 .button {
+    width: 12rem;
+    height: 3rem;
     font-size: 2.5vh;
   }
 
-  .desktop-1 .overview {
+   .overview {
     font-size: 2.3vh;
   }
 
-  .desktop-1 .frame-44 {
+   .frame-44 {
     font-size: 1.8vh;
   }
 
-  .desktop-1 .heading {
+   .heading {
     font-size: 2.3vh
   }
 
-  .desktop-1 .text {
+   .text {
     font-size: 2vh;
   }
 
-  .desktop-1 .button-1 {
+   .feedback .button-1 {
+    width: 15rem;
+    height: 3.2rem;
     font-size: 2vh;
   }
 
-  .desktop-1 .overview-text {
+   .overview-text {
     margin-top: 2.5rem;
     overflow-wrap: break-word;
     font-family: 'Outfit';

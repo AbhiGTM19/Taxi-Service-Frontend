@@ -14,7 +14,7 @@ import {MatDatepickerModule} from '@angular/material/datepicker'
 import {MatSelectModule} from '@angular/material/select';
 import {MatNativeDateModule} from '@angular/material/core';
 import { FaqComponent } from './faq/faq.component';
-import { FigmaDesignPageComponent } from './figma-test/figma-test.component'
+import { LandingPageComponent } from './landing-page/landing-page.component'
 import { MatExpansionModule } from '@angular/material/expansion';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatToolbarModule} from '@angular/material/toolbar';
@@ -29,7 +29,7 @@ import { RefundPolicyComponent } from './refund-policy/refund-policy.component';
   declarations: [
     AppComponent,
     FaqComponent,
-    FigmaDesignPageComponent,
+    LandingPageComponent,
     HeaderComponent,
     FooterComponent,
     AboutUsComponent,
