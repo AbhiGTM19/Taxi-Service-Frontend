@@ -67,10 +67,10 @@ toggle(): boolean {
       }
       body {
           color: #ffffff; /* Light text color */
-          transition: background-color 0.3s, color 0.3s;
+          transition: color 3s;
       }
-      img, picture, svg {
-          filter: none !important; /* Ensure images are not affected by dark mode filter */
+      img, {
+          filter: none !important; 
       }
       .dark-mode-overlay {
           position: fixed;
@@ -82,6 +82,10 @@ toggle(): boolean {
           background: rgba(0, 0, 0, 0); /* Semi-transparent overlay to simulate dark mode */
           z-index: 999; /* Ensure it is above other content */
           pointer-events: none; /* Allow clicks to pass through */
+           filter: brightness(100%);
+      }
+      .dark-mode{
+      filter : invert(100%); !important
       }
   `;
 

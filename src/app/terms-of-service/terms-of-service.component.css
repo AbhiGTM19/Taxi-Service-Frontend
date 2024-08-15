@@ -1,4 +1,4 @@
-.desktop-1 .frame-5 {
+.frame-5 {
     background: rgba(1, 132, 100, 0.2);
     margin-bottom: 2.5vw;
     display: flex;
@@ -10,7 +10,7 @@
     box-shadow: none !important;
 }
 
-.title {
+mat-card-title {
     margin-bottom: 2rem;
     display: flex;
     justify-content: center;

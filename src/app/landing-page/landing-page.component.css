@@ -26,7 +26,6 @@
   font-family: 'Outfit';
   font-weight: 400;
   font-size: 0.9vh;
-  text-transform: capitalize;
 
 }
 
@@ -314,10 +313,6 @@
   background: #018464;
   display: flex;
   font-size: 1vh;
-}
-
- .feedback :hover {
-  transform: scale(1.05) ;
 }
 
 /* ############################# */
