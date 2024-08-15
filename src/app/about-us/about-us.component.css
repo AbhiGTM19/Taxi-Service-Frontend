@@ -1,4 +1,4 @@
-.desktop-1 .frame-5 {
+.frame-5 {
   background: rgba(1, 132, 100, 0.2);
   margin-bottom: 2.5rem;
   display: flex;
@@ -27,7 +27,7 @@ mat-card-content {
   font-family: 'Outfit';
   font-weight: 400;
   font-size: 2vh;
-  color: #1A1B11;
+
   line-height: 1.8;
   letter-spacing: 0.05vw;
 }

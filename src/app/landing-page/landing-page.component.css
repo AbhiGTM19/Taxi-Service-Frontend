@@ -6,7 +6,7 @@
   margin: 0.2rem;
   width: 2rem;
   height: 6rem;
-  filter: drop-shadow(2px 2px 3px #000000);
+  filter: drop-shadow(2px 10px 3px #000000);
 }
 
  .ride-smart-ride-safe {
@@ -17,19 +17,7 @@
   font-weight: 400;
   font-size: 1.8vh;
   letter-spacing: 0.1rem;
-  color: #1A1B11;
-  /* transform: scale(0.7); */
-  animation: bounce 0.5s forwards cubic-bezier(0.5, 1, 0.89, 1);
-  filter: blur(1px);
-  animation-delay: 1s;
-}
-
-@keyframes bounce {
-  100% {
-    /* transform: scale(1); */
-    filter: blur(0px);
-  }
-}
+ }
 
  .be-apart-of-next-big-thing {
   margin-bottom: 0.6vw;
@@ -39,7 +27,7 @@
   font-weight: 400;
   font-size: 0.9vh;
   text-transform: capitalize;
-  color: #1A1B11;
+
 }
 
  .frame-12 .button {
@@ -70,7 +58,7 @@
   margin-top: 0.7rem;
   width: 5rem;
   height: 5rem;
-  filter: drop-shadow(2px 2px 3px #000000);
+  filter: drop-shadow(2px 10px 3px #000000);
 }
 
  .woman-1 {
@@ -91,7 +79,6 @@
   flex-direction: row;
   justify-content: space-evenly;
   height: max-content;
-  /* filter: drop-shadow(1px 1px 1px rgba(255, 255, 0, 0.499)); */
 }
 
 /* ############################# */
@@ -104,7 +91,7 @@
   margin: 0.2rem;
   width: 50vw;
   height: 11.8vw;
-  filter: drop-shadow(2px 2px 5px #000000);
+  filter: drop-shadow(2px -2px 10px #000000);
 }
 
  .overview {
@@ -117,19 +104,7 @@
   font-weight: bolder;
   font-size: 1.5vh;
   letter-spacing: 0.2vw;
-  color: #1A1B11;
- /*  transform: scale(0.7);
-  animation: scale 0.5s forwards cubic-bezier(0.5, 1, 0.89, 1);
-  filter: blur(1px);
-  animation-delay: 1s; */
-}
-
-/* @keyframes scale {
-  100% {
-    transform : scale(1);
-    filter: blur(0px);
-  }
-} */
+ }
 
  .frame-44 {
   display: flex;
@@ -138,7 +113,6 @@
   font-family: 'Outfit';
   font-weight: 400;
   font-size: 10vh;
-  color: #1A1B11;
   line-height: 2;
   letter-spacing: 0.05vw;
 }
@@ -162,13 +136,12 @@
   background: url('src/assets/images/white_car_side_view.png') 50% / contain no-repeat;
   width: 73.9vw;
   height: 15.3vw;
-  transition: transform 0.8s ease, filter 1.2s ease;
-}
-
-/* deep-orange hex code: #DC4D01 */
- .white-car-side-view:hover {
-  transform: scale(1.05) translateY(-2%);
-  filter: drop-shadow(0px 10px 20px black);
+  transition: 0.8s ease, filter 1.2s ease;
+  /* deep-orange hex code: #DC4D01 */
+   &:hover {
+    transform: scale(1.05) translateY(-2%);
+    filter: drop-shadow(0px 10px 20px rgba(1, 132, 99, 0.687));
+  }
 }
 
  .frame-51 {
@@ -180,8 +153,13 @@
   width: 100%;
   height: max-content;
   background: none;
-  transition: none !important;
   box-shadow: none !important;
+  animation: mymove 4s ease-in-out 0.2s forwards;
+}
+
+@keyframes mymove {
+  from{right: -450px;}
+  to{right: 0px;}
 }
 
 
@@ -196,7 +174,7 @@
   font-weight: bolder;
   font-size: 1.5vh;
   letter-spacing: 0.1vw;
-  color: #1A1B11;
+
   margin-bottom: 15px;
 }
 
@@ -205,7 +183,7 @@
   font-family: 'Outfit';
   font-weight: 400;
   font-size: 1.3vh;
-  color: #1A1B11;
+
   line-height: 1.8;
   letter-spacing: 0.05vw;
 }
@@ -237,7 +215,7 @@
   background: none;
   transition: none !important;
   box-shadow: none !important;
-}
+ }
 
 /* ############################# */
 
@@ -246,7 +224,7 @@
   width: 12.8vw;
   height: 11.8vw;
   margin-bottom: 1.5vw;
-  filter: drop-shadow(2px 2px 5px #000000);
+  filter: drop-shadow(2px -10px 30px #000000);
 }
 
  .frame-20 {
@@ -271,7 +249,7 @@
   width: 12.8vw;
   height: 11.8vw;
   margin-bottom: 1.5vw;
-  filter: drop-shadow(2px 2px 5px #000000);
+  filter: drop-shadow( 2px -10px 30px #000000);
 }
 
  .frame-23 {
@@ -302,6 +280,16 @@
   box-shadow: none !important;
 }
 
+.animate {
+  animation: mysection 4s ease-in-out 0.2s forwards;
+}
+
+@keyframes mysection {
+  from{bottom: -450px;}
+  to{top: 0px;}
+}
+
+
 /* ############################# */
 
  .feedback {
@@ -312,6 +300,7 @@
   transition: none !important;
   box-shadow: none !important;
   /* transition: transform 5s ease-in; */
+  transition: transform 5s ease-in-out;
 }
 
  .feedback .button-1 {
@@ -322,15 +311,13 @@
   height: fit-content;
   box-shadow: 0vw 0.4vw 0.3vw 0vw rgba(0, 0, 0, 0.25);
   border-radius: 25px;
-  background: black;
+  background: #018464;
   display: flex;
   font-size: 1vh;
-  transition: transform 5s ease-in;
 }
 
- .feedback .button-1:hover {
+ .feedback :hover {
   transform: scale(1.05) ;
-  filter: drop-shadow(1px 1px yellow);
 }
 
 /* ############################# */
@@ -342,7 +329,7 @@
     overflow-wrap: break-word;
     font-family: 'Outfit';
     font-weight: 400;
-    color: #1A1B11;
+  
     line-height: 1.8;
     letter-spacing: 0.05vw;
     font-size: 1.3vh;
@@ -392,7 +379,7 @@
     overflow-wrap: break-word;
     font-family: 'Outfit';
     font-weight: 400;
-    color: #1A1B11;
+  
     line-height: 1.8;
     letter-spacing: 0.05vw;
     font-size: 1.3vh;
@@ -467,7 +454,7 @@
     overflow-wrap: break-word;
     font-family: 'Outfit';
     font-weight: 400;
-    color: #1A1B11;
+  
     line-height: 1.8;
     letter-spacing: 0.05vw;
     font-size: 2vh;

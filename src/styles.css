@@ -15,4 +15,5 @@ html {
     background-repeat: no-repeat;
     width:auto;
     height: max-content;
+    scroll-behavior: smooth;
 }

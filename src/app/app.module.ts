@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
@@ -25,6 +25,7 @@ import { TermsOfServiceComponent } from './terms-of-service/terms-of-service.com
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { RefundPolicyComponent } from './refund-policy/refund-policy.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,6 +37,10 @@ import { RefundPolicyComponent } from './refund-policy/refund-policy.component';
     TermsOfServiceComponent,
     PrivacyPolicyComponent,
     RefundPolicyComponent,
+  ],
+
+  schemas : [
+    CUSTOM_ELEMENTS_SCHEMA 
   ],
 
   imports: [

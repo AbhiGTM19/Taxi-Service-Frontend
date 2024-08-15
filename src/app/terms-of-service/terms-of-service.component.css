@@ -10,7 +10,7 @@
     box-shadow: none !important;
 }
 
-mat-card-title {
+.title {
     margin-bottom: 2rem;
     display: flex;
     justify-content: center;
@@ -28,7 +28,7 @@ mat-card-content {
     font-family: 'Outfit';
     font-weight: 400;
     font-size: 2vh;
-    color: #1A1B11;
+  
     line-height: 1.8;
     letter-spacing: 0.05vw;
 }
