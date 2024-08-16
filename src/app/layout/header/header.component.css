@@ -1,17 +1,17 @@
 /* ######################################### */
 
 .frame-56 .mask-group {
-  border-radius: 5.4vw;
-  background: url('src/assets/images/mask_group.jpeg') 100% / contain no-repeat;
-  margin: 0.2vw;
+  border-radius: 30%;
+  background: url('src/assets/images/mask_group.jpeg') 50% / contain no-repeat;
+  margin: 5px;
   width: 4rem;
   height: 3rem;
   cursor: pointer;
-}
 
-.frame-56 .mask-group:hover {
-  transition: 0.5s ease-in;
-  transform: scale(1.15);
+  &:hover {
+    transition: 0.5s ease-in;
+    transform: scale(1.15);
+  }
 }
 
 .frame-56 .rv-taxi-services {
@@ -20,7 +20,7 @@
   align-items: center;
   width: max-content;
   margin-left: 10px;
-  font-family: 'Outfit';
+  font-family: 'Times New Roman';
   font-weight: 800;
   font-size: 1.7vh;
 }
@@ -37,25 +37,28 @@
   height: 2rem;
   margin-right: 1rem;
   cursor: pointer;
-  animation: rotate 3.5s ease-in-out 0.2s forwards ;
+  animation: rotate 3.5s ease-in-out 0.2s forwards;
 
-  &:hover{
+  &:hover {
     transition: 1s;
     transform: scale(1.1);
   }
 }
 
 @keyframes rotate {
-  from{rotate: 0deg;} 
-  to {rotate:360deg;}
- }
+  from {
+    rotate: 0deg;
+  }
 
-
+  to {
+    rotate: 360deg;
+  }
+}
 
 .frame-50 .about-us {
   background: none;
   overflow-wrap: break-word;
-  font-family: 'Outfit';
+  font-family: 'Times New Roman';
   font-weight: 800;
   font-size: 1.7vh;
   color: #018464;
@@ -66,7 +69,7 @@
 .frame-50 .faq {
   background: none;
   overflow-wrap: break-word;
-  font-family: 'Outfit';
+  font-family: 'Times New Roman';
   font-weight: 800;
   font-size: 1.7vh;
   color: #018464;
@@ -78,7 +81,8 @@ a:hover {
   border-radius: 5px;
   background-color: #0184633c !important;
   transition: 1s ease-out;
-  &:hover{
+
+  &:hover {
     transition: 1s;
     transform: scale(1.1);
   }

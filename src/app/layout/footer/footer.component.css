@@ -1,12 +1,12 @@
  .text {
-   font-family: 'Outfit';
+   font-family: 'Times New Roman';
    width: auto;
    font-size: 0.8vh;
    text-decoration: none;
  }
 
  .link {
-   font-family: 'Outfit';
+   font-family: 'Times New Roman';
    width: max-content;
    font-size: 1vh;
    text-decoration: none;
@@ -27,7 +27,7 @@
    width: max-content;
    margin-bottom: 0.7rem;
    font-weight: bold;
-   font-family: 'Outfit';
+   font-family: 'Times New Roman';
    font-size: 1.2vh;
  }
 
@@ -41,7 +41,7 @@
  .our-services-local-rides-long-distance-travel-airport-transfers-tourist-transportation {
    margin: 0 0.4vw;
    overflow-wrap: break-word;
-   font-family: 'Outfit';
+   font-family: 'Times New Roman';
    font-weight: 400;
    font-size: 0.8vw;
 
@@ -96,7 +96,7 @@
    margin-bottom: 0.3vw;
    display: inline-block;
    overflow-wrap: break-word;
-   font-family: 'Outfit';
+   font-family: 'Times New Roman';
    font-weight: 400;
    font-size: 0.8vw;
 
@@ -135,7 +135,7 @@
    align-items: center;
    margin-top: 1.8rem;
    overflow-wrap: break-word;
-   font-family: 'Outfit';
+   font-family: 'Times New Roman';
    font-weight: 400;
    font-size: 2vh;
 

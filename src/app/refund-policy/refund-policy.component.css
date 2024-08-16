@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
     font-size: 3vh;
-    font-family: 'Outfit';
+    font-family: 'Times New Roman';
     color: #018464;
     font-weight: 900;
 }
@@ -25,12 +25,12 @@
     padding: 0px 0px 0px 0px;
     text-align: left;
     overflow-wrap: break-word;
-    font-family: 'Outfit';
+    font-family: 'Times New Roman';
     line-height: 1.8;
     letter-spacing: 0.05vw;
 
     h2 {
-        font-family: 'Outfit';
+        font-family: 'Times New Roman';
         font-weight: 600;
         font-size: 2vh;
     }
