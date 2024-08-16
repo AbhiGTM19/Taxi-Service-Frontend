@@ -6,7 +6,7 @@
   margin: 0.2rem;
   width: 2rem;
   height: 6rem;
-  filter: drop-shadow(2px 10px 3px #000000);
+  filter: drop-shadow(2px 2px 5px #000000);
 }
 
  .ride-smart-ride-safe {
@@ -57,7 +57,7 @@
   margin-top: 0.7rem;
   width: 5rem;
   height: 5rem;
-  filter: drop-shadow(2px 10px 3px #000000);
+  filter: drop-shadow(2px 2px 5px #000000);
 }
 
  .woman-1 {
@@ -68,7 +68,7 @@
   margin: 0.2rem;
   width: 2rem;
   height: 6rem;
-  filter: drop-shadow(2px 2px 3px #000000);
+  filter: drop-shadow(2px 2px 5px #000000);
 }
 
  .frame-5 {
@@ -90,7 +90,7 @@
   margin: 0.2rem;
   width: 50vw;
   height: 11.8vw;
-  filter: drop-shadow(2px -2px 10px #000000);
+  filter: drop-shadow(2px 2px 5px #000000);
 }
 
  .overview {
@@ -103,9 +103,10 @@
   font-weight: bolder;
   font-size: 1.5vh;
   letter-spacing: 0.2vw;
+  animation: showup 4s infinite;
  }
 
- .frame-44 {
+ .overview-text {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,6 +115,7 @@
   font-size: 10vh;
   line-height: 2;
   letter-spacing: 0.05vw;
+  animation : reveal 4s infinite;
 }
 
  .frame-47 {
@@ -135,11 +137,11 @@
   background: url('src/assets/images/white_car_side_view.png') 50% / contain no-repeat;
   width: 73.9vw;
   height: 15.3vw;
-  transition: 0.8s ease, filter 1.2s ease;
+  transition: 1s ease-in-out;
   /* deep-orange hex code: #DC4D01 */
    &:hover {
     transform: scale(1.05) translateY(-2%);
-    filter: drop-shadow(0px 10px 20px rgba(1, 132, 99, 0.687));
+    filter: drop-shadow(0px 10px 25px rgba(5, 104, 79, 0.788));
   }
 }
 
@@ -153,11 +155,11 @@
   height: max-content;
   background: none;
   box-shadow: none !important;
-  animation: mymove 4s ease-in-out 0.2s forwards;
+  animation: mymove 3.5s ease-in-out 0.2s forwards;
 }
 
 @keyframes mymove {
-  from{right: -450px;}
+  from{right: -500px;}
   to{right: 0px;}
 }
 
@@ -223,7 +225,7 @@
   width: 12.8vw;
   height: 11.8vw;
   margin-bottom: 1.5vw;
-  filter: drop-shadow(2px -10px 30px #000000);
+  filter: drop-shadow(2px 2px 5px #000000);
 }
 
  .frame-20 {
@@ -248,7 +250,7 @@
   width: 12.8vw;
   height: 11.8vw;
   margin-bottom: 1.5vw;
-  filter: drop-shadow( 2px -10px 30px #000000);
+  filter: drop-shadow( 2px 2px 5px #000000);
 }
 
  .frame-23 {
@@ -279,15 +281,23 @@
   box-shadow: none !important;
 }
 
-.animate {
+/* .animate {
   animation: mysection 4s ease-in-out 0.2s forwards;
-}
+} */
 
 @keyframes mysection {
   from{bottom: -450px;}
   to{top: 0px;}
 }
 
+mat-card{
+  position: relative;
+}
+
+/* app-header{
+  position : sticky;
+  background: #018464;
+} */
 
 /* ############################# */
 
@@ -298,8 +308,6 @@
   background: none;
   transition: none !important;
   box-shadow: none !important;
-  /* transition: transform 5s ease-in; */
-  transition: transform 5s ease-in-out;
 }
 
  .feedback .button-1 {
@@ -424,10 +432,6 @@
 
    .overview {
     font-size: 2.3vh;
-  }
-
-   .frame-44 {
-    font-size: 1.8vh;
   }
 
    .heading {

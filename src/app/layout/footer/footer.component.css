@@ -1,198 +1,205 @@
- .text{
-    font-family: 'Outfit';
-    width: auto;
-    font-size: 0.8vh;
-    text-decoration: none;
-  }
+ .text {
+   font-family: 'Outfit';
+   width: auto;
+   font-size: 0.8vh;
+   text-decoration: none;
+ }
 
-   .link{
-    font-family: 'Outfit';
-    width: max-content;
-    font-size: 1vh;
-    text-decoration: none;
-    cursor: pointer;
-    &:hover{
-      transition: 0.7s ease-out;
-      transform: scale(1.2);
-    }
-  }
-  
-   .heading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: max-content;
-    margin-bottom: 0.7rem;
-    font-weight: bold;
-    font-family: 'Outfit';
-    font-size: 1.2vh;
-  }
-  
-   .frame-65 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  }
+ .link {
+   font-family: 'Outfit';
+   width: max-content;
+   font-size: 1vh;
+   text-decoration: none;
+   cursor: pointer;
+   color: #187b62 ;
+   background-color: transparent;
 
-   .our-services-local-rides-long-distance-travel-airport-transfers-tourist-transportation {
-    margin: 0 0.4vw;
-    overflow-wrap: break-word;
-    font-family: 'Outfit';
-    font-weight: 400;
-    font-size: 0.8vw;
-  
-  }
-  
+   &:hover {
+     transition: 0.7s ease-out;
+     transform: scale(1.2);
+   }
+ }
+
+ .heading {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: max-content;
+   margin-bottom: 0.7rem;
+   font-weight: bold;
+   font-family: 'Outfit';
+   font-size: 1.2vh;
+ }
+
+ .frame-65 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+ }
+
+ .our-services-local-rides-long-distance-travel-airport-transfers-tourist-transportation {
+   margin: 0 0.4vw;
+   overflow-wrap: break-word;
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 0.8vw;
+
+ }
+
+ .frame-64 {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   height: max-content;
+ }
+
+ .icons {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: flex-start;
+   gap: 5%;
+ }
+
+ .facebook-icon {
+   background: url('src/assets/images/icons8-facebook-48.png') 50% / contain no-repeat;
+   width: 1.5vw;
+   height: 1.5vh;
+
+   &:hover {
+     transition: 1s;
+     transform: scale(1.3);
+   }
+ }
+
+ .instagram-icon {
+   background: url('src/assets/images/icons8-instagram-48.png') 50% / contain no-repeat;
+   width: 1.5vw;
+   height: 1.5vh;
+
+   &:hover {
+     transition: 1s;
+     transform: scale(1.3);
+   }
+ }
+
+ .frame-58 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+
+ }
+
+ .address-varanasi-uttar-pradesh-india {
+   margin-bottom: 0.3vw;
+   display: inline-block;
+   overflow-wrap: break-word;
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 0.8vw;
+
+ }
+
+ .whatsapp-icon {
+   background: url('src/assets/images/icons8-whatsapp-48.png') 50% / contain no-repeat;
+   width: 1vw;
+   height: 1vw;
+
+   &:hover {
+     transition: 1s;
+     transform: scale(1.3);
+   }
+ }
+
+ .frame-62 {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly;
+   margin-top: 0.1rem;
+   gap: 0.3vw;
+ }
+
+ .frame-66 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+ }
+
+ .rv-taxi-services-all-rights-reserved {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-top: 1.8rem;
+   overflow-wrap: break-word;
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 2vh;
+
+ }
+
+ .frame-67 {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   height: max-content;
+ }
+
+ .frame-53 {
+   margin-top: 1rem;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   height: max-content;
+ }
+
+ /* ############################# */
+
+ /* for Mobiles */
+ @media screen and (max-width:650px) {
    .frame-64 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: max-content;
-  }
+     display: none;
+   }
 
-  .icons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 5%;
-  }
-  
-   .facebook-icon {
-    background: url('src/assets/images/icons8-facebook-48.png') 50% / contain no-repeat;
-    width: 1.5vw;
-    height: 1.5vh;
-    &:hover{
-      border-color: #1A1B11;
-      border-style: solid 20px;
-      transition: 1s;
-      transform: scale(1.3);
-    }
-  }
-   .instagram-icon {
-    background: url('src/assets/images/icons8-instagram-48.png') 50% / contain no-repeat;
-    width: 1.5vw;
-    height: 1.5vh;
-    &:hover{
-      transition: 1s;
-      transform: scale(1.3);
-    }
-  }
-  
-   .frame-58 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    
-  }
-
-   .address-varanasi-uttar-pradesh-india {
-    margin-bottom: 0.3vw;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Outfit';
-    font-weight: 400;
-    font-size: 0.8vw;
-  
-  }
-  
-   .whatsapp-icon {
-    background: url('src/assets/images/icons8-whatsapp-48.png') 50% / contain no-repeat;
-    width: 1vw;
-    height: 1vw;
-    &:hover{
-      transition: 1s;
-      transform: scale(1.3);
-    }
-  }
-  
-   .frame-62 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 0.1rem;
-    gap: 0.3vw;
-  }
-  
-   .frame-66 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
    .rv-taxi-services-all-rights-reserved {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 1.8rem;
-    overflow-wrap: break-word;
-    font-family: 'Outfit';
-    font-weight: 400;
-    font-size: 2vh;
-  
-  }
-   .frame-67 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: max-content;
-  }
-   .frame-53 {
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: max-content;
-  }
-  
-  /* ############################# */
+     font-size: 1.3vh;
+   }
+ }
 
-  /* for Mobiles */
-  @media screen and (max-width:650px) {
-     .frame-64{
-      display: none;
-    }
+ /* for Tablets */
+ @media screen and (min-width:650px) and (max-width:1024px) {
+   .text {
+     font-size: 1vh;
+   }
 
-     .rv-taxi-services-all-rights-reserved{
-      font-size: 1.3vh;
-    }
-  }
+   .link {
+     font-size: 1vh;
+   }
 
-  /* for Tablets */
-  @media screen and (min-width:650px) and (max-width:1024px) {
-     .text {
-      font-size: 1vh;
-    }
+   .frame-64 {
+     display: none;
+   }
 
-     .link {
-      font-size: 1vh;
-    }
+   .rv-taxi-services-all-rights-reserved {
+     font-size: 1.6vh;
+   }
+ }
 
-     .frame-64{
-      display: none;
-    }
+ /* for Desktops and Laptops */
+ @media screen and (min-width:1024px) and (max-width:1920px) {
+   .text {
+     font-size: 1.5vh;
+   }
 
-     .rv-taxi-services-all-rights-reserved{
-      font-size: 1.6vh;
-    }
-  }
+   .link {
+     font-size: 1.5vh;
+   }
 
-  /* for Desktops and Laptops */
-  @media screen and (min-width:1024px) and (max-width:1920px){
-     .text {
-      font-size: 1.5vh;
-    }
-
-     .link{
-      font-size: 1.5vh;
-    }
-
-     .heading{
-      font-size: 1.8vh;
-    }
-  }
+   .heading {
+     font-size: 1.8vh;
+   }
+ }

@@ -1,5 +1,5 @@
-mat-card {
-    margin-bottom: 2.rem;
+.container {
+    margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -9,24 +9,72 @@ mat-card {
     box-shadow: none !important;
 }
 
-mat-card-title {
-    margin-bottom: 1.5rem;
+.title {
+    margin-bottom: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 4.5vh;
+    font-size: 3vh;
     font-family: 'Outfit';
+    color: #018464;
+    font-weight: 900;
 }
 
-mat-card-content {
+.content {
     margin-top: 1.5rem;
     padding: 0px 0px 0px 0px;
     text-align: left;
     overflow-wrap: break-word;
     font-family: 'Outfit';
-    font-weight: 400;
-    font-size: 2vh;
-  
     line-height: 1.8;
     letter-spacing: 0.05vw;
+
+    h2 {
+        font-family: 'Outfit';
+        font-weight: 600;
+        font-size: 2vh;
+    }
+
+    p {
+        font-size: 1.5vh;
+    }
+
+}
+
+
+/* ############################################ */
+
+/* For Tablets */
+
+@media screen and (min-width:650px) and (max-width : 1024px) {
+
+    .title {
+        font-size: 2.5vh;
+    }
+
+    .content {
+        p {
+            font-size: 1.6vh;
+        }
+    }
+
+}
+
+/* For Laptops and Desktops */
+@media screen and (min-width:1024px) and (max-width:1920px) {
+
+    .title {
+        font-size: 4vh
+    }
+
+    .content {
+        h2 {
+            font-size: 3vh;
+        }
+
+        p {
+            font-size: 2.2vh;
+        }
+    }
+
 }

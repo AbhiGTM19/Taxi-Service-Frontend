@@ -1,11 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
-
-@import 'src/assets/common/_landing-page.css';
-/* @import 'src/assets/common/_media.css'; */
-
-html { 
-    position: relative;
-    display: grid;
+body {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     /* background: linear-gradient(180deg, #FFFFFF, #3ebe9e7f); */
@@ -13,7 +7,17 @@ html {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width:auto;
-    height: max-content;
-    scroll-behavior: smooth;
+    transition: color 2.5s;
+}
+
+a {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.061);
+    color: rgb(255, 77, 0);
+}
+
+h2 {
+    font-family: 'Outfit';
+    font-weight: 600;
+    color: #018464;
 }
