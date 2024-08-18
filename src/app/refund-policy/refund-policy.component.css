@@ -33,12 +33,27 @@
         font-family: 'Times New Roman';
         font-weight: 600;
         font-size: 2vh;
+        opacity: 0;
+        animation: reveal 1s forwards ease-in-out var(--d);
     }
 
     p {
         font-size: 1.5vh;
+        opacity: 0;
+        animation: reveal 1s forwards ease-in-out var(--d);
     }
 
+}
+
+@keyframes reveal {
+    from {
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
 }
 
 

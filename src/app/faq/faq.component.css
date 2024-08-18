@@ -26,6 +26,8 @@
   text-align: center;
   line-height: 2;
   font-family: 'Times New Roman';
+  opacity: 0;
+  animation: reveal 1s forwards ease-in-out var(--d);
 }
 
 .faq-container {
@@ -36,16 +38,38 @@
   padding: 2%;
 }
 
+.panel-title,
+p {
+  font-size: 1.3vh;
+  font-family: 'Times New Roman';
+}
+
+.mat-expansion-panel-header {
+  transition: height 0.75s ease-in-out;
+}
+
 .panel {
   margin-bottom: 5px;
   margin-left: 14%;
   width: 75%;
   background: #018463ed;
+  opacity: 0;
+  animation: reveal 1s forwards ease-in-out var(--d);
+
+  p {
+    margin-top: 10px;
+  }
 }
 
-.panel-title, p {
-  font-size: 1.3vh;
-  font-family: 'Times New Roman';
+@keyframes reveal {
+  from {
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 /* ############################################## */
@@ -57,7 +81,9 @@
     font-size: 2vh;
   }
 
-  .desc, .panel-title, p {
+  .desc,
+  .panel-title,
+  p {
     font-size: 1.1vh;
   }
 
@@ -70,7 +96,9 @@
     font-size: 3.5vh;
   }
 
-  .desc, .panel-title, p {
+  .desc,
+  .panel-title,
+  p {
     font-size: 2.2vh;
   }
 
