@@ -328,11 +328,6 @@
    position: relative;
  }
 
- /* app-header{
-  position : sticky;
-  background: #018464;
-} */
-
  /* ############################# */
 
  .feedback {
@@ -348,8 +343,8 @@
   box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 1.5);
    border-radius: 25px;
    align-self: center;
-   width: 20vw;
-   padding: 1.2vh 0;
+   width: 10rem;
+   padding: 0.5rem 0.5rem;
    height: fit-content;
    border-radius: 25px;
    background: #018464;
@@ -469,7 +464,7 @@
    .frame-12 .button {
      width: 12rem;
      height: 3rem;
-     font-size: 2.5vh;
+     font-size: 2vh;
    }
 
    .overview {
