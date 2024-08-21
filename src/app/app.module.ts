@@ -24,6 +24,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { TermsOfServiceComponent } from './terms-of-service/terms-of-service.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { RefundPolicyComponent } from './refund-policy/refund-policy.component';
+import {NgxTypedJsModule} from 'ngx-typed-js';
 
 
 @NgModule({
@@ -60,6 +61,7 @@ import { RefundPolicyComponent } from './refund-policy/refund-policy.component';
     MatExpansionModule,
     MatDividerModule,
     MatToolbarModule,
+    NgxTypedJsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

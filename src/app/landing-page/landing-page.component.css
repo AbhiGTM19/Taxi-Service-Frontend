@@ -1,498 +1,531 @@
- .man-1 {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background: url('src/assets/images/man_1.png') 50% / contain no-repeat;
-   margin: 0.2rem;
-   width: 2rem;
-   height: 6rem;
-   filter: drop-shadow(2px 2px 5px #000000);
- }
-
- .ride-smart-ride-safe {
-   margin-bottom: 0.6vw;
-   display: inline-block;
-   overflow-wrap: break-word;
-   font-family: 'Times New Roman';
-   font-weight: 400;
-   font-size: 1.8vh;
-   letter-spacing: 0.1rem;
- }
-
- .be-apart-of-next-big-thing {
-   margin-bottom: 0.6px;
-   display: inline-block;
-   overflow-wrap: break-word;
-   font-family: 'Times New Roman';
-   font-weight: 400;
-   font-size: 5px;
- }
-
- .frame-12 .button {
-   box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 1.5);
-   border-radius: 25px;
-   background: #018464;
-   padding: 0.5rem 0.5rem;
-   font-size: 1rem;
-   cursor: pointer;
-   letter-spacing: 0px;
-   transition: transform 0.4s ease-in-out, letter-spacing 0.8s ease-in-out;
-   &:hover {
-     letter-spacing: 3px;
-     box-shadow: 0 4px 3px 0 #646464;
-     transform: scale(1.05) translateY(-2%);
-    }
- }
-
- .frame-12 {
-   margin: 2.8vw;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   align-items: center;
-   width: max-content;
- }
-
- .white-car-front-view {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background: url('src/assets/images/white_car_front_view.png') 50% / contain no-repeat;
-   margin-right: 0.5rem;
-   margin-top: 0.7rem;
-   width: 5rem;
-   height: 5rem;
-   filter: drop-shadow(2px 2px 5px #000000);
- }
-
- .woman-1 {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background: url('src/assets/images/woman_1.png') 50% / contain no-repeat;
-   margin: 0.2rem;
-   width: 2rem;
-   height: 6rem;
-   filter: drop-shadow(2px 2px 5px #000000);
- }
-
- .frame-5 {
-   background: rgba(1, 132, 99, 0.2);
-   margin-bottom: 2.5vw;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-evenly;
-   height: max-content;
- }
-
- /* ############################# */
-
- .young-man-holding-coffee-and-laptop {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background: url('src/assets/images/young_man_holding_coffee_and_laptop.png') 50% / contain no-repeat;
-   margin: 0.2rem;
-   width: 50vw;
-   height: 11.8vw;
-   filter: drop-shadow(2px 2px 5px #000000);
-   border-color: none !important;
-   transition: none !important;
- }
-
- .overview {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin-left: 5vw;
-   margin-right: 5vw;
-   font-family: 'Times New Roman';
-   font-weight: bolder;
-   font-size: 1.5vh;
-   letter-spacing: 0.2vw;
-   color: #018464;
-   /* animation: showup 2s ease-in-out; */
- }
-
- .overview-text {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-family: 'Times New Roman';
-   font-weight: 400;
-   font-size: 10vh;
-   line-height: 2;
-   letter-spacing: 0.05vw;
-   /* animation: reveal 2s ease-in-out;n   */
-
- }
-
- @keyframes showup {
-  0% {opacity:1;width :500px}
-  20% {opacity:1;width: 500px;}
-  80% {opacity:1;}
-  100% {opacity:1;}
-}
+/* animation for all text reveal */
 
 @keyframes reveal {
-  0% {opacity:0;width:0px;}
-  20% {opacity:0;width:0px;}
-  30% {opacity: 0;width:-250px;}
-  80% {opacity:1;}
-  100% {opacity:1;width:1500px;}
+  from {
+    transform: translateX(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes reveal1 {
+  from {
+    transform: translateX(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* #################################################################### */
+
+.man-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('src/assets/images/man_1.png') 50% / contain no-repeat;
+  margin: 0.2rem;
+  width: 2rem;
+  height: 6rem;
+  filter: drop-shadow(2px 2px 5px #000000);
+  opacity: 0;
+  animation: reveal 1s forwards ease-in-out var(--d1);
+}
+
+.ride-smart-ride-safe {
+  margin-bottom: 0.6vw;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Times New Roman';
+  font-weight: 400;
+  font-size: 1.8vh;
+  letter-spacing: 0.1rem;
+  position: relative;
+}
+
+.be-apart-of-next-big-thing {
+  margin-bottom: 0.6px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Times New Roman';
+  font-weight: 400;
+  font-size: 5px;
+  opacity: 0;
+  animation: reveal 1s forwards ease-in-out var(--d1);
+}
+
+.frame-12 .button {
+  box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 1.5);
+  border-radius: 25px;
+  background: #018464;
+  padding: 0.5rem 0.5rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  letter-spacing: 0px;
+  transition: transform 0.4s ease-in-out, letter-spacing 0.8s ease-in-out;
+
+  &:hover {
+    letter-spacing: 3px;
+    box-shadow: 0 4px 3px 0 #646464;
+    transform: scale(1.05) translateY(-2%);
+  }
+
+  opacity:0;
+  animation: reveal 1s forwards ease-in-out var(--d1);
+}
+
+.frame-12 {
+  margin: 2.8vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: max-content;
+}
+
+.white-car-front-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('src/assets/images/white_car_front_view.png') 50% / contain no-repeat;
+  margin-right: 0.5rem;
+  margin-top: 0.7rem;
+  width: 5rem;
+  height: 5rem;
+  filter: drop-shadow(2px 2px 5px #000000);
+  opacity: 0;
+  animation: reveal 1s forwards ease-in-out var(--d1);
+}
+
+.woman-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('src/assets/images/woman_1.png') 50% / contain no-repeat;
+  margin: 0.2rem;
+  width: 2rem;
+  height: 6rem;
+  filter: drop-shadow(2px 2px 5px #000000);
+  opacity: 0;
+  animation: reveal 1s forwards ease-in-out var(--d1);
+}
+
+.frame-5 {
+  background: rgba(1, 132, 99, 0.2);
+  margin-bottom: 2.5vw;
+  display: flex;
+  border-radius: 25px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: max-content;
+}
+
+/* ############################# */
+
+.young-man-holding-coffee-and-laptop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('src/assets/images/young_man_holding_coffee_and_laptop.png') 50% / contain no-repeat;
+  margin: 0.2rem;
+  width: 50vw;
+  height: 11.8vw;
+  filter: drop-shadow(2px 2px 5px #000000);
+  border-color: none !important;
+  transition: none !important;
+  opacity: 0;
+  animation: reveal 1s forwards ease-in-out var(--d);
+}
+
+.overview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  font-family: 'Times New Roman';
+  font-weight: bolder;
+  font-size: 1.5vh;
+  letter-spacing: 0.2vw;
+  color: #018464;
+  opacity: 0;
+  animation: reveal 1s forwards ease-in-out var(--d);
+}
+
+.overview-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Times New Roman';
+  font-weight: 400;
+  font-size: 10vh;
+  line-height: 2;
+  letter-spacing: 0.05vw;
+  opacity: 0;
+  animation: reveal 1s forwards ease-in-out var(--d);
+}
+
+.frame-47 {
+  margin-top: 1vw;
+  margin-bottom: 2.8vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: max-content;
+  background: none;
+  transition: none !important;
+  box-shadow: none !important;
+}
+
+/* ############################# */
+
+.white-car-side-view {
+  border-radius: 11.5vw;
+  background: url('src/assets/images/white_car_side_view.png') 50% / contain no-repeat;
+  width: 73.9vw;
+  height: 15.3vw;
+  transition: 0.7s ease-in-out;
+
+  /* deep-orange hex code: #DC4D01 */
+  &:hover {
+    transform: scale(1.05) translateY(-2%);
+    filter: drop-shadow(0px 10px 25px rgba(5, 104, 79, 0.788));
+  }
+}
+
+.frame-51 {
+  margin-bottom: 2.5vw;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: max-content;
+  background: none;
+  box-shadow: none !important;
+  animation: mymove 3.5s ease-in-out 0.2s forwards;
+}
+
+@keyframes mymove {
+  from {
+    right: -500px;
+  }
+
+  to {
+    right: 0px;
+  }
+}
+
+/* ############################# */
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Times New Roman';
+  font-weight: bolder;
+  font-size: 1.5vh;
+  letter-spacing: 0.1vw;
+  color: #018464;
+  margin-bottom: 15px;
+  opacity: 0;
+  animation: reveal1 1s forwards ease-in-out var(--d1);
+}
+
+.text {
+  overflow-wrap: break-word;
+  font-family: 'Times New Roman';
+  font-weight: 400;
+  font-size: 1.3vh;
+
+  line-height: 1.8;
+  letter-spacing: 0.05vw;
+  opacity: 0;
+  animation: reveal1 1s forwards ease-in-out var(--d1);
+}
+
+.frame-42 {
+  margin-bottom: 0.1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.frame-48 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.frame-49 {
+  margin-bottom: 2.5vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: max-content;
+  gap: 15%;
+  background: none;
+  transition: none !important;
+  box-shadow: none !important;
+}
+
+/* ############################# */
+
+.man-with-phone-showing-thumbs-up {
+  background: url('src/assets/images/man_with_phone_showing_thumbs_up.png') 50% / contain no-repeat;
+  width: 12.8vw;
+  height: 11.8vw;
+  margin-bottom: 1.5vw;
+  filter: drop-shadow(2px 2px 5px #000000);
+}
+
+.frame-20 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.frame-15 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.smiling-man-and-woman-with-phones {
+  border-radius: 14.3vw;
+  background: url('src/assets/images/smiling_man_and_woman_with_phones.png') 50% / contain no-repeat;
+  width: 12.8vw;
+  height: 11.8vw;
+  margin-bottom: 1.5vw;
+  filter: drop-shadow(2px 2px 5px #000000);
+}
+
+.frame-23 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.frame-14 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.frame-40 {
+  margin-bottom: 4.5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: max-content;
+  gap: 15%;
+  background: none;
+  transition: none !important;
+  box-shadow: none !important;
 }
 
 
- .frame-47 {
-   margin-top: 1vw;
-   margin-bottom: 2.8vw;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-evenly;
-   height: max-content;
-   background: none;
-   transition: none !important;
-   box-shadow: none !important;
- }
+/* ############################# */
 
- /* ############################# */
+.feedback {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3vw;
+  background: none;
+  transition: none !important;
+  box-shadow: none !important;
+}
 
- .white-car-side-view {
-   border-radius: 11.5vw;
-   background: url('src/assets/images/white_car_side_view.png') 50% / contain no-repeat;
-   width: 73.9vw;
-   height: 15.3vw;
-   transition: 0.7s ease-in-out;
-
-   /* deep-orange hex code: #DC4D01 */
-   &:hover {
-     transform: scale(1.05) translateY(-2%);
-     filter: drop-shadow(0px 10px 25px rgba(5, 104, 79, 0.788));
-   }
- }
-
- .frame-51 {
-   margin-bottom: 2.5vw;
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: space-evenly;
-   width: 100%;
-   height: max-content;
-   background: none;
-   box-shadow: none !important;
-   animation: mymove 3.5s ease-in-out 0.2s forwards;
- }
-
- @keyframes mymove {
-   from {
-     right: -500px;
-   }
-
-   to {
-     right: 0px;
-   }
- }
-
- /* ############################# */
-
- .heading {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-family: 'Times New Roman';
-   font-weight: bolder;
-   font-size: 1.5vh;
-   letter-spacing: 0.1vw;
-   color: #018464;
-   margin-bottom: 15px;
- }
-
- .text {
-   overflow-wrap: break-word;
-   font-family: 'Times New Roman';
-   font-weight: 400;
-   font-size: 1.3vh;
-
-   line-height: 1.8;
-   letter-spacing: 0.05vw;
- }
-
- .frame-42 {
-   margin-bottom: 0.1vw;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-evenly;
-   align-items: center;
-   box-sizing: border-box;
- }
-
- .frame-48 {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   box-sizing: border-box;
- }
-
- .frame-49 {
-   margin-bottom: 2.5vw;
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: space-evenly;
-   height: max-content;
-   gap: 15%;
-   background: none;
-   transition: none !important;
-   box-shadow: none !important;
- }
-
- /* ############################# */
-
- .man-with-phone-showing-thumbs-up {
-   background: url('src/assets/images/man_with_phone_showing_thumbs_up.png') 50% / contain no-repeat;
-   width: 12.8vw;
-   height: 11.8vw;
-   margin-bottom: 1.5vw;
-   filter: drop-shadow(2px 2px 5px #000000);
- }
-
- .frame-20 {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   width: fit-content;
-   box-sizing: border-box;
- }
-
- .frame-15 {
-   display: flex;
-   flex-direction: column;
-   justify-content: space-evenly;
-   align-items: center;
-   box-sizing: border-box;
- }
-
- .smiling-man-and-woman-with-phones {
-   border-radius: 14.3vw;
-   background: url('src/assets/images/smiling_man_and_woman_with_phones.png') 50% / contain no-repeat;
-   width: 12.8vw;
-   height: 11.8vw;
-   margin-bottom: 1.5vw;
-   filter: drop-shadow(2px 2px 5px #000000);
- }
-
- .frame-23 {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   width: fit-content;
-   box-sizing: border-box;
- }
-
- .frame-14 {
-   display: flex;
-   flex-direction: column;
-   justify-content: space-evenly;
-   align-items: center;
-   box-sizing: border-box;
- }
-
- .frame-40 {
-   margin-bottom: 4.5vw;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   height: max-content;
-   gap: 15%;
-   background: none;
-   transition: none !important;
-   box-shadow: none !important;
- }
-
- /* .animate {
-  animation: mysection 4s ease-in-out 0.2s forwards;
-} */
-
- @keyframes mysection {
-   from {
-     bottom: -450px;
-   }
-
-   to {
-     top: 0px;
-   }
- }
-
- mat-card {
-   position: relative;
- }
-
- /* ############################# */
-
- .feedback {
-   display: flex;
-   justify-content: center;
-   margin-bottom: 3vw;
-   background: none;
-   transition: none !important;
-   box-shadow: none !important;
- }
-
- .feedback .button-1 {
+.feedback .button-1 {
   box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 1.5);
-   border-radius: 25px;
-   align-self: center;
-   width: 10rem;
-   padding: 0.5rem 0.5rem;
-   height: fit-content;
-   border-radius: 25px;
-   background: #018464;
-   display: flex;
-   font-size: 1rem;
-   letter-spacing: 0px;
-   transition: transform 0.4s ease-in-out, letter-spacing 0.8s ease-in-out;
+  border-radius: 25px;
+  align-self: center;
+  width: 10rem;
+  padding: 0.5rem 0.5rem;
+  height: fit-content;
+  border-radius: 25px;
+  background: #018464;
+  display: flex;
+  font-size: 1rem;
+  letter-spacing: 0px;
+  transition: transform 0.4s ease-in-out, letter-spacing 0.8s ease-in-out;
 
-   &:hover {
+  &:hover {
     letter-spacing: 6px;
     box-shadow: 0 4px 3px 0 #2f2f2f;
-     transform: scale(1.05) translateY(-2%);
-   }
- }
+    transform: scale(1.05) translateY(-2%);
+  }
+}
 
- /* ############################# */
+/* ############################# */
 
- /* for Mobiles */
- @media screen and (max-width: 650px) {
-   .overview-text {
-     margin-top: 1rem;
-     overflow-wrap: break-word;
-     font-family: 'Times New Roman';
-     font-weight: 400;
+/* for Mobiles */
+@media screen and (max-width: 650px) {
 
-     line-height: 1.8;
-     letter-spacing: 0.05vw;
-     font-size: 1.3vh;
-   }
+  .frame-5{
+    border-radius: 10px;
+  }
 
-   .young-man-holding-coffee-and-laptop {
-     display: none;
-   }
+  .ride-smart-ride-safe{
+    font-size: 1.6vh;
+  }
 
- }
+  .be-apart-of-next-big-thing {
+    font-size: 0.7vh;
+  }
 
- /* fot Tablets */
- @media screen and (min-width : 650px) and (max-width : 1024px) {
-   .label-text {
-     font-size: 1vh;
-   }
+  .overview-text {
+    margin-top: 1rem;
+    overflow-wrap: break-word;
+    font-family: 'Times New Roman';
+    font-weight: 400;
 
-   .man-1 {
-     margin: 0.2rem;
-     width: 5rem;
-     height: 8rem;
-   }
+    line-height: 1.8;
+    letter-spacing: 0.05vw;
+    font-size: 1.3vh;
+  }
 
-   .woman-1 {
-     margin: 0.2rem;
-     width: 5rem;
-     height: 8rem;
-   }
+  .young-man-holding-coffee-and-laptop {
+    display: none;
+  }
 
-   .white-car-front-view {
-     width: 8rem;
-     height: 8rem;
-   }
+}
 
-   .young-man-holding-coffee-and-laptop {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     background: url('src/assets/images/young_man_holding_coffee_and_laptop.png') 50% / contain no-repeat;
-     margin: 0.2vw;
-     width: 25rem;
-     height: 15rem;
-   }
+/* fot Tablets */
+@media screen and (min-width : 650px) and (max-width : 1024px) {
 
-   .overview-text {
-     margin-top: 2.5rem;
-     overflow-wrap: break-word;
-     font-family: 'Times New Roman';
-     font-weight: 400;
+  .frame-5{
+    border-radius: 15px;
+  }
 
-     line-height: 1.8;
-     letter-spacing: 0.05vw;
-     font-size: 1.3vh;
-   }
+  .be-apart-of-next-big-thing {
+    font-size: 1vh;
+  }
 
-   .button {
-     width: 8rem;
-     font-size: 1vh;
-   }
- }
+  .man-1 {
+    margin: 0.2rem;
+    width: 5rem;
+    height: 8rem;
+  }
 
- /* for Monitor */
- @media screen and (min-width: 1025px) and (max-width: 1920px) {
-   .man-1 {
-     margin: 0.2rem;
-     width: 15rem;
-     height: 15rem;
-     filter: drop-shadow(2px 2px 10px #000000);
-   }
+  .woman-1 {
+    margin: 0.2rem;
+    width: 5rem;
+    height: 8rem;
+  }
 
-   .woman-1 {
-     margin: 0.2rem;
-     width: 15rem;
-     height: 15rem;
-     filter: drop-shadow(2px 2px 10px #000000);
-   }
+  .white-car-front-view {
+    width: 8rem;
+    height: 8rem;
+  }
 
-   .white-car-front-view {
-     width: 15rem;
-     height: 15rem;
-     filter: drop-shadow(2px 2px 5px #000000);
-   }
+  .young-man-holding-coffee-and-laptop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('src/assets/images/young_man_holding_coffee_and_laptop.png') 50% / contain no-repeat;
+    margin: 0.2vw;
+    width: 25rem;
+    height: 15rem;
+  }
 
-   .ride-smart-ride-safe {
-     font-size: 4vh;
-   }
+  .overview-text {
+    margin-top: 2.5rem;
+    overflow-wrap: break-word;
+    font-family: 'Times New Roman';
+    font-weight: 400;
 
-   .be-apart-of-next-big-thing {
-     font-size: 1.8vh;
-   }
+    line-height: 1.8;
+    letter-spacing: 0.05vw;
+    font-size: 1.3vh;
+  }
 
-   .frame-12 .button {
-     width: 12rem;
-     height: 3rem;
-     font-size: 2vh;
-   }
+  .button {
+    width: 8rem;
+    font-size: 1vh;
+  }
+}
 
-   .overview {
-     font-size: 2.3vh;
-   }
+/* for Monitor */
+@media screen and (min-width: 1025px) and (max-width: 1920px) {
+  .man-1 {
+    margin: 0.2rem;
+    width: 15rem;
+    height: 15rem;
+    filter: drop-shadow(2px 2px 10px #000000);
+  }
 
-   .heading {
-     font-size: 2.3vh
-   }
+  .woman-1 {
+    margin: 0.2rem;
+    width: 15rem;
+    height: 15rem;
+    filter: drop-shadow(2px 2px 10px #000000);
+  }
 
-   .text {
-     font-size: 2vh;
-   }
+  .white-car-front-view {
+    width: 15rem;
+    height: 15rem;
+    filter: drop-shadow(2px 2px 5px #000000);
+  }
 
-   .feedback .button-1 {
-     width: 15rem;
-     height: 3.2rem;
-     font-size: 2vh;
-   }
+  .ride-smart-ride-safe {
+    font-size: 4vh;
+  }
 
-   .overview-text {
-     margin-top: 2.5rem;
-     overflow-wrap: break-word;
-     font-family: 'Times New Roman';
-     font-weight: 400;
+  .be-apart-of-next-big-thing {
+    font-size: 1.8vh;
+  }
 
-     line-height: 1.8;
-     letter-spacing: 0.05vw;
-     font-size: 2vh;
-   }
- }
+  .frame-12 .button {
+    width: 12rem;
+    height: 3rem;
+    font-size: 2vh;
+  }
+
+  .overview {
+    font-size: 2.3vh;
+  }
+
+  .heading {
+    font-size: 2.3vh
+  }
+
+  .text {
+    font-size: 2vh;
+  }
+
+  .feedback .button-1 {
+    width: 15rem;
+    height: 3.2rem;
+    font-size: 2vh;
+  }
+
+  .overview-text {
+    margin-top: 2.5rem;
+    overflow-wrap: break-word;
+    font-family: 'Times New Roman';
+    font-weight: 400;
+
+    line-height: 1.8;
+    letter-spacing: 0.05vw;
+    font-size: 2vh;
+  }
+}

@@ -12,12 +12,14 @@ export class AppComponent implements OnInit{
   constructor(private router: Router) { }
     
   ngOnInit() {
+    // for navigating such that page starts from the top
       this.router.events.subscribe((event) => {
           if (!(event instanceof NavigationEnd)) {
               return;
           }
           window.scrollTo(0, 0)
       });
+      
   }
 
 }
