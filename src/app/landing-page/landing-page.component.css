@@ -92,11 +92,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('src/assets/images/white_car_front_view.png') 50% / contain no-repeat;
-  margin-right: 0.5rem;
-  margin-top: 0.7rem;
+  background: url('src/assets/images/Global Transportation 3D Animated Icon 1.gif') 50% / contain no-repeat;
   width: 5rem;
-  height: 5rem;
   filter: drop-shadow(2px 2px 5px #000000);
   opacity: 0;
   animation: reveal 1s forwards ease-in-out var(--d1);
@@ -234,8 +231,6 @@
   letter-spacing: 0.1vw;
   color: #018464;
   margin-bottom: 15px;
-  opacity: 0;
-  animation: reveal1 1s forwards ease-in-out var(--d1);
 }
 
 .text {
@@ -243,11 +238,24 @@
   font-family: 'Times New Roman';
   font-weight: 400;
   font-size: 1.3vh;
-
   line-height: 1.8;
   letter-spacing: 0.05vw;
-  opacity: 0;
-  animation: reveal1 1s forwards ease-in-out var(--d1);
+}
+
+.services-gif {
+  background: url('src/assets/images/services-1.gif') 50% / contain no-repeat;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1.5vw;
+  /* filter: drop-shadow(2px 2px 5px #000000); */
+}
+
+.amenities-gif {
+  background: url('src/assets/images/amenities-1.gif') 50% / contain no-repeat;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1.5vw;
+  /* filter: drop-shadow(2px 2px 5px #000000); */
 }
 
 .frame-42 {
@@ -384,12 +392,20 @@
     border-radius: 10px;
   }
 
+  .man-1{
+    display: none;
+  }
+
+  .woman-1{
+    display: none;
+  }
+
   .ride-smart-ride-safe{
     font-size: 1.6vh;
   }
 
   .be-apart-of-next-big-thing {
-    font-size: 0.7vh;
+    font-size: 0.9vh;
   }
 
   .overview-text {
@@ -510,6 +526,11 @@
 
   .text {
     font-size: 2vh;
+  }
+
+  .services-gif, .amenities-gif{
+    width: 200px;
+    height: 200px;
   }
 
   .feedback .button-1 {
