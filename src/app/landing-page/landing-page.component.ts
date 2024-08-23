@@ -14,8 +14,8 @@ export class LandingPageComponent implements AfterViewInit {
       
       ScrollReveal({
         distance: '60px',
-        duration: 1500,
-        delay : 500,
+        duration: 1000,
+        delay : 300,
         opacity : 0,
         easing : "ease-in-out",
       });
