@@ -8,16 +8,16 @@ import { AfterViewInit, Component, OnInit } from '@angular/core';
 export class HeaderComponent {
 
   toggle(): boolean {
-    // Select the existing style element with id 'nightify' if it exists
+    // Select the existing style element with id 'nightify' if it exists -->
     const existingStyle = document.querySelector<HTMLStyleElement>('#nightify');
 
-    // Remove the style element if it exists
+    // Remove the style element if it exists -->
     if (existingStyle) {
       existingStyle.parentNode?.removeChild(existingStyle);
       return false;
     }
 
-    // Create a new <style> element
+    // Create a new <style> element -->
     const head = document.getElementsByTagName('head')[0];
     const style = document.createElement('style');
     style.setAttribute('type', 'text/css');
@@ -36,7 +36,7 @@ export class HeaderComponent {
       }
   `;
 
-    // Append the <style> element to the <head>
+    // Append the <style> element to the <head> -->
     head.appendChild(style);
 
     return true;

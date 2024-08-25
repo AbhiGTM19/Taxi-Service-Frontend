@@ -25,6 +25,7 @@ import { TermsOfServiceComponent } from './terms-of-service/terms-of-service.com
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { RefundPolicyComponent } from './refund-policy/refund-policy.component';
 import {NgxTypedJsModule} from 'ngx-typed-js';
+import { TestimonialComponent } from './landing-page/testimonial/testimonial.component';
 
 
 @NgModule({
@@ -38,6 +39,7 @@ import {NgxTypedJsModule} from 'ngx-typed-js';
     TermsOfServiceComponent,
     PrivacyPolicyComponent,
     RefundPolicyComponent,
+    TestimonialComponent,
   ],
 
   schemas : [

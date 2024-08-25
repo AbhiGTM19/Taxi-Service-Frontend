@@ -383,6 +383,18 @@
   }
 }
 
+
+.testimonial {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 3vw;
+  background: none;
+  transition: none !important;
+  box-shadow: none !important;
+  
+}
+
 /* ############################# */
 
 /* for Mobiles */
