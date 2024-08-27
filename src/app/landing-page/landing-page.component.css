@@ -30,8 +30,8 @@
   align-items: center;
   background: url('src/assets/images/man_1.png') 50% / contain no-repeat;
   margin: 0.2rem;
-  width: 2rem;
-  height: 6rem;
+  width: 2vw;
+  height: 6vw;
   filter: drop-shadow(2px 2px 5px #000000);
   opacity: 0;
   animation: reveal 1s forwards ease-in-out var(--d1);
@@ -247,7 +247,7 @@
   width: 100px;
   height: 100px;
   margin-bottom: 1.5vw;
-  /* filter: drop-shadow(2px 2px 5px #000000); */
+  filter: drop-shadow(2px 2px 5px #000000);
 }
 
 .amenities-gif {
@@ -255,7 +255,7 @@
   width: 100px;
   height: 100px;
   margin-bottom: 1.5vw;
-  /* filter: drop-shadow(2px 2px 5px #000000); */
+  filter: drop-shadow(2px 2px 5px #000000);
 }
 
 .frame-42 {
@@ -291,8 +291,8 @@
 
 .man-with-phone-showing-thumbs-up {
   background: url('src/assets/images/man_with_phone_showing_thumbs_up.png') 50% / contain no-repeat;
-  width: 12.8vw;
-  height: 11.8vw;
+  width: 100px;
+  height: 100px;
   margin-bottom: 1.5vw;
   filter: drop-shadow(2px 2px 5px #000000);
 }
@@ -314,10 +314,9 @@
 }
 
 .smiling-man-and-woman-with-phones {
-  border-radius: 14.3vw;
   background: url('src/assets/images/smiling_man_and_woman_with_phones.png') 50% / contain no-repeat;
-  width: 12.8vw;
-  height: 11.8vw;
+  width: 100px;
+  height: 100px;
   margin-bottom: 1.5vw;
   filter: drop-shadow(2px 2px 5px #000000);
 }
@@ -383,6 +382,12 @@
   }
 }
 
+.feedback img {
+  width: 150px;
+  margin-left: -150px;
+}
+
+/* ############################# */
 
 .testimonial {
   display: flex;
@@ -441,11 +446,11 @@
     display: none;
   }
 
-  .testimonial-div img{
+  .testimonial-div img {
     display: none;
   }
 
-  .testimonial h3{
+  .testimonial h3 {
     color: transparent;
   }
 
@@ -505,11 +510,11 @@
     font-size: 1vh;
   }
 
-  .testimonial-div img{
+  .testimonial-div img {
     display: none;
   }
 
-  .testimonial h3{
+  .testimonial h3 {
     color: transparent;
   }
 

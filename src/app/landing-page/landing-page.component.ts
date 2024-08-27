@@ -12,25 +12,23 @@ export class LandingPageComponent implements AfterViewInit {
 
     // scroll animation code -->
     document.addEventListener('DOMContentLoaded', function () {
-      
+
       ScrollReveal({
         distance: '60px',
         duration: 1000,
-        delay : 300,
-        opacity : 0,
-        easing : "ease-in-out",
+        delay: 300,
+        opacity: 0,
+        easing: "ease-in-out",
       });
 
-      ScrollReveal().reveal('main .services-gif, main .amenities-gif', { origin: 'bottom', reset:true });
+      ScrollReveal().reveal('main .services-gif, main .amenities-gif', { origin: 'bottom', reset: true });
 
       ScrollReveal().reveal('main .man-with-phone-showing-thumbs-up, main .smiling-man-and-woman-with-phones')
-      , { origin: 'bottom', reset:true }
+        , { origin: 'bottom', reset: true }
 
-      ScrollReveal().reveal('main .heading, main .text', { origin: 'bottom', reset:true });
+      ScrollReveal().reveal('main .heading, main .text', { origin: 'bottom', reset: true });
 
-      ScrollReveal().reveal('main .app-testimonial, main .h3', { origin: 'bottom', reset:true });
-
-
+      // ScrollReveal().reveal('main .h3', { origin: 'bottom', reset: true });
 
     });
 
