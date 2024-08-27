@@ -243,7 +243,7 @@
 }
 
 .services-gif {
-  background: url('src/assets/images/services-1.gif') 50% / contain no-repeat;
+  background: url('src/assets/images/service1.png') 50% / contain no-repeat;
   width: 100px;
   height: 100px;
   margin-bottom: 1.5vw;
@@ -251,7 +251,7 @@
 }
 
 .amenities-gif {
-  background: url('src/assets/images/amenities-1.gif') 50% / contain no-repeat;
+  background: url('src/assets/images/amenities1.png') 50% / contain no-repeat;
   width: 100px;
   height: 100px;
   margin-bottom: 1.5vw;
@@ -386,13 +386,19 @@
 
 .testimonial {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  margin-bottom: 3vw;
+  margin-bottom: 50px;
   background: none;
   transition: none !important;
   box-shadow: none !important;
-  
+}
+
+.testimonial-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ############################# */
@@ -400,19 +406,19 @@
 /* for Mobiles */
 @media screen and (max-width: 650px) {
 
-  .frame-5{
+  .frame-5 {
     border-radius: 10px;
   }
 
-  .man-1{
+  .man-1 {
     display: none;
   }
 
-  .woman-1{
+  .woman-1 {
     display: none;
   }
 
-  .ride-smart-ride-safe{
+  .ride-smart-ride-safe {
     font-size: 1.6vh;
   }
 
@@ -435,12 +441,20 @@
     display: none;
   }
 
+  .testimonial-div img{
+    display: none;
+  }
+
+  .testimonial h3{
+    color: transparent;
+  }
+
 }
 
 /* fot Tablets */
 @media screen and (min-width : 650px) and (max-width : 1024px) {
 
-  .frame-5{
+  .frame-5 {
     border-radius: 15px;
   }
 
@@ -490,6 +504,16 @@
     width: 8rem;
     font-size: 1vh;
   }
+
+  .testimonial-div img{
+    display: none;
+  }
+
+  .testimonial h3{
+    color: transparent;
+  }
+
+
 }
 
 /* for Monitor */
@@ -540,7 +564,8 @@
     font-size: 2vh;
   }
 
-  .services-gif, .amenities-gif{
+  .services-gif,
+  .amenities-gif {
     width: 200px;
     height: 200px;
   }
