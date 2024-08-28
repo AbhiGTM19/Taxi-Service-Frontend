@@ -69,7 +69,7 @@
   overflow-wrap: break-word;
   font-family: 'Times New Roman';
   font-weight: 800;
-  font-size: 1.3vh;
+  font-size: 1.8vw;
   color: #018464;
   text-decoration: none;
   margin-right: 1rem;
@@ -115,11 +115,11 @@
 /* for Tablets */
 @media screen and (min-width:650px) and (max-width:1024px) {
   .faq {
-    font-size: 1.3vh
+    font-size: 2vw
   }
 
   .about-us {
-    font-size: 1.3vh;
+    font-size: 2vw;
   }
 
   .rv-taxi-services {
@@ -130,11 +130,11 @@
 /* for Desktop and Laptops */
 @media screen and (min-width:1024px) and (max-width:1920px) {
   .frame-50 .about-us {
-    font-size: 2.2vh;
+    font-size: 2.2vw;
   }
 
   .frame-50 .faq {
-    font-size: 2.2vh;
+    font-size: 2.2vw;
   }
 
   .frame-56 .rv-taxi-services {
