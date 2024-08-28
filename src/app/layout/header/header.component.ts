@@ -27,7 +27,10 @@ export class HeaderComponent {
     style.textContent = `
       body {
       filter: contrast(100%);
-             background: #000000;
+            //  background: #000000;
+            background: url('/assets/images/ffflux.svg');
+            background-repeat : no-repeat;
+            background-size: cover;
           color: #ffffff;
           transition: color 2.5s;
       }

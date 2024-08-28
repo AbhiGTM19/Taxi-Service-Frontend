@@ -120,6 +120,9 @@
   flex-direction: row;
   justify-content: space-evenly;
   height: max-content;
+  background-image: url("src/assets/images/cloud.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* ############################# */
