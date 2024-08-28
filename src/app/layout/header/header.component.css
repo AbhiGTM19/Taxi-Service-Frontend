@@ -2,7 +2,6 @@
 
 .frame-56 .mask-group {
   background: url('src/assets/images/mask_group.jpeg') 50% / contain no-repeat;
-  margin: 5px;
   clip-path: circle();
   width: 4rem;
   height: 3rem;
@@ -19,7 +18,7 @@
   justify-content: center;
   align-items: center;
   width: max-content;
-  margin-left: 5px;
+  margin-left: 2px;
   font-family: 'Times New Roman';
   font-weight: 800;
   font-size: 1.7vh;
@@ -33,9 +32,8 @@
 
 .frame-50 .dark-mode {
   background: url('src/assets/images/dark-mode.png') 50% / contain no-repeat;
-  width: 2rem;
-  height: 2rem;
-  margin-right: 1rem;
+  width: 10px;
+  margin-right: 10px;
   cursor: pointer;
   animation: rotate 3.5s ease-in-out 0.2s forwards;
 
@@ -69,7 +67,7 @@
   overflow-wrap: break-word;
   font-family: 'Times New Roman';
   font-weight: 800;
-  font-size: 1.8vw;
+  font-size: 2vw;
   color: #018464;
   text-decoration: none;
   margin-right: 1rem;
@@ -101,7 +99,7 @@
 
 .frame-57 {
   padding: 0px 0px 0px 0px;
-  margin-bottom: 2.5rem;
+  margin-bottom: 30px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -129,12 +127,16 @@
 
 /* for Desktop and Laptops */
 @media screen and (min-width:1024px) and (max-width:1920px) {
+.dark-mode{
+  width: 30px;
+}
+
   .frame-50 .about-us {
-    font-size: 2.2vw;
+    font-size: 1.3vw;
   }
 
   .frame-50 .faq {
-    font-size: 2.2vw;
+    font-size: 1.3vw;
   }
 
   .frame-56 .rv-taxi-services {
