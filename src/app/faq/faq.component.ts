@@ -9,11 +9,11 @@ import { Component } from '@angular/core';
 export class FaqComponent {
 
   redirectToFacebook() {
-    window.location.href = "https://www.facebook.com/profile.php?id=61562391380565"
+    //  add your code here...
   }
 
   redirectToInstagram() {
-    window.location.href = "https://www.instagram.com/rvta.xi/"
+    //  add your code here...
   }
 
 

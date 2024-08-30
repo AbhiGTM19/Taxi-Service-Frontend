@@ -10,10 +10,10 @@ import { RefundPolicyComponent } from './refund-policy/refund-policy.component';
 const routes: Routes = [
 
   // Redirect to this URL if no other path matches.
-  { path: '', redirectTo: '/rvtaxiservices', pathMatch: 'full' },
+  { path: '', redirectTo: '/taxiservices', pathMatch: 'full' },
 
   // Landing Page route
-  { path: 'rvtaxiservices', 
+  { path: 'taxiservices', 
     component: LandingPageComponent
    },
 
